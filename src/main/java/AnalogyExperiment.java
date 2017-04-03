@@ -117,12 +117,16 @@ public class AnalogyExperiment {
                         } else {
                             if (!this.caseSensitive) line = line.toLowerCase();
                             String[] fields = line.split(" ");
-                            if (emb.contains(fields[0]) && emb.contains(fields[1]) && emb.contains(fields[2]) && emb.contains(fields[3])) {
-                                Analogy thisAnalogy = new Analogy(fields);
-                                analogies.add(thisAnalogy);
-                                categories.add(activeCategory);
+                            if (fields[0].equals(fields[3]) || fields[1].equals(fields[3]) || fields[2].equals(fields[3])) {
+                                System.out.println("Throwing out analogy " + line + " because answer appears in question");
                             } else {
-                                System.out.println("Throwing out analogy " + line);
+                                if (emb.contains(fields[0]) && emb.contains(fields[1]) && emb.contains(fields[2]) && emb.contains(fields[3])) {
+                                    Analogy thisAnalogy = new Analogy(fields);
+                                    analogies.add(thisAnalogy);
+                                    categories.add(activeCategory);
+                                } else {
+                                    System.out.println("Throwing out analogy " + line + " because a word is not in embeddings");
+                                }
                             }
                         }
                     }
@@ -176,6 +180,7 @@ public class AnalogyExperiment {
     private List<Double> domainSimilarity;
     private List<Double> additiveSimilarity;
     private List<Double> multiplicativeScores;
+    private List<Double> differenceSimilarity;      // cosine similarity between differences of each pair
 
     public List<Double> getBaselineSimilarity() {
         return baselineSimilarity;
@@ -192,6 +197,11 @@ public class AnalogyExperiment {
     public List<Double> getMultiplicativeScores() {
         return multiplicativeScores;
     }
+
+    public List<Double> getDifferenceSimilarity() {
+        return differenceSimilarity;
+    }
+
 
     public Embeddings getEmbeddings() {
         return emb;
@@ -316,31 +326,33 @@ public class AnalogyExperiment {
                     diffVec = w2.difference(w1);
                     diffScore = diffVec.cosSim(w4.difference(w3));
                 }
-                Iterator<WordEmbedding> iter = emb.embeddingIterator();
-                while (iter.hasNext()) {
-                    WordEmbedding hyp = iter.next();
-                    if (hyp == w1 || hyp == w2 || hyp == w3) continue;
-                    if (useAddRank) {
-                        double addCompScore = calculated.dot(hyp);
-                        if (addCompScore > addScore) addRank += 1;
-                    }
-                    if (useBaseRank) {
-                        double baselineCompScore = w3.dot(hyp);
-                        if (baselineCompScore > baselineScore) baselineRank += 1;
-                    }
-                    if (useDomainsimRank) {
-                        double domainsimCompScore = w2.dot(hyp);
-                        if (domainsimCompScore > domainsimScore) domainsimRank += 1;
-                    }
-                    if (useDiffRank) {
-                        double diffCompScore = diffVec.cosSim(hyp.difference(w3));
-                        if (diffCompScore > diffScore) diffRank += 1;
-                    }
-                    if (useMulRank) {
-                        hyp = new WordEmbedding(hyp);
-                        hyp.add(1);
-                        double mulCompScore = scoreLevyGoldberg(w1p, w2p, w3p, hyp);
-                        if (mulCompScore > mulScore) mulRank += 1;
+                if (useAddRank || useBaseRank || useDomainsimRank || useMulRank || useDiffRank) {
+                    Iterator<WordEmbedding> iter = emb.embeddingIterator();
+                    while (iter.hasNext()) {
+                        WordEmbedding hyp = iter.next();
+                        if (hyp == w1 || hyp == w2 || hyp == w3) continue;
+                        if (useAddRank) {
+                            double addCompScore = calculated.dot(hyp);
+                            if (addCompScore > addScore) addRank += 1;
+                        }
+                        if (useBaseRank) {
+                            double baselineCompScore = w3.dot(hyp);
+                            if (baselineCompScore > baselineScore) baselineRank += 1;
+                        }
+                        if (useDomainsimRank) {
+                            double domainsimCompScore = w2.dot(hyp);
+                            if (domainsimCompScore > domainsimScore) domainsimRank += 1;
+                        }
+                        if (useDiffRank) {
+                            double diffCompScore = diffVec.cosSim(hyp.difference(w3));
+                            if (diffCompScore > diffScore) diffRank += 1;
+                        }
+                        if (useMulRank) {
+                            hyp = new WordEmbedding(hyp);
+                            hyp.add(1);
+                            double mulCompScore = scoreLevyGoldberg(w1p, w2p, w3p, hyp);
+                            if (mulCompScore > mulScore) mulRank += 1;
+                        }
                     }
                 }
             } else {
@@ -369,11 +381,13 @@ public class AnalogyExperiment {
         domainSimilarity = new ArrayList<>();
         additiveSimilarity = new ArrayList<>();
         multiplicativeScores = new ArrayList<>();
+        differenceSimilarity = new ArrayList<>();
         analogies.forEach(analogy -> {
             baselineSimilarity.add(emb.get(analogy.w3).cosSim(emb.get(analogy.w4)));
             domainSimilarity.add(emb.get(analogy.w2).cosSim(emb.get(analogy.w4)));
             additiveSimilarity.add(analogyHypothesisEmbedding(analogy).cosSim(emb.get(analogy.w4)));
             multiplicativeScores.add(scoreLevyGoldberg(emb.get(analogy.w1), emb.get(analogy.w2), emb.get(analogy.w3), emb.get(analogy.w4)));
+            differenceSimilarity.add(emb.get(analogy.w2).difference(emb.get(analogy.w1)).cosSim(emb.get(analogy.w4).difference(emb.get(analogy.w3))));
         });
     }
 

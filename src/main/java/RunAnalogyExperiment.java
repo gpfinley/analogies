@@ -69,6 +69,8 @@ public class RunAnalogyExperiment {
         parametersTested.add(exp.getBaselineSimilarity());
         header += ",w2w4";
         parametersTested.add(exp.getDomainSimilarity());
+        header += ",diffsim";
+        parametersTested.add(exp.getDifferenceSimilarity());
 
         if (calculateAddRank) {
             header += ",addrank";
