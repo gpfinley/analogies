@@ -1,0 +1,10 @@
+: I01 [noun - plural_reg].txt
+album albums application applications
+album albums area areas
+album albums car cars
+album albums college colleges
+album albums council councils
+album albums customer customers
+album albums day days
+album albums death deaths
+album albums department departments

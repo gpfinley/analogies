@@ -1,0 +1,171 @@
+: animal and young
+bear cub
+cat kitten
+cow calf
+chicken chick
+deer fawn
+dog puppy
+duck duckling
+eagle eaglet
+fish fingerling
+fly maggot
+frog tadpole
+insect larva
+goose gosling
+hawk eyas
+horse foal
+kangaroo joey
+owl owlet
+pig piglet
+rabbit bunny
+sheep lamb
+swan cygnet
+
+#jellyfish ephyna
+#goat kid
+
+: kin relations
+father son
+mother daughter
+aunt niece
+uncle nephew
+grandfather grandson
+grandmother granddaughter
+
+: goes on
+glove hand
+shoe foot
+hat head
+crown head
+necklace neck
+earring ear
+ring finger
+bracelet wrist
+anklet ankle
+belt waist
+scarf neck
+
+: has_front_limb
+human arm
+bird wing
+dolphin flipper
+fish fin
+lobster pincer
+
+
+: has_class_term
+paper sheet
+bread loaf
+corn ear
+grass blade
+sand grain
+lettuce head
+hay bale
+bacon strip
+clothing article
+garlic clove
+#coffee cup
+#bread slice
+
+: has_particle
+corn kernel
+sand grain
+rice grain
+water drop
+dust mote
+
+
+
+
+: is_something_you
+book read
+television watch
+game play
+song sing
+food eat
+beverage drink
+car drive
+bicycle ride
+
+
+: alcohol_made_from
+wine grapes
+sake rice
+cider apples
+chicha corn
+beer barley
+tequila agave
+rum sugarcane
+vodka potatoes
+
+
+: instrument_of
+broom sweep
+gun shoot
+dagger stab
+rag wipe
+shovel dig
+pen write
+scissors cut
+corkscrew uncork
+needle sew
+chair sit
+
+
+: relational_antonyms
+own belong
+win lose
+toward away
+above below
+employer employee
+divisor dividend
+parent child
+teach learn
+teacher student
+buy sell
+buyer seller
+east west
+husband wife
+predator prey
+lend borrow
+offense defense
+slave master
+doctor patient
+give receive
+
+
+
+
+
+
+#: color
+#banana yellow
+#tomato red
+#blueberry blue
+#snow white
+#soot black
+#strawberry red
+#cherry red
+#lemon yellow
+#lime green
+#sky blue
+#
+
+#: degree
+#warm hot
+#cool cold
+#good great
+#big huge
+#small tiny
+#
+#: weather phenomenon
+#wind blow
+#rain fall
+#sun shine
+#lightning strike
+#
+#: person idea
+#entomologist insect
+#philosopher idea
+#linguist language
+

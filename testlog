@@ -1,0 +1,612 @@
+Apr 02, 2017 8:25:23 AM Word2vecReader readBinFile
+INFO: Reading vectors from word2vec binary file...
+Apr 02, 2017 8:25:37 AM Word2vecReader readBinFile
+INFO: Read 1350678 word vectors with 300 dimensions
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Throwing out analogy acquire reacquire upload reupload
+Throwing out analogy adjust readjust upload reupload
+Throwing out analogy appear reappear upload reupload
+Throwing out analogy apply reapply upload reupload
+Throwing out analogy appoint reappoint upload reupload
+Throwing out analogy arrange rearrange upload reupload
+Throwing out analogy assess reassess upload reupload
+Throwing out analogy assign reassign upload reupload
+Throwing out analogy assure reassure upload reupload
+Throwing out analogy calculate recalculate upload reupload
+Throwing out analogy cognize recognize upload reupload
+Throwing out analogy commend recommend upload reupload
+Throwing out analogy configure reconfigure upload reupload
+Throwing out analogy confirm reconfirm upload reupload
+Throwing out analogy connect reconnect upload reupload
+Throwing out analogy consider reconsider upload reupload
+Throwing out analogy create recreate upload reupload
+Throwing out analogy decorate redecorate upload reupload
+Throwing out analogy deem redeem upload reupload
+Throwing out analogy define redefine upload reupload
+Throwing out analogy develop redevelop upload reupload
+Throwing out analogy discover rediscover upload reupload
+Throwing out analogy distribute redistribute upload reupload
+Throwing out analogy emerge reemerge upload reupload
+Throwing out analogy engage reengage upload reupload
+Throwing out analogy establish reestablish upload reupload
+Throwing out analogy evaluate reevaluate upload reupload
+Throwing out analogy examine reexamine upload reupload
+Throwing out analogy generate regenerate upload reupload
+Throwing out analogy grow regrow upload reupload
+Throwing out analogy install reinstall upload reupload
+Throwing out analogy integrate reintegrate upload reupload
+Throwing out analogy interpret reinterpret upload reupload
+Throwing out analogy introduce reintroduce upload reupload
+Throwing out analogy invest reinvest upload reupload
+Throwing out analogy investigate reinvestigate upload reupload
+Throwing out analogy learn relearn upload reupload
+Throwing out analogy locate relocate upload reupload
+Throwing out analogy marry remarry upload reupload
+Throwing out analogy negotiate renegotiate upload reupload
+Throwing out analogy occur reoccur upload reupload
+Throwing out analogy organize reorganize upload reupload
+Throwing out analogy publish republish upload reupload
+Throwing out analogy send resend upload reupload
+Throwing out analogy solve resolve upload reupload
+Throwing out analogy submit resubmit upload reupload
+Throwing out analogy tell retell upload reupload
+Throwing out analogy unite reunite upload reupload
+Throwing out analogy upload reupload acquire reacquire
+Throwing out analogy upload reupload adjust readjust
+Throwing out analogy upload reupload appear reappear
+Throwing out analogy upload reupload apply reapply
+Throwing out analogy upload reupload appoint reappoint
+Throwing out analogy upload reupload arrange rearrange
+Throwing out analogy upload reupload assess reassess
+Throwing out analogy upload reupload assign reassign
+Throwing out analogy upload reupload assure reassure
+Throwing out analogy upload reupload calculate recalculate
+Throwing out analogy upload reupload cognize recognize
+Throwing out analogy upload reupload commend recommend
+Throwing out analogy upload reupload configure reconfigure
+Throwing out analogy upload reupload confirm reconfirm
+Throwing out analogy upload reupload connect reconnect
+Throwing out analogy upload reupload consider reconsider
+Throwing out analogy upload reupload create recreate
+Throwing out analogy upload reupload decorate redecorate
+Throwing out analogy upload reupload deem redeem
+Throwing out analogy upload reupload define redefine
+Throwing out analogy upload reupload develop redevelop
+Throwing out analogy upload reupload discover rediscover
+Throwing out analogy upload reupload distribute redistribute
+Throwing out analogy upload reupload emerge reemerge
+Throwing out analogy upload reupload engage reengage
+Throwing out analogy upload reupload establish reestablish
+Throwing out analogy upload reupload evaluate reevaluate
+Throwing out analogy upload reupload examine reexamine
+Throwing out analogy upload reupload generate regenerate
+Throwing out analogy upload reupload grow regrow
+Throwing out analogy upload reupload install reinstall
+Throwing out analogy upload reupload integrate reintegrate
+Throwing out analogy upload reupload interpret reinterpret
+Throwing out analogy upload reupload introduce reintroduce
+Throwing out analogy upload reupload invest reinvest
+Throwing out analogy upload reupload investigate reinvestigate
+Throwing out analogy upload reupload learn relearn
+Throwing out analogy upload reupload locate relocate
+Throwing out analogy upload reupload marry remarry
+Throwing out analogy upload reupload negotiate renegotiate
+Throwing out analogy upload reupload occur reoccur
+Throwing out analogy upload reupload organize reorganize
+Throwing out analogy upload reupload publish republish
+Throwing out analogy upload reupload send resend
+Throwing out analogy upload reupload solve resolve
+Throwing out analogy upload reupload submit resubmit
+Throwing out analogy upload reupload tell retell
+Throwing out analogy upload reupload unite reunite
+Throwing out analogy upload reupload write rewrite
+Throwing out analogy write rewrite upload reupload
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Throwing out analogy accept acceptable believe believeable
+Throwing out analogy achieve achieveable believe believeable
+Throwing out analogy adapt adaptable believe believeable
+Throwing out analogy adjust adjustable believe believeable
+Throwing out analogy admire admirable believe believeable
+Throwing out analogy adore adorable believe believeable
+Throwing out analogy advise advisable believe believeable
+Throwing out analogy afford affordable believe believeable
+Throwing out analogy avoid avoidable believe believeable
+Throwing out analogy believe believeable accept acceptable
+Throwing out analogy believe believeable achieve achieveable
+Throwing out analogy believe believeable adapt adaptable
+Throwing out analogy believe believeable adjust adjustable
+Throwing out analogy believe believeable admire admirable
+Throwing out analogy believe believeable adore adorable
+Throwing out analogy believe believeable advise advisable
+Throwing out analogy believe believeable afford affordable
+Throwing out analogy believe believeable avoid avoidable
+Throwing out analogy believe believeable consider considerable
+Throwing out analogy believe believeable contain containable
+Throwing out analogy believe believeable define definable
+Throwing out analogy believe believeable deliver deliverable
+Throwing out analogy believe believeable discover discoverable
+Throwing out analogy believe believeable dispose disposable
+Throwing out analogy believe believeable download downloadable
+Throwing out analogy believe believeable edit editable
+Throwing out analogy believe believeable enjoy enjoyable
+Throwing out analogy believe believeable execute executable
+Throwing out analogy believe believeable expand expandable
+Throwing out analogy believe believeable expect expectable
+Throwing out analogy believe believeable explain explainable
+Throwing out analogy believe believeable extend extendable
+Throwing out analogy believe believeable foresee foreseeable
+Throwing out analogy believe believeable identify identifiable
+Throwing out analogy believe believeable imagine imaginable
+Throwing out analogy believe believeable improve improvable
+Throwing out analogy believe believeable inflate inflatable
+Throwing out analogy believe believeable learn learnable
+Throwing out analogy believe believeable maintain maintainable
+Throwing out analogy believe believeable manage manageable
+Throwing out analogy believe believeable observe observable
+Throwing out analogy believe believeable perform performable
+Throwing out analogy believe believeable predict predictable
+Throwing out analogy believe believeable prefer preferable
+Throwing out analogy believe believeable prevent preventable
+Throwing out analogy believe believeable protect protectable
+Throwing out analogy believe believeable publish publishable
+Throwing out analogy believe believeable recognize recognizable
+Throwing out analogy believe believeable recommend recommendable
+Throwing out analogy believe believeable rely reliable
+Throwing out analogy believe believeable renew renewable
+Throwing out analogy believe believeable replace replaceable
+Throwing out analogy believe believeable represent representable
+Throwing out analogy believe believeable survive survivable
+Throwing out analogy believe believeable sustain sustainable
+Throwing out analogy believe believeable understand understandable
+Throwing out analogy believe believeable vary variable
+Throwing out analogy believe believeable write writeable
+Throwing out analogy consider considerable believe believeable
+Throwing out analogy contain containable believe believeable
+Throwing out analogy define definable believe believeable
+Throwing out analogy deliver deliverable believe believeable
+Throwing out analogy discover discoverable believe believeable
+Throwing out analogy dispose disposable believe believeable
+Throwing out analogy download downloadable believe believeable
+Throwing out analogy edit editable believe believeable
+Throwing out analogy enjoy enjoyable believe believeable
+Throwing out analogy execute executable believe believeable
+Throwing out analogy expand expandable believe believeable
+Throwing out analogy expect expectable believe believeable
+Throwing out analogy explain explainable believe believeable
+Throwing out analogy extend extendable believe believeable
+Throwing out analogy foresee foreseeable believe believeable
+Throwing out analogy identify identifiable believe believeable
+Throwing out analogy imagine imaginable believe believeable
+Throwing out analogy improve improvable believe believeable
+Throwing out analogy inflate inflatable believe believeable
+Throwing out analogy learn learnable believe believeable
+Throwing out analogy maintain maintainable believe believeable
+Throwing out analogy manage manageable believe believeable
+Throwing out analogy observe observable believe believeable
+Throwing out analogy perform performable believe believeable
+Throwing out analogy predict predictable believe believeable
+Throwing out analogy prefer preferable believe believeable
+Throwing out analogy prevent preventable believe believeable
+Throwing out analogy protect protectable believe believeable
+Throwing out analogy publish publishable believe believeable
+Throwing out analogy recognize recognizable believe believeable
+Throwing out analogy recommend recommendable believe believeable
+Throwing out analogy rely reliable believe believeable
+Throwing out analogy renew renewable believe believeable
+Throwing out analogy replace replaceable believe believeable
+Throwing out analogy represent representable believe believeable
+Throwing out analogy survive survivable believe believeable
+Throwing out analogy sustain sustainable believe believeable
+Throwing out analogy understand understandable believe believeable
+Throwing out analogy vary variable believe believeable
+Throwing out analogy write writeable believe believeable
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:40 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Throwing out analogy accuse accusation improvize improvization
+Throwing out analogy admire admiration improvize improvization
+Throwing out analogy allege allegation improvize improvization
+Throwing out analogy aspire aspiration improvize improvization
+Throwing out analogy authorize authorization improvize improvization
+Throwing out analogy characterize characterization improvize improvization
+Throwing out analogy civilize civilization improvize improvization
+Throwing out analogy colonize colonization improvize improvization
+Throwing out analogy compile compilation improvize improvization
+Throwing out analogy compute computation improvize improvization
+Throwing out analogy condense condensation improvize improvization
+Throwing out analogy configure configuration improvize improvization
+Throwing out analogy consult consulation improvize improvization
+Throwing out analogy continue continuation improvize improvization
+Throwing out analogy customize customization improvize improvization
+Throwing out analogy declare declaration improvize improvization
+Throwing out analogy degrade degradation improvize improvization
+Throwing out analogy deprive deprivation improvize improvization
+Throwing out analogy derive derivation improvize improvization
+Throwing out analogy determine determination improvize improvization
+Throwing out analogy examine examination improvize improvization
+Throwing out analogy expire expiration improvize improvization
+Throwing out analogy explore exploration improvize improvization
+Throwing out analogy globalize globalization improvize improvization
+Throwing out analogy illumine illumination improvize improvization
+Throwing out analogy imagine imagination improvize improvization
+Throwing out analogy improvize improvization accuse accusation
+Throwing out analogy improvize improvization admire admiration
+Throwing out analogy improvize improvization allege allegation
+Throwing out analogy improvize improvization aspire aspiration
+Throwing out analogy improvize improvization authorize authorization
+Throwing out analogy improvize improvization characterize characterization
+Throwing out analogy improvize improvization civilize civilization
+Throwing out analogy improvize improvization colonize colonization
+Throwing out analogy improvize improvization compile compilation
+Throwing out analogy improvize improvization compute computation
+Throwing out analogy improvize improvization condense condensation
+Throwing out analogy improvize improvization configure configuration
+Throwing out analogy improvize improvization consult consulation
+Throwing out analogy improvize improvization continue continuation
+Throwing out analogy improvize improvization customize customization
+Throwing out analogy improvize improvization declare declaration
+Throwing out analogy improvize improvization degrade degradation
+Throwing out analogy improvize improvization deprive deprivation
+Throwing out analogy improvize improvization derive derivation
+Throwing out analogy improvize improvization determine determination
+Throwing out analogy improvize improvization examine examination
+Throwing out analogy improvize improvization expire expiration
+Throwing out analogy improvize improvization explore exploration
+Throwing out analogy improvize improvization globalize globalization
+Throwing out analogy improvize improvization illumine illumination
+Throwing out analogy improvize improvization imagine imagination
+Throwing out analogy improvize improvization inspire inspiration
+Throwing out analogy improvize improvization install installation
+Throwing out analogy improvize improvization maximize maximization
+Throwing out analogy improvize improvization minimize minimization
+Throwing out analogy improvize improvization modernize modernization
+Throwing out analogy improvize improvization oblige obligation
+Throwing out analogy improvize improvization observe observation
+Throwing out analogy improvize improvization occupy occupation
+Throwing out analogy improvize improvization optimize optimization
+Throwing out analogy improvize improvization organize organization
+Throwing out analogy improvize improvization perspire perspiration
+Throwing out analogy improvize improvization prepare preparation
+Throwing out analogy improvize improvization privatize privatization
+Throwing out analogy improvize improvization randomize randomization
+Throwing out analogy improvize improvization realize realization
+Throwing out analogy improvize improvization reorganize reorganization
+Throwing out analogy improvize improvization restore restoration
+Throwing out analogy improvize improvization specialize specialization
+Throwing out analogy improvize improvization stabilize stabilization
+Throwing out analogy improvize improvization standardize standardization
+Throwing out analogy improvize improvization starve starvation
+Throwing out analogy improvize improvization utilize utilization
+Throwing out analogy improvize improvization visualize visualization
+Throwing out analogy inspire inspiration improvize improvization
+Throwing out analogy install installation improvize improvization
+Throwing out analogy maximize maximization improvize improvization
+Throwing out analogy minimize minimization improvize improvization
+Throwing out analogy modernize modernization improvize improvization
+Throwing out analogy oblige obligation improvize improvization
+Throwing out analogy observe observation improvize improvization
+Throwing out analogy occupy occupation improvize improvization
+Throwing out analogy optimize optimization improvize improvization
+Throwing out analogy organize organization improvize improvization
+Throwing out analogy perspire perspiration improvize improvization
+Throwing out analogy prepare preparation improvize improvization
+Throwing out analogy privatize privatization improvize improvization
+Throwing out analogy randomize randomization improvize improvization
+Throwing out analogy realize realization improvize improvization
+Throwing out analogy reorganize reorganization improvize improvization
+Throwing out analogy restore restoration improvize improvization
+Throwing out analogy specialize specialization improvize improvization
+Throwing out analogy stabilize stabilization improvize improvization
+Throwing out analogy standardize standardization improvize improvization
+Throwing out analogy starve starvation improvize improvization
+Throwing out analogy utilize utilization improvize improvization
+Throwing out analogy visualize visualization improvize improvization
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Throwing out analogy afraid terrified faith fanatism
+Throwing out analogy afraid terrified sad desparate
+Throwing out analogy angry furious faith fanatism
+Throwing out analogy angry furious sad desparate
+Throwing out analogy ask beg faith fanatism
+Throwing out analogy ask beg sad desparate
+Throwing out analogy bad awful faith fanatism
+Throwing out analogy bad awful sad desparate
+Throwing out analogy boring tedious faith fanatism
+Throwing out analogy boring tedious sad desparate
+Throwing out analogy cat lion faith fanatism
+Throwing out analogy cat lion sad desparate
+Throwing out analogy chuckle laugh faith fanatism
+Throwing out analogy chuckle laugh sad desparate
+Throwing out analogy confused lost faith fanatism
+Throwing out analogy confused lost sad desparate
+Throwing out analogy creative ingenious faith fanatism
+Throwing out analogy creative ingenious sad desparate
+Throwing out analogy cry scream faith fanatism
+Throwing out analogy cry scream sad desparate
+Throwing out analogy damp drenched faith fanatism
+Throwing out analogy damp drenched sad desparate
+Throwing out analogy dinner feast faith fanatism
+Throwing out analogy dinner feast sad desparate
+Throwing out analogy dislike hate faith fanatism
+Throwing out analogy dislike hate sad desparate
+Throwing out analogy doze sleep faith fanatism
+Throwing out analogy doze sleep sad desparate
+Throwing out analogy drizzle rain faith fanatism
+Throwing out analogy drizzle rain sad desparate
+Throwing out analogy excited agitated faith fanatism
+Throwing out analogy excited agitated sad desparate
+Throwing out analogy faith fanatism afraid terrified
+Throwing out analogy faith fanatism angry furious
+Throwing out analogy faith fanatism ask beg
+Throwing out analogy faith fanatism bad awful
+Throwing out analogy faith fanatism boring tedious
+Throwing out analogy faith fanatism cat lion
+Throwing out analogy faith fanatism chuckle laugh
+Throwing out analogy faith fanatism confused lost
+Throwing out analogy faith fanatism creative ingenious
+Throwing out analogy faith fanatism cry scream
+Throwing out analogy faith fanatism damp drenched
+Throwing out analogy faith fanatism dinner feast
+Throwing out analogy faith fanatism dislike hate
+Throwing out analogy faith fanatism doze sleep
+Throwing out analogy faith fanatism drizzle rain
+Throwing out analogy faith fanatism excited agitated
+Throwing out analogy faith fanatism giggle laugh
+Throwing out analogy faith fanatism guilty remorseful
+Throwing out analogy faith fanatism happy ecstatic
+Throwing out analogy faith fanatism house palace
+Throwing out analogy faith fanatism hungry starving
+Throwing out analogy faith fanatism indulge pamper
+Throwing out analogy faith fanatism interesting exciting
+Throwing out analogy faith fanatism irritate enrage
+Throwing out analogy faith fanatism jog run
+Throwing out analogy faith fanatism lake sea
+Throwing out analogy faith fanatism like love
+Throwing out analogy faith fanatism love adore
+Throwing out analogy faith fanatism monkey gorilla
+Throwing out analogy faith fanatism nap sleep
+Throwing out analogy faith fanatism necessary essential
+Throwing out analogy faith fanatism opposed averse
+Throwing out analogy faith fanatism pain torment
+Throwing out analogy faith fanatism pony horse
+Throwing out analogy faith fanatism poorly afflicted
+Throwing out analogy faith fanatism rain deluge
+Throwing out analogy faith fanatism sad desparate
+Throwing out analogy faith fanatism sea ocean
+Throwing out analogy faith fanatism snack meal
+Throwing out analogy faith fanatism sniffles pneumonia
+Throwing out analogy faith fanatism soon immediately
+Throwing out analogy faith fanatism strong powerful
+Throwing out analogy faith fanatism tasty delicious
+Throwing out analogy faith fanatism tired exhausted
+Throwing out analogy faith fanatism unfortunate tragic
+Throwing out analogy faith fanatism unhappy miserable
+Throwing out analogy faith fanatism want crave
+Throwing out analogy faith fanatism warm hot
+Throwing out analogy faith fanatism well flourishing
+Throwing out analogy giggle laugh faith fanatism
+Throwing out analogy giggle laugh sad desparate
+Throwing out analogy guilty remorseful faith fanatism
+Throwing out analogy guilty remorseful sad desparate
+Throwing out analogy happy ecstatic faith fanatism
+Throwing out analogy happy ecstatic sad desparate
+Throwing out analogy house palace faith fanatism
+Throwing out analogy house palace sad desparate
+Throwing out analogy hungry starving faith fanatism
+Throwing out analogy hungry starving sad desparate
+Throwing out analogy indulge pamper faith fanatism
+Throwing out analogy indulge pamper sad desparate
+Throwing out analogy interesting exciting faith fanatism
+Throwing out analogy interesting exciting sad desparate
+Throwing out analogy irritate enrage faith fanatism
+Throwing out analogy irritate enrage sad desparate
+Throwing out analogy jog run faith fanatism
+Throwing out analogy jog run sad desparate
+Throwing out analogy lake sea faith fanatism
+Throwing out analogy lake sea sad desparate
+Throwing out analogy like love faith fanatism
+Throwing out analogy like love sad desparate
+Throwing out analogy love adore faith fanatism
+Throwing out analogy love adore sad desparate
+Throwing out analogy monkey gorilla faith fanatism
+Throwing out analogy monkey gorilla sad desparate
+Throwing out analogy nap sleep faith fanatism
+Throwing out analogy nap sleep sad desparate
+Throwing out analogy necessary essential faith fanatism
+Throwing out analogy necessary essential sad desparate
+Throwing out analogy opposed averse faith fanatism
+Throwing out analogy opposed averse sad desparate
+Throwing out analogy pain torment faith fanatism
+Throwing out analogy pain torment sad desparate
+Throwing out analogy pony horse faith fanatism
+Throwing out analogy pony horse sad desparate
+Throwing out analogy poorly afflicted faith fanatism
+Throwing out analogy poorly afflicted sad desparate
+Throwing out analogy rain deluge faith fanatism
+Throwing out analogy rain deluge sad desparate
+Throwing out analogy sad desparate afraid terrified
+Throwing out analogy sad desparate angry furious
+Throwing out analogy sad desparate ask beg
+Throwing out analogy sad desparate bad awful
+Throwing out analogy sad desparate boring tedious
+Throwing out analogy sad desparate cat lion
+Throwing out analogy sad desparate chuckle laugh
+Throwing out analogy sad desparate confused lost
+Throwing out analogy sad desparate creative ingenious
+Throwing out analogy sad desparate cry scream
+Throwing out analogy sad desparate damp drenched
+Throwing out analogy sad desparate dinner feast
+Throwing out analogy sad desparate dislike hate
+Throwing out analogy sad desparate doze sleep
+Throwing out analogy sad desparate drizzle rain
+Throwing out analogy sad desparate excited agitated
+Throwing out analogy sad desparate faith fanatism
+Throwing out analogy sad desparate giggle laugh
+Throwing out analogy sad desparate guilty remorseful
+Throwing out analogy sad desparate happy ecstatic
+Throwing out analogy sad desparate house palace
+Throwing out analogy sad desparate hungry starving
+Throwing out analogy sad desparate indulge pamper
+Throwing out analogy sad desparate interesting exciting
+Throwing out analogy sad desparate irritate enrage
+Throwing out analogy sad desparate jog run
+Throwing out analogy sad desparate lake sea
+Throwing out analogy sad desparate like love
+Throwing out analogy sad desparate love adore
+Throwing out analogy sad desparate monkey gorilla
+Throwing out analogy sad desparate nap sleep
+Throwing out analogy sad desparate necessary essential
+Throwing out analogy sad desparate opposed averse
+Throwing out analogy sad desparate pain torment
+Throwing out analogy sad desparate pony horse
+Throwing out analogy sad desparate poorly afflicted
+Throwing out analogy sad desparate rain deluge
+Throwing out analogy sad desparate sea ocean
+Throwing out analogy sad desparate snack meal
+Throwing out analogy sad desparate sniffles pneumonia
+Throwing out analogy sad desparate soon immediately
+Throwing out analogy sad desparate strong powerful
+Throwing out analogy sad desparate tasty delicious
+Throwing out analogy sad desparate tired exhausted
+Throwing out analogy sad desparate unfortunate tragic
+Throwing out analogy sad desparate unhappy miserable
+Throwing out analogy sad desparate want crave
+Throwing out analogy sad desparate warm hot
+Throwing out analogy sad desparate well flourishing
+Throwing out analogy sea ocean faith fanatism
+Throwing out analogy sea ocean sad desparate
+Throwing out analogy snack meal faith fanatism
+Throwing out analogy snack meal sad desparate
+Throwing out analogy sniffles pneumonia faith fanatism
+Throwing out analogy sniffles pneumonia sad desparate
+Throwing out analogy soon immediately faith fanatism
+Throwing out analogy soon immediately sad desparate
+Throwing out analogy strong powerful faith fanatism
+Throwing out analogy strong powerful sad desparate
+Throwing out analogy tasty delicious faith fanatism
+Throwing out analogy tasty delicious sad desparate
+Throwing out analogy tired exhausted faith fanatism
+Throwing out analogy tired exhausted sad desparate
+Throwing out analogy unfortunate tragic faith fanatism
+Throwing out analogy unfortunate tragic sad desparate
+Throwing out analogy unhappy miserable faith fanatism
+Throwing out analogy unhappy miserable sad desparate
+Throwing out analogy want crave faith fanatism
+Throwing out analogy want crave sad desparate
+Throwing out analogy warm hot faith fanatism
+Throwing out analogy warm hot sad desparate
+Throwing out analogy well flourishing faith fanatism
+Throwing out analogy well flourishing sad desparate
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 
+Apr 02, 2017 8:25:41 AM Phrase zeroLengthWarn
+WARNING: Creating an empty phrase from ''! May cause trouble down the line.
+Throwing out analogy 

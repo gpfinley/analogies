@@ -1,0 +1,155 @@
+: animal and young
+cat kitten
+dog puppy
+pig piglet
+horse foal
+cow calf
+chicken chick
+duck duckling
+sheep lamb
+goose gosling
+deer fawn
+kangaroo joey
+goat kid
+fox kit
+
+
+: kin relations
+father son
+mother daughter
+aunt niece
+uncle nephew
+grandfather grandson
+grandmother granddaughter
+
+
+
+: goes on
+glove hand
+shoe foot
+hat head
+crown head
+necklace neck
+ring finger
+bracelet wrist
+anklet ankle
+belt waist
+scarf neck
+
+
+: antonyms
+light dark
+hot cold
+on off
+young old
+new old
+backward forward
+back front
+short tall
+big small
+sharp dull
+heavy light
+thick thin
+deep shallow
+skinny fat
+weak strong
+stupid smart
+wet dry
+
+: limbs
+human arm
+bird wing
+dolphin flipper
+fish fin
+
+
+: color
+banana yellow
+tomato red
+blueberry blue
+snow white
+soot black
+strawberry red
+cherry red
+lemon yellow
+lime green
+sky blue
+
+
+
+: class terms of mass nouns
+sheet paper
+loaf bread
+ear corn
+blade grass
+grain sand
+head lettuce
+cup coffee
+bale hay
+
+
+
+
+
+
+
+
+
+
+: direct objects
+book read
+television watch
+game play
+song sing
+food eat
+beverage drink
+
+
+
+: alcohol
+wine grapes
+sake rice
+cider apples
+chicha corn
+beer barley
+tequila agave
+rum sugarcane
+vodka potatoes
+
+
+: instrument
+broom sweep
+gun shoot
+dagger stab
+rag wipe
+shovel dig
+pen write
+scissors cut
+corkscrew uncork
+
+
+
+
+: degree
+warm hot
+cool cold
+good great
+big huge
+small tiny
+
+
+
+: weather phenomenon
+wind blow
+rain fall
+sun shine
+lightning strike
+
+
+
+
+: person idea
+entomologist insect
+philosopher idea
+linguist language
+
