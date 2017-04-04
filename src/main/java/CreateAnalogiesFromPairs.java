@@ -58,7 +58,7 @@ public class CreateAnalogiesFromPairs {
                 .append("\n");
         for (Pair pair1 : pairs) {
             for (Pair pair2 : pairs) {
-                if (!pair1.equals(pair2)) {
+                if (!pair2.w2.equals(pair2.w1) && !pair2.w2.equals(pair1.w1) && !pair2.w2.equals(pair1.w2)) {
                     builder.append(pair1.w1)
                             .append(" ")
                             .append(pair1.w2)

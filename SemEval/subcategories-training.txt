@@ -1,0 +1,10 @@
+Relation 1a  --- Y is a kind/type/instance of X
+Relation 2c  --- X may be divided into Y
+Relation 2h  --- X possesses/owns/has Y
+Relation 3a  --- an X and Y are a similar type of action/thing/attribute
+Relation 3c  --- Y is an excessive form of X
+Relation 4c  --- X is the reverse act of Y / X may be undone by Y
+Relation 5d  --- a person who is X often is in a state of Y
+Relation 5i  --- the action X results Y or things that are Y
+Relation 7a  --- an X makes Y / an X uses Y to make an item
+Relation 10a --- an X indicates/signifies Y

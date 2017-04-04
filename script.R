@@ -56,10 +56,6 @@ for(cat in levels(d$category)) {
     print(sum(dsub$addrank < dsub$baslinerank))
     print("LORI")
     print(log(sum(dsub$addrank < dsub$baslinerank) / sum(dsub$addrank > dsub$baslinerank)) / log(2))
-    print("mean word sense entropy")
-    print(mean(dsub$entropy))
-    print("mean probability of relation over senses of w4")
-    print(mean(dsub$pros)/2)
     print("mean reciprocal rank difference from basline")
     print(mean(1/dsub$addrank - 1/dsub$baslinerank))
 }

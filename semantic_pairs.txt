@@ -12,7 +12,6 @@ fly maggot
 frog tadpole
 insect larva
 goose gosling
-hawk eyas
 horse foal
 kangaroo joey
 owl owlet
@@ -21,6 +20,7 @@ rabbit bunny
 sheep lamb
 swan cygnet
 
+#hawk eyas
 #jellyfish ephyna
 #goat kid
 
@@ -31,6 +31,20 @@ aunt niece
 uncle nephew
 grandfather grandson
 grandmother granddaughter
+godmother goddaughter
+godfather godson
+
+: holiday_in_month
+valentine february
+patrick march
+easter april
+memorial may
+father june
+independence july
+labor september
+halloween october
+thanksgiving november
+christmas december
 
 : goes on
 glove hand
@@ -73,6 +87,7 @@ sand grain
 rice grain
 water drop
 dust mote
+gravel pebble
 
 
 
@@ -86,7 +101,8 @@ food eat
 beverage drink
 car drive
 bicycle ride
-
+job work
+lesson learn
 
 : alcohol_made_from
 wine grapes
@@ -97,9 +113,10 @@ beer barley
 tequila agave
 rum sugarcane
 vodka potatoes
+moonshine corn
 
 
-: instrument_of
+: is_used_to
 broom sweep
 gun shoot
 dagger stab
@@ -110,28 +127,38 @@ scissors cut
 corkscrew uncork
 needle sew
 chair sit
+bed sleep
 
 
-: relational_antonyms
-own belong
-win lose
-toward away
-above below
+: relational_antonyms_nouns
 employer employee
-divisor dividend
 parent child
-teach learn
 teacher student
-buy sell
 buyer seller
-east west
 husband wife
 predator prey
-lend borrow
 offense defense
 slave master
 doctor patient
+lender borrower
+
+#divisor dividend
+
+: relational_antonyms_verbs
+own belong
+win lose
 give receive
+lend borrow
+buy sell
+teach learn
+come go
+
+
+#: relational_antonym_prepositions
+#toward away
+#above below
+#east west
+
 
 
 

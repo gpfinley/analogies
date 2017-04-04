@@ -1,0 +1,98 @@
+INTRO
+
+Distributional semantics and the distr. hyp.
+...enables vector representations of meaning
+...which have certain strengths---completely unsupervised, etc etc, and...
+...compositionality.
+Using 3cosadd to solve analogies is an interesting test of compositionality
+Compositionality of vectors allows us to represent abstract concepts:
+    average two unrelated words, or
+    represent the relationship between words
+
+Still limited to *distributional semantic representations*--but analogies help us test the limits of that
+
+analogies are an interesting problem in their own right
+recent observations that word embeddings can be used, without any other AI tricks, to solve some kinds of analogies
+clearly, they do this better for some types of analogies than others
+the analogy task is compelling in that it gives us a simple way of studying compositionality of distributional meaning
+    seeing when analogies work gives us insight into how certain types of meaning a) are being represented, and b) can be composed in vector representations
+
+<brief but meaty literature review!>
+*mention wordrep, but don't use it for experiments*
+
+what's missing?
+    nobody tries to explain why some categories do better (not very thoroughly anyway)
+
+
+WHAT WE WANT TO OFFER
+
+"an up-to-date overview of semantic analogy tasks for word vectors and the difficulties still faced in making the task more informative"
+    (because right now we don't have a good idea of when it is informative)
+Take a broad look at available test sets
+    and redefine some of the categories that people have chosen, hopefully to be more informative about results
+Look closely at semantics, including with new test set
+Account for why we see the type of performance that we do across categories
+Determine possible difficulties with analogies and with test set creation
+Say what analogies show us about distributional semantics
+
+host a living test set and common evaluation materials
+
+
+METHOD
+
+use lots of data; tweaks/processing to use for our experiments; justify inclusion of sources we use
+vectors (wikipedia, w2v, case insensitive)
+measures we're using
+
+
+RESULTS
+
+big table?
+
+
+DISCUSSION
+
+we suggest possible explanations for why we see what we see
+
+
+-MORPHOLOGY
+
+inflectional/distributional division is somewhat helpful, but for distribution we should define morphemes more by their syntactic effects
+    e.g., nominal plurals are no good because there is very little agreement with nouns
+
+
+-NAMED ENTITIES vs. COMMON NOUNS
+
+why they are easier in theory than common nouns
+
+
+-GENDER/FAMILY
+
+possible syntactic effects? agreement w/ pronouns??
+
+
+ARE WE GETTING MEANING WITH DISTRIBUTION?
+
+Kind of. Mix of syntax and semantics, definitely.
+
+
+COMPLICATIONS/DIFFICULTIES
+
+VERY lexically dependent--see differences in adjectives between word2vec set and MSR set
+i.e., results are noisy. that's why bigger and better test sets are helpful.
+
+things other than successful representations can contribute to high scores:
+    prior similarity to w3
+    domain similarity to w2
+
+pure semantic categories are very hard to come up with...
+    and they're subject to whims of individual, dialect, experience--which may not match up with the training corpus
+ambiguity and polysemy, especially for non-NEs (and non-morphological analogies)
+    note difference between polysemy and polyreferentiality (???)
+frequent words will be better represented than infrequent words (although they also tend to be more polysemous!!!)
+
+should we even expect word embeddings to do this task?
+    ...
+
+How do we get around these? Offer some suggestions.
+    living test set? better evaluation measures?

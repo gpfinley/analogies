@@ -1,0 +1,476 @@
+# subcategory: original:pair --> reversed:pair
+#
+reversal in 1a: bread:wheat --> wheat:bread
+reversal in 1a: currency:dollar --> dollar:currency
+reversal in 1a: tree:oak --> oak:tree
+reversal in 1a: furniture:couch --> couch:furniture
+reversal in 1a: pet:dog --> dog:pet
+#
+reversal in 1b: furniture:chair --> chair:furniture
+reversal in 1b: clothing:sock --> sock:clothing
+reversal in 1b: tool:chisel --> chisel:tool
+reversal in 1b: girl:person --> person:girl
+reversal in 1b: appliance:fridge --> fridge:appliance
+#
+reversal in 1c: appliance:refrigerator --> refrigerator:appliance
+reversal in 1c: mineral:mica --> mica:mineral
+reversal in 1c: flower:daisy --> daisy:flower
+reversal in 1c: family:father --> father:family
+reversal in 1c: cordless:phone --> phone:cordless
+#
+reversal in 1d: animals:dogs --> dogs:animals
+reversal in 1d: cars:fords --> fords:cars
+reversal in 1d: makeup:eyeshadow --> eyeshadow:makeup
+reversal in 1d: bedding:sheets --> sheets:bedding
+reversal in 1d: birds:crows --> crows:birds
+#
+reversal in 1e: ocean:Indian --> Indian:ocean
+reversal in 1e: city:Memphis --> Memphis:city
+reversal in 1e: snake:Cobra --> Cobra:snake
+reversal in 1e: country:Ireland --> Ireland:country
+reversal in 1e: planet:Earth --> Earth:planet
+#
+reversal in 2a: play:act --> act:play
+reversal in 2a: hand:finger --> finger:hand
+reversal in 2a: fish:fin --> fin:fish
+reversal in 2a: foot:toe --> toe:foot
+reversal in 2a: boat:motor --> motor:boat
+#
+reversal in 2b: senate:senators --> senators:senate
+reversal in 2b: garden:plot --> plot:garden
+reversal in 2b: sand:beach --> beach:sand
+reversal in 2b: troop:soldier --> soldier:troop
+reversal in 2b: army:soldiers --> soldiers:army
+#
+reversal in 2c: movie:scene --> scene:movie
+reversal in 2c: body:cell --> cell:body
+reversal in 2c: week:day --> day:week
+reversal in 2c: hour:seconds --> seconds:hour
+reversal in 2c: blood:droplets --> droplets:blood
+#
+reversal in 2d: game:players --> players:game
+reversal in 2d: competition:athlete --> athlete:competition
+reversal in 2d: zoo:lion --> lion:zoo
+reversal in 2d: carnival:rides --> rides:carnival
+reversal in 2d: party:celebrant --> celebrant:party
+#
+reversal in 2e: talking:therapy --> therapy:talking
+reversal in 2e: harvesting:farming --> farming:harvesting
+reversal in 2e: volleying:tennis --> tennis:volleying
+reversal in 2e: writing:publishing --> publishing:writing
+reversal in 2e: winter:snowing --> snowing:winter
+#
+reversal in 2f: hill:top --> top:hill
+reversal in 2f: home:foyer --> foyer:home
+reversal in 2f: tree:branch --> branch:tree
+reversal in 2f: computer:screen --> screen:computer
+reversal in 2f: building:lobby --> lobby:building
+#
+reversal in 2g: wine:alcohol --> alcohol:wine
+reversal in 2g: meal:food --> food:meal
+reversal in 2g: ocean:water --> water:ocean
+reversal in 2g: bread:flour --> flour:bread
+reversal in 2g: case:evidence --> evidence:case
+#
+reversal in 2h: scholar:books --> books:scholar
+reversal in 2h: teacher:students --> students:teacher
+reversal in 2h: songwriter:lyrics --> lyrics:songwriter
+reversal in 2h: refinery:gas --> gas:refinery
+reversal in 2h: words:letters --> letters:words
+#
+reversal in 2i: ocean:camel --> camel:ocean
+reversal in 2i: deaf:hearing --> hearing:deaf
+reversal in 2i: fish:hair --> hair:fish
+reversal in 2i: penguin:flight --> flight:penguin
+reversal in 2i: heaven:sinners --> sinners:heaven
+#
+reversal in 2j: adult:childhood --> childhood:adult
+reversal in 2j: frog:tail --> tail:frog
+reversal in 2j: pensioner:work --> work:pensioner
+reversal in 2j: widow:husband --> husband:widow
+reversal in 2j: clergyman:sin --> sin:clergyman
+#
+reversal in 3a: bathroom:restroom --> restroom:bathroom
+reversal in 3a: beautiful:pretty --> pretty:beautiful
+reversal in 3a: house:abode --> abode:house
+reversal in 3a: candy:sweets --> sweets:candy
+reversal in 3a: big:large --> large:big
+#
+reversal in 3b: shower:pour --> pour:shower
+reversal in 3b: sapling:tree --> tree:sapling
+reversal in 3b: sedan:coupe --> coupe:sedan
+reversal in 3b: silt:sediment --> sediment:silt
+reversal in 3b: beer:wine --> wine:beer
+#
+reversal in 3c: alert:insomniac --> insomniac:alert
+reversal in 3c: confident:arrogance --> arrogance:confident
+reversal in 3c: dismayed:depressed --> depressed:dismayed
+reversal in 3c: breathing:hyperventilating --> hyperventilating:breathing
+reversal in 3c: drinking:alcoholic --> alcoholic:drinking
+#
+reversal in 3d: persuade:coerce --> coerce:persuade
+reversal in 3d: drink:slurp --> slurp:drink
+reversal in 3d: negotiate:blackmail --> blackmail:negotiate
+reversal in 3d: chat:gossip --> gossip:chat
+reversal in 3d: talk:gossip --> gossip:talk
+#
+reversal in 3e: lettuce:salad --> salad:lettuce
+reversal in 3e: fawn:deer --> deer:fawn
+reversal in 3e: lamb:sheep --> sheep:lamb
+reversal in 3e: baby:adult --> adult:baby
+reversal in 3e: duckling:duck --> duck:duckling
+#
+reversal in 3f: snake:worm --> worm:snake
+reversal in 3f: stairs:ladder --> ladder:stairs
+reversal in 3f: tree:flower --> flower:tree
+reversal in 3f: bottle:cylinder --> cylinder:bottle
+reversal in 3f: house:tent --> tent:house
+#
+reversal in 3g: flour:sugar --> sugar:flour
+reversal in 3g: pencil:pen --> pen:pencil
+reversal in 3g: kitten:puppy --> puppy:kitten
+reversal in 3g: male:female --> female:male
+reversal in 3g: record:cassette --> cassette:record
+#
+reversal in 3h: speed:movement --> movement:speed
+reversal in 3h: dim:light --> light:dim
+reversal in 3h: waning:sunlight --> sunlight:waning
+reversal in 3h: season:food --> food:season
+reversal in 3h: shorten:hem --> hem:shorten
+#
+reversal in 4a: black:white --> white:black
+reversal in 4a: clean:dirty --> dirty:clean
+reversal in 4a: tan:pale --> pale:tan
+reversal in 4a: furry:bald --> bald:furry
+reversal in 4a: up:down --> down:up
+#
+reversal in 4b: easy:difficult --> difficult:easy
+reversal in 4b: hairy:bald --> bald:hairy
+reversal in 4b: good:bad --> bad:good
+reversal in 4b: bored:excited --> excited:bored
+reversal in 4b: fat:thin --> thin:fat
+#
+reversal in 4c: abandon:embrace --> embrace:abandon
+reversal in 4c: joy:despair --> despair:joy
+reversal in 4c: force:agree --> agree:force
+reversal in 4c: eat:poop --> poop:eat
+reversal in 4c: repair:break --> break:repair
+#
+reversal in 4d: root:tip --> tip:root
+reversal in 4d: in:out --> out:in
+reversal in 4d: rise:sink --> sink:rise
+reversal in 4d: clean:dirty --> dirty:clean
+reversal in 4d: sad:happy --> happy:sad
+#
+reversal in 4e: tedious:interesting --> interesting:tedious
+reversal in 4e: blue:red --> red:blue
+reversal in 4e: funny:boring --> boring:funny
+reversal in 4e: insane:lucid --> lucid:insane
+reversal in 4e: lazy:productive --> productive:lazy
+#
+reversal in 4f: angelic:evil --> evil:angelic
+reversal in 4f: ecstatic:disgruntled --> disgruntled:ecstatic
+reversal in 4f: sterile:dirty --> dirty:sterile
+reversal in 4f: dark:light --> light:dark
+reversal in 4f: excellent:mediocre --> mediocre:excellent
+#
+reversal in 4g: fun:boring --> boring:fun
+reversal in 4g: smart:uninformed --> uninformed:smart
+reversal in 4g: majority:small --> small:majority
+reversal in 4g: rough:soft --> soft:rough
+reversal in 4g: sad:smiling --> smiling:sad
+#
+reversal in 4h: hole:pants --> pants:hole
+reversal in 4h: slurred:words --> words:slurred
+reversal in 4h: sin:virtue --> virtue:sin
+reversal in 4h: insomnia:sleep --> sleep:insomnia
+reversal in 4h: blindness:vision --> vision:blindness
+#
+reversal in 5a: man:tall --> tall:man
+reversal in 5a: professor:intellectual --> intellectual:professor
+reversal in 5a: paper:flimsy --> flimsy:paper
+reversal in 5a: fire:heat --> heat:fire
+reversal in 5a: pop:fizzy --> fizzy:pop
+#
+reversal in 5b: glass:shattered --> shattered:glass
+reversal in 5b: wooden:burned --> burned:wooden
+reversal in 5b: fragile:damaged --> damaged:fragile
+reversal in 5b: sick:cured --> cured:sick
+reversal in 5b: creative:artistic --> artistic:creative
+#
+reversal in 5c: soldier:war --> war:soldier
+reversal in 5c: ballerina:grace --> grace:ballerina
+reversal in 5c: millionaire:wealth --> wealth:millionaire
+reversal in 5c: nun:chastity --> chastity:nun
+reversal in 5c: armistice:peace --> peace:armistice
+#
+reversal in 5d: magnanimous:peace --> peace:magnanimous
+reversal in 5d: joyful:ecstatic --> ecstatic:joyful
+reversal in 5d: happy:contentment --> contentment:happy
+reversal in 5d: yelling:anger --> anger:yelling
+reversal in 5d: cold:frigid --> frigid:cold
+#
+reversal in 5e: musician:sing --> sing:musician
+reversal in 5e: wave:crash --> crash:wave
+reversal in 5e: baker:knead --> knead:baker
+reversal in 5e: lion:roar --> roar:lion
+reversal in 5e: tree:grow --> grow:tree
+#
+reversal in 5f: hot:burn --> burn:hot
+reversal in 5f: encapsulate:surround --> surround:encapsulate
+reversal in 5f: hurt:cry --> cry:hurt
+reversal in 5f: dense:sink --> sink:dense
+reversal in 5f: porous:permeable --> permeable:porous
+#
+reversal in 5g: screaming:terror --> terror:screaming
+reversal in 5g: insult:unkind --> unkind:insult
+reversal in 5g: sleep:restful --> restful:sleep
+reversal in 5g: run:fast --> fast:run
+reversal in 5g: smiling:happy --> happy:smiling
+#
+reversal in 5h: picker:apple --> apple:picker
+reversal in 5h: listen:audible --> audible:listen
+reversal in 5h: heal:injured --> injured:heal
+reversal in 5h: towel:wet --> wet:towel
+reversal in 5h: repair:broken --> broken:repair
+#
+reversal in 5i: sell:price --> price:sell
+reversal in 5i: joke:laughter --> laughter:joke
+reversal in 5i: sift:separated --> separated:sift
+reversal in 5i: car:fast --> fast:car
+reversal in 5i: smash:flat --> flat:smash
+#
+reversal in 6a: liquid:solid --> solid:liquid
+reversal in 6a: fire:cold --> cold:fire
+reversal in 6a: best:inferior --> inferior:best
+reversal in 6a: killer:empathetic --> empathetic:killer
+reversal in 6a: liar:honest --> honest:liar
+#
+reversal in 6b: inexorable:halted --> halted:inexorable
+reversal in 6b: beautiful:ugly --> ugly:beautiful
+reversal in 6b: inflexible:bent --> bent:inflexible
+reversal in 6b: unpardonable:forgiven --> forgiven:unpardonable
+reversal in 6b: compassionate:heartless --> heartless:compassionate
+#
+reversal in 6c: dance:silence --> silence:dance
+reversal in 6c: dirt:cleanliness --> cleanliness:dirt
+reversal in 6c: rain:dryness --> dryness:rain
+reversal in 6c: destitution:abundance --> abundance:destitution
+reversal in 6c: depression:joy --> joy:depression
+#
+reversal in 6d: old:young --> young:old
+reversal in 6d: attentive:dazed --> dazed:attentive
+reversal in 6d: healthy:poisonous --> poisonous:healthy
+reversal in 6d: hostage:freedom --> freedom:hostage
+reversal in 6d: pregnant:birth --> birth:pregnant
+#
+reversal in 6e: priest:fornicate --> fornicate:priest
+reversal in 6e: immortal:die --> die:immortal
+reversal in 6e: cat:bark --> bark:cat
+reversal in 6e: confidant:betray --> betray:confidant
+reversal in 6e: hero:cower --> cower:hero
+#
+reversal in 6f: lethargic:run --> run:lethargic
+reversal in 6f: angry:smile --> smile:angry
+reversal in 6f: austere:tease --> tease:austere
+reversal in 6f: cruel:help --> help:cruel
+reversal in 6f: loud:soothe --> soothe:loud
+#
+reversal in 6g: guess:knowingly --> knowingly:guess
+reversal in 6g: run:slowly --> slowly:run
+reversal in 6g: kill:safely --> safely:kill
+reversal in 6g: cooperate:defiantly --> defiantly:cooperate
+reversal in 6g: intoxicate:sobriety --> sobriety:intoxicate
+#
+reversal in 6h: organize:cluttered --> cluttered:organize
+reversal in 6h: groom:unkempt --> unkempt:groom
+reversal in 6h: clean:dirty --> dirty:clean
+reversal in 6h: spank:disobedient --> disobedient:spank
+reversal in 6h: apologize:offended --> offended:apologize
+#
+reversal in 7a: blender:slush --> slush:blender
+reversal in 7a: artist:art --> art:artist
+reversal in 7a: vintner:wine --> wine:vintner
+reversal in 7a: weaver:cloth --> cloth:weaver
+reversal in 7a: designer:fashions --> fashions:designer
+#
+reversal in 7b: arborist:tree --> tree:arborist
+reversal in 7b: attorney:client --> client:attorney
+reversal in 7b: textbook:reader --> reader:textbook
+reversal in 7b: nanny:child --> child:nanny
+reversal in 7b: professor:student --> student:professor
+#
+reversal in 7c: lifeguard:preserver --> preserver:lifeguard
+reversal in 7c: surgeon:scalpel --> scalpel:surgeon
+reversal in 7c: gardener:shovel --> shovel:gardener
+reversal in 7c: shooter:gun --> gun:shooter
+reversal in 7c: writer:pen --> pen:writer
+#
+reversal in 7d: water:plants --> plants:water
+reversal in 7d: sweep:floor --> floor:sweep
+reversal in 7d: row:boat --> boat:row
+reversal in 7d: donate:charity --> charity:donate
+reversal in 7d: forgive:insult --> insult:forgive
+#
+reversal in 7e: pay:debtor --> debtor:pay
+reversal in 7e: inspire:follower --> follower:inspire
+reversal in 7e: sold:shopper --> shopper:sold
+reversal in 7e: lecture:child --> child:lecture
+reversal in 7e: suckle:young --> young:suckle
+#
+reversal in 7f: tip:waiter --> waiter:tip
+reversal in 7f: employee:check --> check:employee
+reversal in 7f: bottle:baby --> baby:bottle
+reversal in 7f: ticket:speeder --> speeder:ticket
+reversal in 7f: cough:sickness --> sickness:cough
+#
+reversal in 7g: horse:reins --> reins:horse
+reversal in 7g: nail:screwdriver --> screwdriver:nail
+reversal in 7g: carpet:vacuum --> vacuum:carpet
+reversal in 7g: head:hat --> hat:head
+reversal in 7g: road:car --> car:road
+#
+reversal in 7h: teacher:certificate --> certificate:teacher
+reversal in 7h: dog:leash --> leash:dog
+reversal in 7h: mother:child --> child:mother
+reversal in 7h: dog:treat --> treat:dog
+reversal in 7h: butcher:knife --> knife:butcher
+#
+reversal in 8a: stress:headache --> headache:stress
+reversal in 8a: stimulus:response --> response:stimulus
+reversal in 8a: study:learning --> learning:study
+reversal in 8a: repetition:boredom --> boredom:repetition
+reversal in 8a: run:sweat --> sweat:run
+#
+reversal in 8b: clumsiness:carefully --> carefully:clumsiness
+reversal in 8b: obesity:exercise --> exercise:obesity
+reversal in 8b: emptiness:fill --> fill:emptiness
+reversal in 8b: tiredness:rest --> rest:tiredness
+reversal in 8b: danger:flee --> flee:danger
+#
+reversal in 8c: chemical:firework --> firework:chemical
+reversal in 8c: lease:apartment --> apartment:lease
+reversal in 8c: remote:television --> television:remote
+reversal in 8c: food:eat --> eat:food
+reversal in 8c: bulb:flashlight --> flashlight:bulb
+#
+reversal in 8d: bathe:clean --> clean:bathe
+reversal in 8d: burnish:shine --> shine:burnish
+reversal in 8d: assault:injure --> injure:assault
+reversal in 8d: study:learn --> learn:study
+reversal in 8d: hungry:starving --> starving:hungry
+#
+reversal in 8e: seamstress:dress --> dress:seamstress
+reversal in 8e: arsonist:fire --> fire:arsonist
+reversal in 8e: addict:fix --> fix:addict
+reversal in 8e: man:sex --> sex:man
+reversal in 8e: artist:masterpiece --> masterpiece:artist
+#
+reversal in 8f: automobile:transportation --> transportation:automobile
+reversal in 8f: honey:sweetness --> sweetness:honey
+reversal in 8f: food:satiation --> satiation:food
+reversal in 8f: heroin:euphoria --> euphoria:heroin
+reversal in 8f: advertisement:desire --> desire:advertisement
+#
+reversal in 8g: broom:sweep --> sweep:broom
+reversal in 8g: bed:sleep --> sleep:bed
+reversal in 8g: fork:eat --> eat:fork
+reversal in 8g: camera:photograph --> photograph:camera
+reversal in 8g: call:phone --> phone:call
+#
+reversal in 8h: cure:disease --> disease:cure
+reversal in 8h: rest:exhaustion --> exhaustion:rest
+reversal in 8h: water:thirst --> thirst:water
+reversal in 8h: medicine:disease --> disease:medicine
+reversal in 8h: slow:fast --> fast:slow
+#
+reversal in 9a: dresser:clothes --> clothes:dresser
+reversal in 9a: hangar:airplane --> airplane:hangar
+reversal in 9a: ocean:water --> water:ocean
+reversal in 9a: aquarium:fish --> fish:aquarium
+reversal in 9a: carton:milk --> milk:carton
+#
+reversal in 9b: marina:boat --> boat:marina
+reversal in 9b: school:student --> student:school
+reversal in 9b: gym:muscles --> muscles:gym
+reversal in 9b: factory:goods --> goods:factory
+reversal in 9b: aquarium:fish --> fish:aquarium
+#
+reversal in 9c: restaurant:eating --> eating:restaurant
+reversal in 9c: farm:growing --> growing:farm
+reversal in 9c: bar:drinking --> drinking:bar
+reversal in 9c: stadium:sports --> sports:stadium
+reversal in 9c: prom:dancing --> dancing:prom
+#
+reversal in 9d: bedroom:mattress --> mattress:bedroom
+reversal in 9d: sport:ball --> ball:sport
+reversal in 9d: garage:mechanic --> mechanic:garage
+reversal in 9d: casino:cards --> cards:casino
+reversal in 9d: hotel:bed --> bed:hotel
+#
+reversal in 9e: wall:shelf --> shelf:wall
+reversal in 9e: wall:room --> room:wall
+reversal in 9e: yard:sidewalk --> sidewalk:yard
+reversal in 9e: crust:pie --> pie:crust
+reversal in 9e: dunes:beach --> beach:dunes
+#
+reversal in 9f: morning:sunrise --> sunrise:morning
+reversal in 9f: full:moon --> moon:full
+reversal in 9f: winter:christmas --> christmas:winter
+reversal in 9f: morning:breakfast --> breakfast:morning
+reversal in 9f: gestation:development --> development:gestation
+#
+reversal in 9g: courtship:candy --> candy:courtship
+reversal in 9g: adulthood:mortgage --> mortgage:adulthood
+reversal in 9g: parenthood:worry --> worry:parenthood
+reversal in 9g: parenthood:diapers --> diapers:parenthood
+reversal in 9g: parenthood:laughter --> laughter:parenthood
+#
+reversal in 9h: foreword:novel --> novel:foreword
+reversal in 9h: beginning:middle --> middle:beginning
+reversal in 9h: lay:sleep --> sleep:lay
+reversal in 9h: ingestion:digestion --> digestion:ingestion
+reversal in 9h: preview:movie --> movie:preview
+#
+reversal in 9i: grape:vine --> vine:grape
+reversal in 9i: scarf:neck --> neck:scarf
+reversal in 9i: glove:hand --> hand:glove
+reversal in 9i: monitor:computer --> computer:monitor
+reversal in 9i: curtains:window --> window:curtains
+#
+reversal in 10a: camera:distrust --> distrust:camera
+reversal in 10a: valentine:love --> love:valentine
+reversal in 10a: glare:anger --> anger:glare
+reversal in 10a: cloud:moisture --> moisture:cloud
+reversal in 10a: cry:help --> help:cry
+#
+reversal in 10b: sigh:exhaustion --> exhaustion:sigh
+reversal in 10b: tears:sorrow --> sorrow:tears
+reversal in 10b: laugh:hilarity --> hilarity:laugh
+reversal in 10b: wink:friendliness --> friendliness:wink
+reversal in 10b: slap:anger --> anger:slap
+#
+reversal in 10c: object:shadow --> shadow:object
+reversal in 10c: history:account --> account:history
+reversal in 10c: ideal:fairytale --> fairytale:ideal
+reversal in 10c: food:meal --> meal:food
+reversal in 10c: story:book --> book:story
+#
+reversal in 10d: code:program --> program:code
+reversal in 10d: playbook:football --> football:playbook
+reversal in 10d: course:destination --> destination:course
+reversal in 10d: plan:development --> development:plan
+reversal in 10d: formula:equation --> equation:formula
+#
+reversal in 10e: criminology:crimes --> crimes:criminology
+reversal in 10e: meteorology:weather --> weather:meteorology
+reversal in 10e: geography:maps --> maps:geography
+reversal in 10e: linguistics:languages --> languages:linguistics
+reversal in 10e: geology:earth --> earth:geology
+#
+reversal in 10f: password:access --> access:password
+reversal in 10f: wig:hair --> hair:wig
+reversal in 10f: hood:head --> head:hood
+reversal in 10f: frosting:cake --> cake:frosting
+reversal in 10f: flower:plants --> plants:flower
+#
