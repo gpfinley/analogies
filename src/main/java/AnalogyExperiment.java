@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Pattern;
 
 /**
@@ -25,7 +26,7 @@ public class AnalogyExperiment {
         private boolean calculateAddRank = true;
         private boolean calculateMulRank = false;
         private boolean calculateDiffRank = false;
-        private boolean calculateDomainSimilarityRank = false;
+        private boolean calculateDomainSimilarityRank = true;
 
         public Builder embeddingsFile(String embeddingsFile) {
             this.embeddingsFile = embeddingsFile;
@@ -182,6 +183,8 @@ public class AnalogyExperiment {
     private List<Double> multiplicativeScores;
     private List<Double> differenceSimilarity;      // cosine similarity between differences of each pair
 
+    private Map<String, Integer> rankCache;
+
     public List<Double> getBaselineSimilarity() {
         return baselineSimilarity;
     }
@@ -261,13 +264,17 @@ public class AnalogyExperiment {
      * Scores all ranks and similarities. Will take a long time!
      */
     private void process() {
+
         baselineRanks = new ArrayList<>();
         domainsimRanks = new ArrayList<>();
         addRanks = new ArrayList<>();
         mulRanks = new ArrayList<>();
         diffRanks = new ArrayList<>();
 
-        // create a list of integer arrays, each of which holds ranks for: w3*w4, w2*w4, 3CosAdd, 3CosMul
+        // todo: confirm that this actually works
+        rankCache = new ConcurrentHashMap<>();
+
+        // create a list of integer arrays, each of which holds ranks for: w3*w4, w2*w4, 3CosAdd, 3CosMul, DiffCos
         List<Integer[]> answersList = new ArrayList<>();
         answersList.add(new Integer[analogies.size()]);
         answersList.add(new Integer[analogies.size()]);
@@ -298,8 +305,12 @@ public class AnalogyExperiment {
             int addRank = 1;
             int mulRank = 1;
             int diffRank = 1;
-            int baselineRank = 1;
-            int domainsimRank = 1;
+            String w2Andw4 = analogy.w2 + ":" + analogy.w4;
+            String w3Andw4 = analogy.w3 + ":" + analogy.w4;
+            boolean calculateW2w4 = useDomainsimRank && !rankCache.containsKey(w2Andw4);
+            boolean calculateW3w4 = useBaseRank && !rankCache.containsKey(w3Andw4);
+            int domainsimRank = calculateW2w4 ? 1 : rankCache.get(w2Andw4);
+            int baselineRank = calculateW3w4 ? 1 : rankCache.get(w3Andw4);
             // shouldn't need this check...but just in case
             if (emb.contains(analogy.w1) && emb.contains(analogy.w2) && emb.contains(analogy.w3) && emb.contains(analogy.w4)) {
                 double addScore = 0;
@@ -335,11 +346,11 @@ public class AnalogyExperiment {
                             double addCompScore = calculated.dot(hyp);
                             if (addCompScore > addScore) addRank += 1;
                         }
-                        if (useBaseRank) {
+                        if (useBaseRank && calculateW3w4) {
                             double baselineCompScore = w3.dot(hyp);
                             if (baselineCompScore > baselineScore) baselineRank += 1;
                         }
-                        if (useDomainsimRank) {
+                        if (useDomainsimRank && calculateW2w4) {
                             double domainsimCompScore = w2.dot(hyp);
                             if (domainsimCompScore > domainsimScore) domainsimRank += 1;
                         }
@@ -362,6 +373,8 @@ public class AnalogyExperiment {
                 mulRank = emb.size();
                 diffRank = emb.size();
             }
+            if (calculateW2w4) rankCache.put(w2Andw4, domainsimRank);
+            if (calculateW3w4) rankCache.put(w3Andw4, baselineRank);
             List<Integer> ranksList = new ArrayList<>();
             ranksList.add(baselineRank);
             ranksList.add(domainsimRank);
@@ -414,7 +427,6 @@ public class AnalogyExperiment {
         return pairsByCategory;
     }
 
-
     /**
      * todo: doc
      * @return
@@ -429,54 +441,6 @@ public class AnalogyExperiment {
         }
         return analogiesByCategory;
     }
-
-
-//    public Map<String, Double> similaritiesToCategoryMean() {
-//        Map<String, WordEmbedding> meanVectors = new HashMap<>();
-//        Map<String, Double> sims = new HashMap<>();
-//
-//        for(String category : analogiesByCategory.keySet()) {
-//            List<Analogy> analogies = analogiesByCategory.get(category);
-//            Map<String, Double> similarities = new HashMap<>();
-//
-//            WordEmbedding meanVector = new WordEmbedding(emb.dimensionality());
-//            for (Analogy analogy : analogies) {
-//                String relation1 = analogy.w1 + ":" + analogy.w2;
-//                String relation2 = analogy.w3 + ":" + analogy.w4;
-//                if (emb.contains(analogy.w1) && emb.contains(analogy.w2)) {
-//                    if(!similarities.containsKey(relation1)) {
-//                        meanVector.add(emb.get(analogy.w1).difference(emb.get(analogy.w2)));
-//                        similarities.put(relation1, -1.);
-//                    }
-//                }
-//                if (emb.contains(analogy.w3) && emb.contains(analogy.w4)) {
-//                    if (!similarities.containsKey(relation2)) {
-//                        meanVector.add(emb.get(analogy.w3).difference(emb.get(analogy.w4)));
-//                        similarities.put(relation2, -1.);
-//                    }
-//                }
-//            }
-//            meanVector.scalarMultiply(1. / similarities.size());
-//            meanVectors.put(category, meanVector);
-//
-//            for (Analogy analogy : analogies) {
-//                String relation1 = analogy.w1 + ":" + analogy.w2;
-//                String relation2 = analogy.w3 + ":" + analogy.w4;
-//                if(similarities.get(relation1) == -1.) {
-//                    double sim = emb.get(analogy.w1).difference(emb.get(analogy.w2)).cosSim(meanVector);
-//                    similarities.put(relation1, sim);
-//                }
-//                if(similarities.get(relation2) == -1.) {
-//                    double sim = emb.get(analogy.w3).difference(emb.get(analogy.w4)).cosSim(meanVector);
-//                    similarities.put(relation2, sim);
-//                }
-//            }
-//
-//            System.out.println(similarities.size() + "\t" + category);
-//            sims.putAll(similarities);
-//        }
-//        return sims;
-//    }
 
     private WordEmbedding analogyHypothesisEmbedding(Analogy analogy) {
         WordEmbedding calculated = new WordEmbedding(emb.get(analogy.w3));
