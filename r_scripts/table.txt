@@ -1,0 +1,148 @@
+category.1 & accuracy & category.2 & MRR improvement & category.3 & rank improved? \\
+: capital-world & 0.934571175950486 & : VB_VBZ & 0.511985107459278 & : gram4-superlative & 0.915329768270945 \\
+: gram6-nationality-adjective & 0.92245153220763 & : I05 [verb_inf - 3pSg].txt & 0.494473943087411 & : VBD_VBZ & 0.868 \\
+: E01 [country - capital].txt & 0.919591836734694 & : VBD_VBZ & 0.462278202091883 & : VB_VBZ & 0.826 \\
+: capital-common-countries & 0.91897233201581 & : gram3-comparative & 0.42816085127432 & : I05 [verb_inf - 3pSg].txt & 0.807755102040816 \\
+: I01 [noun - plural_reg].txt & 0.829387755102041 & : capital-world & 0.421949782182694 & : VBZ_VBD & 0.776 \\
+: gram8-plural & 0.828828828828829 & : gram4-superlative & 0.421430562728927 & : I10 [verb_3pSg - Ved].txt & 0.775102040816326 \\
+: family & 0.790513833992095 & : gram9-plural-verbs & 0.377973429040556 & : JJR_JJS & 0.766 \\
+: gram3-comparative & 0.734984984984985 & : JJR_JJS & 0.374449744024631 & : JJ_JJS & 0.752 \\
+: NN_NNS & 0.718 & : E05 [name - occupation].txt & 0.374185516498025 & : E04 [name - nationality].txt & 0.709777777777778 \\
+: VBZ_VB & 0.718 & : family & 0.368446721636752 & : E02 [country - language].txt & 0.700364298724954 \\
+: NNS_NN & 0.69 & : capital-common-countries & 0.36427316644708 & : gram9-plural-verbs & 0.697701149425287 \\
+: I05 [verb_inf - 3pSg].txt & 0.680816326530612 & : E01 [country - capital].txt & 0.355886545828455 & : capital-world & 0.674182139699381 \\
+: I06 [verb_inf - Ving].txt & 0.677142857142857 & : VBZ_VBD & 0.346194691210513 & : gram3-comparative & 0.666666666666667 \\
+: VB_VBZ & 0.656 & : I10 [verb_3pSg - Ved].txt & 0.343629739981097 & : I04 [adj - superlative].txt & 0.640816326530612 \\
+: gram5-present-participle & 0.641098484848485 & : gram6-nationality-adjective & 0.331933897149671 & : I08 [verb_Ving - 3pSg].txt & 0.626122448979592 \\
+: I02 [noun - plural_irreg].txt & 0.56547619047619 & : city-in-state & 0.322004405038398 & : family & 0.577075098814229 \\
+: gram9-plural-verbs & 0.557471264367816 & : E02 [country - language].txt & 0.320085673247815 & : JJS_JJR & 0.576 \\
+: I09 [verb_Ving - Ved].txt & 0.550612244897959 & : JJ_JJS & 0.317422049835303 & : gram6-nationality-adjective & 0.570981863664791 \\
+: city-in-state & 0.546817997567896 & : E04 [name - nationality].txt & 0.312092154250656 & : JJ_JJR & 0.564 \\
+: VBD_VB & 0.516 & : I08 [verb_Ving - 3pSg].txt & 0.311200694193046 & : I07 [verb_inf - Ved].txt & 0.562040816326531 \\
+: gram7-past-tense & 0.505769230769231 & : VBZ_VB & 0.309267536924211 & : E01 [country - capital].txt & 0.559183673469388 \\
+: I07 [verb_inf - Ved].txt & 0.47469387755102 & : JJS_JJR & 0.302697557840797 & : VB_VBD & 0.556 \\
+: VB_VBD & 0.462 & : JJ_JJR & 0.292392672742736 & : capital-common-countries & 0.551383399209486 \\
+: I08 [verb_Ving - 3pSg].txt & 0.430204081632653 & : VB_VBD & 0.281202689713537 & : I03 [adj - comparative].txt & 0.526122448979592 \\
+: JJS_JJR & 0.428 & : I04 [adj - superlative].txt & 0.278367957772549 & : VBZ_VB & 0.522 \\
+: JJ_JJR & 0.418 & : I07 [verb_inf - Ved].txt & 0.271452355414127 & : E05 [name - occupation].txt & 0.478452066842568 \\
+: VBD_VBZ & 0.414 & : E03 [UK_city - county].txt & 0.265648909745268 & : D06 [re+verb_reg].txt & 0.466836734693878 \\
+: JJR_JJ & 0.38 & : I03 [adj - comparative].txt & 0.239641622089051 & : city-in-state & 0.463315768139441 \\
+: gram4-superlative & 0.372549019607843 & : VBD_VB & 0.212835733942996 & : JJS_JJ & 0.44 \\
+: E05 [name - occupation].txt & 0.358399296394019 & : JJS_JJ & 0.199488149175484 & : VBD_VB & 0.434 \\
+: E10 [male - female].txt & 0.35469387755102 & : JJR_JJ & 0.196031235021131 & : currency & 0.430715935334873 \\
+: I10 [verb_3pSg - Ved].txt & 0.341632653061224 & : E10 [male - female].txt & 0.194577106159209 & : JJR_JJ & 0.414 \\
+: I03 [adj - comparative].txt & 0.330612244897959 & : gram1-adjective-to-adverb & 0.192445698646928 & : Knowledge  X is the name for knowledge of Y & 0.397058823529412 \\
+: JJR_JJS & 0.33 & : gram7-past-tense & 0.190213498631017 & : E10 [male - female].txt & 0.380816326530612 \\
+: VBZ_VBD & 0.314 & : D03 [adj+ly_reg].txt & 0.176129412001086 & : gram7-past-tense & 0.375 \\
+: E03 [UK_city - county].txt & 0.289141414141414 & : gram2-opposite & 0.165960119807958 & : gram2-opposite & 0.366995073891626 \\
+: E02 [country - language].txt & 0.27959927140255 & : Knowledge  X is the name for knowledge of Y & 0.164966541705609 & : E03 [UK_city - county].txt & 0.336700336700337 \\
+: JJ_JJS & 0.278 & : D06 [re+verb_reg].txt & 0.139705165702693 & : D03 [adj+ly_reg].txt & 0.335918367346939 \\
+: JJS_JJ & 0.272 & : gram8-plural & 0.13229511901554 & : gram1-adjective-to-adverb & 0.325604838709677 \\
+: L10 [antonyms - binary].txt & 0.266830870279146 & : D09 [verb+tion_irreg].txt & 0.130247838242904 & : D10 [verb+ment_irreg].txt & 0.28 \\
+: Directional  X is the opposite direction from Y & 0.262135922330097 & : currency & 0.120811587797855 & : I09 [verb_Ving - Ved].txt & 0.27469387755102 \\
+: Coordinates  X and Y are two distinct objects in the same category & 0.25297619047619 & : I09 [verb_Ving - Ved].txt & 0.11730909906002 & : D08 [verb+er_irreg].txt & 0.255102040816327 \\
+: E04 [name - nationality].txt & 0.248444444444444 & : D10 [verb+ment_irreg].txt & 0.112048298324794 & : gram8-plural & 0.232732732732733 \\
+: gram1-adjective-to-adverb & 0.245967741935484 & : gram5-present-participle & 0.0785802293181575 & : D05 [adj+ness_reg].txt & 0.22 \\
+: gram2-opposite & 0.235221674876847 & : D08 [verb+er_irreg].txt & 0.0728796696414902 & : gram5-present-participle & 0.204545454545455 \\
+: D03 [adj+ly_reg].txt & 0.226530612244898 & : D02 [un+adj_reg].txt & 0.0634337526862907 & : D09 [verb+tion_irreg].txt & 0.201632653061224 \\
+: I04 [adj - superlative].txt & 0.215102040816327 & : Location:Action/Activity  an X is a place/location/area where Y takes place & 0.044713833661673 & : D02 [un+adj_reg].txt & 0.142448979591837 \\
+: D02 [un+adj_reg].txt & 0.201632653061224 & : Object:Stuff  X is made of / is comprised of Y & 0.0369899239547787 & : Location:Action/Activity  an X is a place/location/area where Y takes place & 0.136363636363636 \\
+: E09 [things - color].txt & 0.177052423343225 & : Instrument:Intended Action  Y is the intended action to be taken using X & 0.0350872649659255 & : I01 [noun - plural_reg].txt & 0.0514285714285714 \\
+: D09 [verb+tion_irreg].txt & 0.16734693877551 & : Prevention  X prevents Y & 0.0341710906110465 & : I06 [verb_inf - Ving].txt & 0.0428571428571429 \\
+: Contrary  X and Y are contrary / opposite to each other & 0.162878787878788 & : Activity:Stage  X is one step/action/part of the actions in Y & 0.0328299430739293 & : D07 [verb+able_reg].txt & 0.0416326530612245 \\
+: Contradictory  Something cannot be/have/do X and Y at the same time & 0.162291169451074 & : Agent:Object  an X makes Y / an X uses Y to make an item & 0.0319177646488785 & : I02 [noun - plural_irreg].txt & 0.0318877551020408 \\
+: Dimensional Similarity  an X and Y are two kinds in a category of actions/things/attributes & 0.143884892086331 & : D07 [verb+able_reg].txt & 0.0300711348664205 & : Agent:Object  an X makes Y / an X uses Y to make an item & 0.00216450216450216 \\
+: L09 [antonyms - gradable].txt & 0.132461161079313 & : Object:Nonstate (noun:noun)  Y describes a condition or state that is usually absent from X & 0.0262825891391527 & : NNS_NN & -0.028 \\
+: Conversion  X will become / be converted into Y & 0.125 & : Concealment  X conceals a person/place/thing's Y & 0.0235337733763813 & : D04 [over+adj_reg].txt & -0.0297959183673469 \\
+: D10 [verb+ment_irreg].txt & 0.115102040816327 & : Item:Topological Part  Y is one of the areas/locations of X & 0.0215473800415239 & : NN_NNS & -0.044 \\
+: Knowledge  X is the name for knowledge of Y & 0.113970588235294 & : I01 [noun - plural_reg].txt & 0.0213176484326697 & : D01 [noun+less_reg].txt & -0.0648979591836735 \\
+: Location:Action/Activity  an X is a place/location/area where Y takes place & 0.0974025974025974 & : I06 [verb_inf - Ving].txt & 0.0206493703644547 & : ObjectState(noun:noun)  an X exists in the state of Y & -0.0894736842105263 \\
+: D06 [re+verb_reg].txt & 0.0939625850340136 & : D05 [adj+ness_reg].txt & 0.0186253771928282 & : Object:Stuff  X is made of / is comprised of Y & -0.13768115942029 \\
+: currency & 0.0785219399538106 & : Defective  an X is is a defect in Y & 0.0186171359798705 & : Item:Location  an X is a place/location/area where Y is found & -0.188235294117647 \\
+: Synonymity  an X and Y are a similar type of action/thing/attribute & 0.0721153846153846 & : ObjectState(noun:noun)  an X exists in the state of Y & 0.017447421007193 & : Item:Topological Part  Y is one of the areas/locations of X & -0.196172248803828 \\
+: Agent:Recipient  a Y receives an item/knowledge/service from X & 0.0714285714285714 & : L01 [hypernyms - animals].txt & 0.0106752599495975 & : Object:Typical Action (noun.verb)  an X will typically Y & -0.214285714285714 \\
+: L08 [synonyms - exact].txt & 0.0689795918367347 & : Collection:Member  X is made from a collection of Y & 0.0103238651842931 & : Mass:Potion  X may be divided into Y & -0.217703349282297 \\
+: Object:Stuff  X is made of / is comprised of Y & 0.0628019323671498 & : E06 [animal - young].txt & 0.00657071119153285 & : Action:Object Attribute  someone will X an object that is Y & -0.218340611353712 \\
+: ClassIndividual  Y is a specific X & 0.0625 & : D01 [noun+less_reg].txt & 0.00618269511910751 & : Agent:Instrument  an X uses Y to perform their role & -0.223529411764706 \\
+: Singular Collective  a Y is one item in a collection/group of X & 0.0619047619047619 & : Attachment  an X is attached to a Y & 0.00597987487169131 & : Instrument:Intended Action  Y is the intended action to be taken using X & -0.242718446601942 \\
+: Agent:Object  an X makes Y / an X uses Y to make an item & 0.0606060606060606 & : Asymmetric Contrary  X and Y are at opposite ends of the same scale but X is more extreme than Y & 0.00513618414562563 & : Prevention  X prevents Y & -0.246376811594203 \\
+: Defective  an X is is a defect in Y & 0.0526315789473684 & : Creature:Possession  X possesses/owns/has Y & 0.00474733367819596 & : Agent Attribute:State  a person who is X often is in a state of Y & -0.254807692307692 \\
+: Concealment  X conceals a person/place/thing's Y & 0.0519125683060109 & : Agent/ObjectAttribute:Typical Action  something/someone that is X will typically Y & 0.00363099962893506 & : L04 [meronyms - substance].txt & -0.261069340016708 \\
+: Sequence  an Y follows X in sequence & 0.0504807692307692 & : Object:Typical Action (noun.verb)  an X will typically Y & 0.00328093482182373 & : Coordinates  X and Y are two distinct objects in the same category & -0.279761904761905 \\
+: L07 [synonyms - intensity].txt & 0.0478919361440851 & : Item:Location  an X is a place/location/area where Y is found & 0.00305517733226839 & : Taxonomic  Y is a kind/type/instance of X & -0.281578947368421 \\
+: D08 [verb+er_irreg].txt & 0.0469387755102041 & : ClassIndividual  Y is a specific X & 0.00290244617452732 & : Object:Recipient  an Y receives an X & -0.287425149700599 \\
+: Location:Process/Product  an X is a place/location/area where Y is made/done/produced & 0.0458937198067633 & : Agent:Recipient  a Y receives an item/knowledge/service from X & 0.00266712011213598 & : Collection:Member  X is made from a collection of Y & -0.289085545722714 \\
+: Plan  an X is a plan for Y & 0.0452127659574468 & : Agent:Goal  Y is the goal of X & 0.00264772108417409 & : Agent:Recipient  a Y receives an item/knowledge/service from X & -0.293650793650794 \\
+: Expression  X is an expression that indicates Y & 0.043010752688172 & : ObjectAttribute:Noncondition (adjective:adjective)  something that is X cannot be Y & 0.00224862891191816 & : L09 [antonyms - gradable].txt & -0.296811120196239 \\
+: D05 [adj+ness_reg].txt & 0.0420408163265306 & : E07 [animal - sound].txt & 0.0014377648857969 & : Object:Component  a Y is a part of an X & -0.303030303030303 \\
+: Incompatible  Being X is incompatible with being Y & 0.041304347826087 & : L02 [hypernyms - misc].txt & 0.00121742010418963 & : ClassIndividual  Y is a specific X & -0.304166666666667 \\
+: L02 [hypernyms - misc].txt & 0.0406538139145013 & : Object:Recipient  an Y receives an X & 0.000770811638500181 & : Object:Nonstate (noun:noun)  Y describes a condition or state that is usually absent from X & -0.305309734513274 \\
+: Prevention  X prevents Y & 0.0386473429951691 & : Action:Recipient  to X is to have a Y receive some object/service/idea & 0.000360373299426261 & : Defective  an X is is a defect in Y & -0.311004784688995 \\
+: Collection:Member  X is made from a collection of Y & 0.0383480825958702 & : D04 [over+adj_reg].txt & 0.000192520351280169 & : Action:Object Nonattribute  the result of action X does not produce an object with Y & -0.325242718446602 \\
+: L05 [meronyms - member].txt & 0.0382873610539317 & : Objects:Atypical Action (noun:verb)  an X is unlikely to Y & -0.000258767375199849 & : Creature:Possession  X possesses/owns/has Y & -0.326315789473684 \\
+: Activity:Stage  X is one step/action/part of the actions in Y & 0.0382513661202186 & : Recipient:Instrument  Y is an instrument through with X receives some object/service/role & -0.00107259641765172 & : Activity:Stage  X is one step/action/part of the actions in Y & -0.330601092896175 \\
+: Dimensional Excessive  Y is an excessive form of X & 0.0368421052631579 & : Plural Collective  Y are items in a collection/group of X & -0.00111167164531103 & : Plural Collective  Y are items in a collection/group of X & -0.33495145631068 \\
+: Plural Collective  Y are items in a collection/group of X & 0.0364077669902913 & : Dimensional Naughty  Y is an unacceptable form of X & -0.00175186868680073 & : Expression  X is an expression that indicates Y & -0.336021505376344 \\
+: L04 [meronyms - substance].txt & 0.0363408521303258 & : Item:Distinctive Nonpart  X is devoid of / cannot have Y & -0.00181170555454106 & : E09 [things - color].txt & -0.337784371909001 \\
+: Item:Location  an X is a place/location/area where Y is found & 0.0352941176470588 & : Instrument:Goal  X is intended to produce Y & -0.00197040090257582 & : Directional  X is the opposite direction from Y & -0.339805825242718 \\
+: Attachment  an X is attached to a Y & 0.0297619047619048 & : Attribute:Nonstate (adjective:noun)  someone/something who is X cannot be Y or be in the state of Y & -0.00235202886033585 & : Location:Process/Product  an X is a place/location/area where Y is made/done/produced & -0.342995169082126 \\
+: Event:Feature  Y is typically found at an event such as X & 0.0294117647058824 & : E08 [animal - shelter].txt & -0.00250262386300282 & : Event:Feature  Y is typically found at an event such as X & -0.344117647058824 \\
+: Functional  Y functions as an X & 0.0292553191489362 & : Action:Object Attribute  someone will X an object that is Y & -0.00321489613504714 & : L01 [hypernyms - animals].txt & -0.346666666666667 \\
+: L01 [hypernyms - animals].txt & 0.0248888888888889 & : Action:Action Nonattribute  X cannot be done in a Y manner & -0.00332850881464195 & : Action:Recipient  to X is to have a Y receive some object/service/idea & -0.348684210526316 \\
+: Mass:Potion  X may be divided into Y & 0.0239234449760766 & : Cause:Compensatory Action  X causes/compels a person to Y & -0.00343599902490471 & : L03 [hyponyms - misc].txt & -0.355392156862745 \\
+: D07 [verb+able_reg].txt & 0.0224489795918367 & : Expression  X is an expression that indicates Y & -0.00353298674610534 & : ItemAttribute(noun:adjective)  an X has the attribute Y & -0.356459330143541 \\
+: Object:Nonstate (noun:noun)  Y describes a condition or state that is usually absent from X & 0.0221238938053097 & : Object:Component  a Y is a part of an X & -0.00397535554154693 & : Functional  Y functions as an X & -0.359042553191489 \\
+: Change  an X is an increase/decease in Y & 0.0214797136038186 & : Mass:Potion  X may be divided into Y & -0.00398044973354936 & : Sign:Significant  an X indicates/signifies Y & -0.366028708133971 \\
+: Instrument:Intended Action  Y is the intended action to be taken using X & 0.0194174757281553 & : Action:Action Attribute  X is a Y kind of action & -0.00416691851318839 & : Agent:Goal  Y is the goal of X & -0.367724867724868 \\
+: L06 [meronyms - part].txt & 0.0192229038854806 & : Time Associated Item  Y is an item associated with time X & -0.00447768990711802 & : L02 [hypernyms - misc].txt & -0.375523889354568 \\
+: Creature:Possession  X possesses/owns/has Y & 0.0184210526315789 & : Action:Object  someone perform the action X on Y & -0.00450215036065646 & : Location:Instrument/Associated Item  Y is an instrumental item in the activities that occur at place/location/area Y & -0.37708830548926 \\
+: Sign:Significant  an X indicates/signifies Y & 0.0167464114832536 & : Item:Ex-part/Ex-possession  an X once had/owned/possessed Y but no longer & -0.00471845071383377 & : Recipient:Instrument  Y is an instrument through with X receives some object/service/role & -0.38563829787234 \\
+: Action:Object Attribute  someone will X an object that is Y & 0.0152838427947598 & : Agent/Object Attribute: Atypical Action (adjective:verb)  someone/something who is X is unlikely to Y & -0.00478730020736999 & : L10 [antonyms - binary].txt & -0.386699507389163 \\
+: Object:Component  a Y is a part of an X & 0.0151515151515152 & : Location:Instrument/Associated Item  Y is an instrumental item in the activities that occur at place/location/area Y & -0.00535119832782815 & : Agent/ObjectAttribute:Typical Action  something/someone that is X will typically Y & -0.391826923076923 \\
+: ItemAttribute(noun:adjective)  an X has the attribute Y & 0.0143540669856459 & : NNS_NN & -0.00667510585190812 & : Instrument:Goal  X is intended to produce Y & -0.396825396825397 \\
+: ObjectState(noun:noun)  an X exists in the state of Y & 0.0131578947368421 & : Action:Object Nonattribute  the result of action X does not produce an object with Y & -0.00691174569510993 & : Singular Collective  a Y is one item in a collection/group of X & -0.4 \\
+: Item:Nonattribute (noun:adjective)  an X cannot have attribute Y; Y is antithetical to being X & 0.0131291028446389 & : Location:Process/Product  an X is a place/location/area where Y is made/done/produced & -0.00828023197967848 & : L06 [meronyms - part].txt & -0.411860940695297 \\
+: Action:Object Nonattribute  the result of action X does not produce an object with Y & 0.0121359223300971 & : Object:Instrument  a Y is used on an X & -0.00871389814102615 & : Contradictory  Something cannot be/have/do X and Y at the same time & -0.417661097852029 \\
+: Agent/ObjectAttribute:Typical Action  something/someone that is X will typically Y & 0.0120192307692308 & : L04 [meronyms - substance].txt & -0.00907904072572428 & : Sequence  an Y follows X in sequence & -0.449519230769231 \\
+: EnablingAgent:Object  X enables the use of Y & 0.0119047619047619 & : Taxonomic  Y is a kind/type/instance of X & -0.00937067767167174 & : Action:Action Attribute  X is a Y kind of action & -0.455665024630542 \\
+: Action:Resultant Attribute (verb:noun/adjective)  the action X results Y or things that are Y & 0.0108695652173913 & : Contiguity  X and Y share a contiguous border & -0.00938225692868915 & : Conversion  X will become / be converted into Y & -0.457236842105263 \\
+: Object:Typical Action (noun.verb)  an X will typically Y & 0.0105820105820106 & : Cause:Effect  an X causes Y & -0.00956473751514106 & : L08 [synonyms - exact].txt & -0.457551020408163 \\
+: Taxonomic  Y is a kind/type/instance of X & 0.0105263157894737 & : I02 [noun - plural_irreg].txt & -0.0110664886451782 & : Synonymity  an X and Y are a similar type of action/thing/attribute & -0.459134615384615 \\
+: L03 [hyponyms - misc].txt & 0.00980392156862745 & : L03 [hyponyms - misc].txt & -0.0157589393075121 & : L07 [synonyms - intensity].txt & -0.461727384363488 \\
+: Object:Recipient  an Y receives an X & 0.00898203592814371 & : Sequence  an Y follows X in sequence & -0.0162796519046551 & : Attribute:Nonstate (adjective:noun)  someone/something who is X cannot be Y or be in the state of Y & -0.468271334792123 \\
+: D04 [over+adj_reg].txt & 0.00897959183673469 & : Change  an X is an increase/decease in Y & -0.0163114880955502 & : Cause:Effect  an X causes Y & -0.46916890080429 \\
+: Pseudoantonym  X is similar to the opposite of Y but X is not truly the opposite of Y & 0.00881057268722467 & : Attribute Similarity  X and Y both have a similar attribute or feature & -0.0179346063652972 & : Contrary  X and Y are contrary / opposite to each other & -0.46969696969697 \\
+: Action:Object  someone perform the action X on Y & 0.00873362445414847 & : L06 [meronyms - part].txt & -0.0182638928473026 & : Time Action/Activity  X is a time when Y occurs & -0.486842105263158 \\
+: Action/Activity:Goal  someone/something will X in order to Y & 0.008 & : NN_NNS & -0.0189289649121475 & : Object Attribute:Condition  something that is X may be Y & -0.494736842105263 \\
+: Instrument:Goal  X is intended to produce Y & 0.00793650793650794 & : Plan  an X is a plan for Y & -0.0193596816831256 & : L05 [meronyms - member].txt & -0.497324001646768 \\
+: Agent Attribute:State  a person who is X often is in a state of Y & 0.00721153846153846 & : Object Attribute:Condition  something that is X may be Y & -0.0206081657626608 & : Dimensional Excessive  Y is an excessive form of X & -0.502631578947368 \\
+: Asymmetric Contrary  X and Y are at opposite ends of the same scale but X is more extreme than Y & 0.00652173913043478 & : Reverse  X is the reverse act of Y / X may be undone by Y & -0.0208730058789268 & : Concealment  X conceals a person/place/thing's Y & -0.502732240437158 \\
+: Cause:Compensatory Action  X causes/compels a person to Y & 0.00606060606060606 & : Time Action/Activity  X is a time when Y occurs & -0.0220700093239401 & : Dimensional Similarity  an X and Y are two kinds in a category of actions/things/attributes & -0.503597122302158 \\
+: Cause:Effect  an X causes Y & 0.00536193029490617 & : Action/Activity:Goal  someone/something will X in order to Y & -0.0236493660703071 & : EnablingAgent:Object  X enables the use of Y & -0.508928571428571 \\
+: Time Action/Activity  X is a time when Y occurs & 0.00526315789473684 & : Agent:Instrument  an X uses Y to perform their role & -0.0244664395325102 & : Action:Object  someone perform the action X on Y & -0.521834061135371 \\
+: Contiguity  X and Y share a contiguous border & 0.00495049504950495 & : Sign:Significant  an X indicates/signifies Y & -0.0249299380490305 & : Reverse  X is the reverse act of Y / X may be undone by Y & -0.523923444976077 \\
+: Action:Action Attribute  X is a Y kind of action & 0.00492610837438424 & : Event:Feature  Y is typically found at an event such as X & -0.0271457014551626 & : Change  an X is an increase/decease in Y & -0.539379474940334 \\
+: Agent/Object Attribute: Atypical Action (adjective:verb)  someone/something who is X is unlikely to Y & 0.00480769230769231 & : Coordinates  X and Y are two distinct objects in the same category & -0.0280697245749861 & : Item:Ex-part/Ex-possession  an X once had/owned/possessed Y but no longer & -0.540865384615385 \\
+: Item:Topological Part  Y is one of the areas/locations of X & 0.00478468899521531 & : Singular Collective  a Y is one item in a collection/group of X & -0.0286098943255981 & : E06 [animal - young].txt & -0.55026455026455 \\
+: Reverse  X is the reverse act of Y / X may be undone by Y & 0.00478468899521531 & : EnablingAgent:Object  X enables the use of Y & -0.0301469529211476 & : Agent/Object Attribute: Atypical Action (adjective:verb)  someone/something who is X is unlikely to Y & -0.550480769230769 \\
+: Location:Instrument/Associated Item  Y is an instrumental item in the activities that occur at place/location/area Y & 0.00477326968973747 & : ItemAttribute(noun:adjective)  an X has the attribute Y & -0.0302283709817589 & : Object:Instrument  a Y is used on an X & -0.551470588235294 \\
+: Attribute Similarity  X and Y both have a similar attribute or feature & 0.0044543429844098 & : Contrary  X and Y are contrary / opposite to each other & -0.0309464881901649 & : Representation  a Y represents/is representative of X & -0.554376657824934 \\
+: Agent:Instrument  an X uses Y to perform their role & 0.00294117647058824 & : Action:Resultant Attribute (verb:noun/adjective)  the action X results Y or things that are Y & -0.0318901475760385 & : Attribute Similarity  X and Y both have a similar attribute or feature & -0.55456570155902 \\
+: Representation  a Y represents/is representative of X & 0.0026525198938992 & : L05 [meronyms - member].txt & -0.0318983105109738 & : Item:Nonattribute (noun:adjective)  an X cannot have attribute Y; Y is antithetical to being X & -0.557986870897155 \\
+: Agent:Goal  Y is the goal of X & 0.00264550264550265 & : Directional  X is the opposite direction from Y & -0.0345864397087512 & : Attachment  an X is attached to a Y & -0.55952380952381 \\
+: Object Attribute:Condition  something that is X may be Y & 0.00263157894736842 & : Pseudoantonym  X is similar to the opposite of Y but X is not truly the opposite of Y & -0.0347090443200126 & : Asymmetric Contrary  X and Y are at opposite ends of the same scale but X is more extreme than Y & -0.573913043478261 \\
+: D01 [noun+less_reg].txt & 0.00244897959183673 & : Functional  Y functions as an X & -0.035710817621762 & : Objects:Atypical Action (noun:verb)  an X is unlikely to Y & -0.574162679425837 \\
+: ObjectAttribute:Noncondition (adjective:adjective)  something that is X cannot be Y & 0.00241545893719807 & : Agent Attribute:State  a person who is X often is in a state of Y & -0.0359963119737553 & : Plan  an X is a plan for Y & -0.574468085106383 \\
+: Dimensional Naughty  Y is an unacceptable form of X & 0.00239808153477218 & : Representation  a Y represents/is representative of X & -0.0390468928242683 & : Action:Resultant Attribute (verb:noun/adjective)  the action X results Y or things that are Y & -0.584782608695652 \\
+: E06 [animal - young].txt & 0.00220458553791887 & : Item:Nonattribute (noun:adjective)  an X cannot have attribute Y; Y is antithetical to being X & -0.039956637143911 & : ObjectAttribute:Noncondition (adjective:adjective)  something that is X cannot be Y & -0.58695652173913 \\
+: E08 [animal - shelter].txt & 0.00189214758751183 & : Dimensional Excessive  Y is an excessive form of X & -0.0414467075298054 & : Dimensional Naughty  Y is an unacceptable form of X & -0.587529976019185 \\
+: E07 [animal - sound].txt & 0.000836820083682008 & : L09 [antonyms - gradable].txt & -0.0444642208570331 & : E07 [animal - sound].txt & -0.597071129707113 \\
+: Action:Action Nonattribute  X cannot be done in a Y manner & 0 & : Conversion  X will become / be converted into Y & -0.0507553828621863 & : Action/Activity:Goal  someone/something will X in order to Y & -0.597333333333333 \\
+: Action:Recipient  to X is to have a Y receive some object/service/idea & 0 & : L08 [synonyms - exact].txt & -0.0583515370532783 & : E08 [animal - shelter].txt & -0.605487228003784 \\
+: Attribute:Nonstate (adjective:noun)  someone/something who is X cannot be Y or be in the state of Y & 0 & : L07 [synonyms - intensity].txt & -0.063470339248109 & : Cause:Compensatory Action  X causes/compels a person to Y & -0.612121212121212 \\
+: Item:Distinctive Nonpart  X is devoid of / cannot have Y & 0 & : Incompatible  Being X is incompatible with being Y & -0.0637884976914026 & : Contiguity  X and Y share a contiguous border & -0.616336633663366 \\
+: Item:Ex-part/Ex-possession  an X once had/owned/possessed Y but no longer & 0 & : Synonymity  an X and Y are a similar type of action/thing/attribute & -0.0719839073599587 & : Action:Action Nonattribute  X cannot be done in a Y manner & -0.622340425531915 \\
+: Object:Instrument  a Y is used on an X & 0 & : E09 [things - color].txt & -0.0807217467087913 & : Item:Distinctive Nonpart  X is devoid of / cannot have Y & -0.641176470588235 \\
+: Objects:Atypical Action (noun:verb)  an X is unlikely to Y & 0 & : Contradictory  Something cannot be/have/do X and Y at the same time & -0.0896687437525582 & : Pseudoantonym  X is similar to the opposite of Y but X is not truly the opposite of Y & -0.66079295154185 \\
+: Recipient:Instrument  Y is an instrument through with X receives some object/service/role & 0 & : L10 [antonyms - binary].txt & -0.090208538617378 & : Incompatible  Being X is incompatible with being Y & -0.684782608695652 \\
+: Time Associated Item  Y is an item associated with time X & 0 & : Dimensional Similarity  an X and Y are two kinds in a category of actions/things/attributes & -0.107581597839747 & : Time Associated Item  Y is an item associated with time X & -0.767195767195767 \\
