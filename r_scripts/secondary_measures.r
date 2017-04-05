@@ -18,6 +18,8 @@ boxcor = function(datas) {
     }
 }
 
+d$cosimpr[d$w3w4 > d$w2w4] = d$cos[d$w3w4>d$w2w4] - d$w3w4[d$w3w4>d$w2w4]
+d$cosimpr[d$w3w4 <= d$w2w4] = d$cos[d$w3w4<=d$w2w4] - d$w2w4[d$w3w4<=d$w2w4]
 
 cos.agg = agg(d$cos)
 diffsim.agg = agg(d$diffsim)
@@ -31,6 +33,7 @@ w3w4.agg = agg(d$w3w4)
 w2w4.agg = agg(d$w2w4)
 rrimprdiff.agg = agg(1/d$diffrank - 1/d$baserank)
 
+cosimpr.agg = agg(d$cosimpr)
 
 addrank.agg = agg(d$addrank)
 baserank.agg = agg(d$baserank)

@@ -120,11 +120,13 @@ public class AnalogyExperiment {
                             String[] fields = line.split(" ");
                             if (fields[0].equals(fields[3]) || fields[1].equals(fields[3]) || fields[2].equals(fields[3])) {
                                 System.out.println("Throwing out analogy " + line + " because answer appears in question");
+                            } else if(fields[0].equals(fields[1]) || fields[2].equals(fields[3])) {
+                                System.out.println("Throwing out analogy " + line + " because a pair is two of the same word");
                             } else {
                                 if (emb.contains(fields[0]) && emb.contains(fields[1]) && emb.contains(fields[2]) && emb.contains(fields[3])) {
                                     Analogy thisAnalogy = new Analogy(fields);
                                     analogies.add(thisAnalogy);
-                                    categories.add(activeCategory);
+                                    categories.add(activeCategory.replace(',', ' '));
                                 } else {
                                     System.out.println("Throwing out analogy " + line + " because a word is not in embeddings");
                                 }
