@@ -1,149 +1,149 @@
-category & accuracy & category2 & BRR & category3 & RRG \\
-W:capital & .929 & W:plural & .780 & W:capital & .726 \\
-W:capital-all & .924 & W:family & .670 & country - capital & .626 \\
-W:family & .911 & noun - plural\_reg & .654 & verb\_inf - 3pSg & .598 \\
-W:nationality-adj & .894 & noun - plural\_irreg & .628 & W:superlative & .590 \\
-country - capital & .881 & NN\_NNS & .608 & W:comparative & .585 \\
-W:comparative & .879 & W:pres-participle & .575 & VBZ\_VB & .578 \\
-W:plural & .818 & verb\_inf - Ving & .520 & W:nationality-adj & .565 \\
-verb\_inf - 3pSg & .773 & NNS\_NN & .512 & W:capital-all & .555 \\
-VB\_VBZ & .756 & verb\_Ving - Ved & .510 & VB\_VBZ & .533 \\
-VBZ\_VB & .744 & X is opp.~dir.~from Y & .498 & JJS\_JJR & .516 \\
-noun - plural\_reg & .743 & W:past-tense & .490 & VBD\_VBZ & .493 \\
-W:city-in-state & .728 & things - color & .483 & JJR\_JJS & .489 \\
-verb\_inf - Ving & .726 & W:city-in-state & .476 & VBZ\_VBD & .479 \\
-W:plural-verbs & .661 & X, Y same category & .459 & VBD\_VB & .477 \\
-NN\_NNS & .656 & antonyms - binary & .420 & verb\_inf - Ved & .461 \\
-W:past-tense & .652 & W:plural-verbs & .396 & VB\_VBD & .444 \\
-W:pres-participle & .639 & W:capital-all & .389 & JJ\_JJR & .423 \\
-noun - plural\_irreg & .619 & W:nationality-adj & .357 & verb\_3pSg - Ved & .413 \\
-JJ\_JJR & .604 & W:comparative & .343 & JJ\_JJS & .411 \\
-VBD\_VB & .600 & X, Y two kinds in category & .337 & adj - superlative & .374 \\
-verb\_Ving - Ved & .591 & male - female & .336 & adj - comparative & .371 \\
-verb\_Ving - 3pSg & .585 & verb\_Ving - 3pSg & .331 & W:plural-verbs & .368 \\
-W:superlative & .576 & cannot X and Y at same time & .317 & verb\_Ving - 3pSg & .352 \\
-JJS\_JJR & .566 & antonyms - gradable & .311 & JJR\_JJ & .347 \\
-VBD\_VBZ & .560 & VB\_VBZ & .301 & name - occupation & .335 \\
-NNS\_NN & .552 & W:opposite & .293 & W:city-in-state & .312 \\
-VB\_VBD & .522 & X and Y are contrary & .282 & name - nationality & .290 \\
-VBZ\_VBD & .504 & country - capital & .278 & W:family & .277 \\
-male - female & .486 & un+adj\_reg & .277 & verb\_inf - Ving & .275 \\
-verb\_inf - Ved & .481 & verb\_inf - 3pSg & .269 & country - language & .274 \\
-verb\_3pSg - Ved & .474 & X, Y similar type of thing & .263 & W:past-tense & .267 \\
-adj - comparative & .469 & JJ\_JJR & .254 & JJS\_JJ & .248 \\
-JJ\_JJS & .424 & VBZ\_VB & .229 & W:currency & .248 \\
-JJR\_JJS & .424 & VBD\_VB & .226 & male - female & .236 \\
-JJR\_JJ & .390 & W:capital & .224 & verb+ment\_irreg & .224 \\
-adj - superlative & .368 & UK\_city - county & .211 & verb+tion\_irreg & .218 \\
-name - occupation & .367 & VB\_VBD & .206 & W:adj-to-adverb & .213 \\
-name - nationality & .360 & synonyms - exact & .203 & UK\_city - county & .211 \\
-X, Y same category & .345 & W:adj-to-adverb & .193 & adj+ly\_reg & .196 \\
-country - language & .343 & synonyms - intensity & .193 & W:pres-participle & .186 \\
-X is opp.~dir.~from Y & .340 & re+verb\_reg & .191 & verb\_Ving - Ved & .179 \\
-UK\_city - county & .333 & country - language & .187 & noun - plural\_reg & .178 \\
-JJS\_JJ & .322 & verb\_3pSg - Ved & .181 & NNS\_NN & .134 \\
-W:opposite & .319 & adj - comparative & .180 & X is knowledge of Y & .131 \\
-W:adj-to-adverb & .296 & X will become / be converted into Y & .178 & adj+ness\_reg & .129 \\
-things - color & .287 & VBD\_VBZ & .175 & NN\_NNS & .117 \\
-adj+ly\_reg & .262 & hypernyms - animals & .172 & verb+er\_irreg & .109 \\
-antonyms - binary & .262 & adj+ly\_reg & .171 & Y happens at X & .106 \\
-un+adj\_reg & .232 & verb\_inf - Ved & .171 & W:opposite & .096 \\
-X and Y are contrary & .208 & JJS\_JJ & .167 & W:plural & .077 \\
-verb+tion\_irreg & .200 & name - nationality & .151 & noun - plural\_irreg & .059 \\
-W:currency & .197 & animal - shelter & .147 & an X makes Y / an X uses Y to make an item & .058 \\
-antonyms - gradable & .178 & verb+tion\_irreg & .131 & X prevents Y & .054 \\
-adj+ness\_reg & .165 & JJS\_JJR & .131 & re+verb\_reg & .050 \\
-X, Y two kinds in category & .163 & Y is an excessive form of X & .131 & X made of Y & .050 \\
-verb+ment\_irreg & .157 & JJR\_JJ & .131 & do Y using X & .049 \\
-re+verb\_reg & .141 & VBZ\_VBD & .126 & Y receives an item/knowledge/service from X & .044 \\
-animal - shelter & .135 & name - occupation & .122 & X is a place/location/area where Y is found & .043 \\
-cannot X and Y at same time & .129 & W:superlative & .114 & verb+able\_reg & .040 \\
-X, Y similar type of thing & .108 & Y receives an item/knowledge/service from X & .109 & an X will typically Y & .034 \\
-hypernyms - animals & .106 & JJ\_JJS & .109 & X is made from a collection of Y & .034 \\
-Y happens at X & .097 & X may be divided into Y & .107 & an X exists in the state of Y & .031 \\
-X will become / be converted into Y & .095 & animal - young & .104 & meronyms - substance & .030 \\
-Y receives an item/knowledge/service from X & .091 & an Y follows X in sequence & .099 & un+adj\_reg & .028 \\
-animal - young & .083 & Y is a specific X & .098 & an X is a place/location/area where Y is made/done/produced & .024 \\
-verb+er\_irreg & .079 & Being X is incompatible with being Y & .097 & Y describes a condition or state that is usually absent from X & .021 \\
-synonyms - exact & .075 & Y happens at X & .096 & Y is one of the areas/locations of X & .021 \\
-synonyms - intensity & .070 & meronyms - part & .095 & Y is typically found at an event such as X & .020 \\
-X is knowledge of Y & .070 & adj - superlative & .095 & X possesses/owns/has Y & .020 \\
-X is made from a collection of Y & .059 & adj+ness\_reg & .091 & to X is to have a Y receive some object/service/idea & .017 \\
-an X makes Y / an X uses Y to make an item & .058 & meronyms - member & .087 & animal - sound & .017 \\
-X made of Y & .051 & a Y is one item in a collection/group of X & .087 & X is an expression that indicates Y & .015 \\
-an Y follows X in sequence & .048 & hyponyms - misc & .081 & X an object that is Y & .015 \\
-X may be divided into Y & .048 & X is made from a collection of Y & .076 & X is one step/action/part of the actions in Y & .014 \\
-hypernyms - misc & .047 & Y is typically found at an event such as X & .076 & noun+less\_reg & .013 \\
-Being X is incompatible with being Y & .046 & a Y is a part of an X & .076 & an X uses Y to perform their role & .013 \\
-meronyms - substance & .044 & verb+ment\_irreg & .075 & an X is an increase/decease in Y & .012 \\
-Y is a specific X & .042 & hypernyms - misc & .074 & an Y receives an X & .012 \\
-Y is typically found at an event such as X & .041 & an X is a plan for Y & .074 & X is intended to produce Y & .010 \\
-X is a place/location/area where Y is found & .041 & something that is X may be Y & .070 & X conceals a person/place/thing's Y & .010 \\
-X prevents Y & .039 & Y functions as an X & .065 & an X is attached to a Y & .009 \\
-meronyms - member & .037 & Y are items in a collection/group of X & .065 & over+adj\_reg & .009 \\
-X is an expression that indicates Y & .035 & a person who is X often is in a state of Y & .064 & Y is an instrument through with X receives some object/service/role & .008 \\
-animal - sound & .032 & meronyms - substance & .064 & a Y is used on an X & .008 \\
-Y functions as an X & .032 & an X is a place/location/area where Y is made/done/produced & .063 & Y is the goal of X & .008 \\
-meronyms - part & .029 & X and Y share a contiguous border & .060 & X causes/compels a person to Y & .007 \\
-X is one step/action/part of the actions in Y & .027 & X is a time when Y occurs & .059 & Y are items in a collection/group of X & .007 \\
-an X is attached to a Y & .027 & X is a place/location/area where Y is found & .055 & hypernyms - misc & .006 \\
-an X is a place/location/area where Y is made/done/produced & .027 & an X uses Y to perform their role & .054 & X will become / be converted into Y & .006 \\
-Y is an excessive form of X & .026 & X made of Y & .054 & animal - young & .005 \\
-X conceals a person/place/thing's Y & .025 & an X cannot have attribute Y; Y is antithetical to being X & .053 & an X is is a defect in Y & .005 \\
-an X is a plan for Y & .024 & an X is attached to a Y & .052 & an X indicates/signifies Y & .005 \\
-over+adj\_reg & .022 & someone/something who is X is unlikely to Y & .049 & an X has the attribute Y & .004 \\
-Y are items in a collection/group of X & .022 & JJR\_JJS & .048 & action X performed on Y & .003 \\
-a Y is one item in a collection/group of X & .021 & someone/something will X in order to Y & .048 & meronyms - member & .002 \\
-an X exists in the state of Y & .021 & X is an expression that indicates Y & .047 & animal - shelter & .002 \\
-an X uses Y to perform their role & .021 & X is one step/action/part of the actions in Y & .044 & Y is a kind/type/instance of X & .001 \\
-Y describes a condition or state that is usually absent from X & .020 & X conceals a person/place/thing's Y & .041 & Y is an instrumental item in the activities that occur at place/location/area Y & .001 \\
-a Y represents/is representative of X & .019 & a Y represents/is representative of X & .040 & an X is unlikely to Y & .001 \\
-verb+able\_reg & .018 & over+adj\_reg & .040 & X is devoid of / cannot have Y & .000 \\
-X an object that is Y & .017 & X and Y both have a similar attribute or feature & .039 & Y is an item associated with time X & .000 \\
-someone/something will X in order to Y & .016 & X is the reverse act of Y / X may be undone by Y & .038 & a Y represents/is representative of X & $-$.000 \\
-hyponyms - misc & .016 & the action X results Y or things that are Y & .037 & someone/something who is X cannot be Y or be in the state of Y & $-$.000 \\
-a Y is used on an X & .015 & X possesses/owns/has Y & .037 & X and Y are at opposite ends of the same scale but X is more extreme than Y & $-$.000 \\
-do Y using X & .015 & action X not produce s/t with Y & .036 & action X not produce s/t with Y & $-$.000 \\
-an X is an increase/decease in Y & .014 & an X is an increase/decease in Y & .036 & something/someone that is X will typically Y & $-$.001 \\
-something that is X may be Y & .013 & X enables the use of Y & .034 & something that is X cannot be Y & $-$.001 \\
-X causes/compels a person to Y & .012 & an X is is a defect in Y & .033 & an X once had/owned/possessed Y but no longer & $-$.001 \\
-someone/something who is X is unlikely to Y & .012 & animal - sound & .032 & X is the reverse act of Y / X may be undone by Y & $-$.001 \\
-an Y receives an X & .012 & X and Y are at opposite ends of the same scale but X is more extreme than Y & .031 & X may be divided into Y & $-$.001 \\
-Y is one of the areas/locations of X & .012 & an X makes Y / an X uses Y to make an item & .031 & someone/something will X in order to Y & $-$.002 \\
-X enables the use of Y & .012 & verb+er\_irreg & .030 & X cannot be done in Y manner & $-$.004 \\
-X possesses/owns/has Y & .011 & something/someone that is X will typically Y & .029 & X is similar to the opposite of Y but X is not truly the opposite of Y & $-$.004 \\
-X and Y share a contiguous border & .010 & Y is a kind/type/instance of X & .028 & Y functions as an X & $-$.004 \\
-to X is to have a Y receive some object/service/idea & .010 & an Y receives an X & .028 & Y is a specific X & $-$.005 \\
-a person who is X often is in a state of Y & .010 & X an object that is Y & .026 & X enables the use of Y & $-$.005 \\
-an X is is a defect in Y & .010 & an X has the attribute Y & .025 & an X causes Y & $-$.006 \\
-X is the reverse act of Y / X may be undone by Y & .010 & X is similar to the opposite of Y but X is not truly the opposite of Y & .023 & Y is an unacceptable form of X & $-$.006 \\
-X is intended to produce Y & .008 & X prevents Y & .022 & X is Y kind of action & $-$.008 \\
-an X will typically Y & .008 & X is Y kind of action & .022 & X and Y both have a similar attribute or feature & $-$.011 \\
-something/someone that is X will typically Y & .007 & X is knowledge of Y & .022 & an Y follows X in sequence & $-$.011 \\
-an X has the attribute Y & .007 & an X causes Y & .021 & hyponyms - misc & $-$.012 \\
-action X performed on Y & .007 & Y is an unacceptable form of X & .021 & the action X results Y or things that are Y & $-$.012 \\
-X and Y are at opposite ends of the same scale but X is more extreme than Y & .007 & a Y is used on an X & .021 & X and Y are contrary & $-$.015 \\
-a Y is a part of an X & .006 & an X once had/owned/possessed Y but no longer & .020 & hypernyms - animals & $-$.016 \\
-noun+less\_reg & .006 & Y describes a condition or state that is usually absent from X & .019 & meronyms - part & $-$.017 \\
-Y is a kind/type/instance of X & .005 & Y is an instrumental item in the activities that occur at place/location/area Y & .019 & a Y is a part of an X & $-$.018 \\
-X is a time when Y occurs & .005 & verb+able\_reg & .019 & a person who is X often is in a state of Y & $-$.024 \\
-X is Y kind of action & .005 & W:currency & .018 & a Y is one item in a collection/group of X & $-$.024 \\
-action X not produce s/t with Y & .005 & X causes/compels a person to Y & .018 & an X is a plan for Y & $-$.026 \\
-X and Y both have a similar attribute or feature & .004 & Y is one of the areas/locations of X & .017 & someone/something who is X is unlikely to Y & $-$.029 \\
-X is similar to the opposite of Y but X is not truly the opposite of Y & .004 & action X performed on Y & .017 & X is a time when Y occurs & $-$.031 \\
-an X cannot have attribute Y; Y is antithetical to being X & .004 & an X indicates/signifies Y & .014 & an X cannot have attribute Y; Y is antithetical to being X & $-$.033 \\
-the action X results Y or things that are Y & .004 & do Y using X & .013 & X and Y share a contiguous border & $-$.035 \\
-an X once had/owned/possessed Y but no longer & .002 & X is intended to produce Y & .013 & synonyms - exact & $-$.037 \\
-an X indicates/signifies Y & .002 & an X will typically Y & .013 & something that is X may be Y & $-$.038 \\
-Y is an instrumental item in the activities that occur at place/location/area Y & .002 & an X exists in the state of Y & .012 & Being X is incompatible with being Y & $-$.042 \\
-someone/something who is X cannot be Y or be in the state of Y & .002 & Y is the goal of X & .011 & X, Y same category & $-$.051 \\
-X cannot be done in Y manner & .000 & someone/something who is X cannot be Y or be in the state of Y & .010 & synonyms - intensity & $-$.057 \\
-Y is the goal of X & .000 & Y is an instrument through with X receives some object/service/role & .010 & X, Y two kinds in category & $-$.060 \\
-an X causes Y & .000 & to X is to have a Y receive some object/service/idea & .009 & Y is an excessive form of X & $-$.062 \\
-Y is an unacceptable form of X & .000 & noun+less\_reg & .007 & antonyms - binary & $-$.072 \\
-X is devoid of / cannot have Y & .000 & X cannot be done in Y manner & .005 & antonyms - gradable & $-$.074 \\
-something that is X cannot be Y & .000 & something that is X cannot be Y & .005 & X is opp.~dir.~from Y & $-$.082 \\
-an X is unlikely to Y & .000 & Y is an item associated with time X & .004 & X, Y similar type of thing & $-$.086 \\
-Y is an instrument through with X receives some object/service/role & .000 & X is devoid of / cannot have Y & .003 & things - color & $-$.098 \\
-Y is an item associated with time X & .000 & an X is unlikely to Y & .001 & cannot X and Y at same time & $-$.109 \\
+category & RR & category2 & BRR & category3 & RRG \\
+\namedent{G:capital} & .950 & \infl{G:plural} & .780 & \namedent{G:capital} & .726 \\
+\lexical{G:gender} & .947 & \lexical{G:gender} & .670 & \namedent{country - capital} & .626 \\
+\namedent{G:capital-all} & .944 & \infl{noun - plural\_reg} & .654 & \infl{verb\_inf - 3pSg} & .598 \\
+\infl{G:comparative} & .928 & \infl{noun - plural\_irreg} & .628 & \infl{G:superlative} & .590 \\
+\namedent{G:nationality-adj} & .922 & \infl{NN\_NNS} & .608 & \infl{G:comparative} & .585 \\
+\namedent{country - capital} & .903 & \infl{G:pres-participle} & .575 & \infl{VBZ\_VB} & .578 \\
+\infl{verb\_inf - 3pSg} & .867 & \infl{verb\_inf - Ving} & .520 & \namedent{G:nationality-adj} & .565 \\
+\infl{G:plural} & .857 & \infl{NNS\_NN} & .512 & \namedent{G:capital-all} & .555 \\
+\infl{VB\_VBZ} & .834 & \infl{verb\_Ving - Ved} & .510 & \infl{VB\_VBZ} & .533 \\
+\infl{noun - plural\_reg} & .832 & \lexical{X is opp.~dir.~from Y} & .498 & \infl{JJS\_JJR} & .516 \\
+\infl{VBZ\_VB} & .807 & \infl{G:past-tense} & .490 & \infl{VBD\_VBZ} & .493 \\
+\infl{verb\_inf - Ving} & .795 & \lexical{things - color} & .483 & \infl{JJR\_JJ}S & .489 \\
+\namedent{G:city-in-state} & .788 & \namedent{G:city-in-state} & .476 & \infl{VBZ\_VBD} & .479 \\
+\infl{G:plural-verbs} & .764 & \lexical{X, Y same category} & .459 & \infl{VBD\_VB} & .477 \\
+\infl{G:pres-participle} & .761 & \lexical{antonyms - binary} & .420 & \infl{verb\_inf - Ved} & .461 \\
+\infl{G:past-tense} & .756 & \infl{G:plural-verbs} & .396 & \infl{VB\_VBD} & .444 \\
+\infl{NN\_NNS} & .726 & \namedent{G:capital-all} & .389 & \infl{JJ\_JJR} & .423 \\
+\infl{G:superlative} & .705 & \namedent{G:nationality-adj} & .357 & \infl{verb\_3pSg - Ved} & .413 \\
+\infl{VBD\_VB} & .703 & \infl{G:comparative} & .343 & \infl{JJ\_JJS} & .411 \\
+\infl{verb\_Ving - Ved} & .689 & \lexical{X, Y two kinds in category} & .337 & \infl{adj - superlative} & .374 \\
+\infl{noun - plural\_irreg} & .688 & \lexical{male - female} & .336 & \infl{adj - comparative} & .371 \\
+\infl{verb\_Ving - 3pSg} & .683 & \infl{verb\_Ving - 3pSg} & .331 & \infl{G:plural-verbs} & .368 \\
+\infl{JJ\_JJR} & .677 & \lexical{cannot X and Y at same time} & .317 & \infl{verb\_Ving - 3pSg} & .352 \\
+\infl{VBD\_VBZ} & .668 & \lexical{antonyms - gradable} & .311 & \infl{JJR\_JJ} & .347 \\
+\infl{VB\_VBD} & .649 & \infl{VB\_VBZ} & .301 & \namedent{name - occupation} & .335 \\
+\infl{JJS\_JJR} & .648 & \deriv{G:opposite} & .293 & \namedent{G:city-in-state} & .312 \\
+\infl{NNS\_NN} & .646 & \lexical{X and Y are contrary} & .282 & \namedent{name - nationality} & .290 \\
+\infl{verb\_inf - Ved} & .632 & \namedent{country - capital} & .278 & \lexical{G:gender} & .277 \\
+\infl{VBZ\_VBD} & .605 & \deriv{un+adj\_reg} & .277 & \infl{verb\_inf - Ving} & .275 \\
+\infl{verb\_3pSg - Ved} & .594 & \infl{verb\_inf - 3pSg} & .269 & \namedent{country - language} & .274 \\
+\lexical{male - female} & .571 & \lexical{X, Y similar type of thing} & .263 & \infl{G:past-tense} & .267 \\
+\infl{adj - comparative} & .552 & \infl{JJ\_JJR} & .254 & \infl{JJS\_JJ} & .248 \\
+\infl{JJR\_JJ}S & .538 & \infl{VBZ\_VB} & .229 & \namedent{G:currency} & .248 \\
+\infl{JJ\_JJS} & .520 & \infl{VBD\_VB} & .226 & \lexical{male - female} & .236 \\
+\infl{JJR\_JJ} & .477 & \namedent{G:capital} & .224 & \deriv{verb+ment\_irreg} & .224 \\
+\infl{adj - superlative} & .469 & \namedent{UK\_city - county} & .211 & \deriv{verb+tion\_irreg} & .218 \\
+\namedent{country - language} & .461 & \infl{VB\_VBD} & .206 & \deriv{G:adj-to-adverb} & .213 \\
+\namedent{name - occupation} & .458 & \lexical{synonyms - exact} & .203 & \namedent{UK\_city - county} & .211 \\
+\namedent{name - nationality} & .442 & \deriv{G:adj-to-adverb} & .193 & \deriv{adj+ly\_reg} & .196 \\
+\namedent{UK\_city - county} & .422 & \lexical{synonyms - intensity} & .193 & \infl{G:pres-participle} & .186 \\
+\lexical{X is opp.~dir.~from Y} & .416 & \deriv{re+verb\_reg} & .191 & \infl{verb\_Ving - Ved} & .179 \\
+\infl{JJS\_JJ} & .414 & \namedent{country - language} & .187 & \infl{noun - plural\_reg} & .178 \\
+\lexical{X, Y same category} & .408 & \infl{verb\_3pSg - Ved} & .181 & \infl{NNS\_NN} & .134 \\
+\deriv{G:adj-to-adverb} & .406 & \infl{adj - comparative} & .180 & \lexical{X is knowledge of Y} & .131 \\
+\deriv{G:opposite} & .388 & \lexical{X will become Y} & .178 & \deriv{adj+ness\_reg} & .129 \\
+\lexical{things - color} & .386 & \infl{VBD\_VBZ} & .175 & \infl{NN\_NNS} & .117 \\
+\deriv{adj+ly\_reg} & .368 & \lexical{hypernyms - animals} & .172 & \deriv{verb+er\_irreg} & .109 \\
+\deriv{verb+tion\_irreg} & .350 & \deriv{adj+ly\_reg} & .171 & \lexical{Y happens at X} & .106 \\
+\lexical{antonyms - binary} & .348 & \infl{verb\_inf - Ved} & .171 & \deriv{G:opposite} & .096 \\
+\deriv{un+adj\_reg} & .305 & \infl{JJS\_JJ} & .167 & \infl{G:plural} & .077 \\
+\deriv{verb+ment\_irreg} & .299 & \namedent{name - nationality} & .151 & \infl{noun - plural\_irreg} & .059 \\
+\lexical{X, Y two kinds in category} & .277 & \lexical{animal - shelter} & .147 & \lexical{an X makes Y / an X uses Y to make an item} & .058 \\
+\lexical{X and Y are contrary} & .267 & \deriv{verb+tion\_irreg} & .131 & \lexical{X prevents Y} & .054 \\
+\namedent{G:currency} & .266 & \infl{JJS\_JJR} & .131 & \deriv{re+verb\_reg} & .050 \\
+\deriv{re+verb\_reg} & .241 & \lexical{Y is an excessive form of X} & .131 & \lexical{X made of Y} & .050 \\
+\lexical{antonyms - gradable} & .237 & \infl{JJR\_JJ} & .131 & \lexical{do Y using X} & .049 \\
+\deriv{adj+ness\_reg} & .220 & \infl{VBZ\_VBD} & .126 & \lexical{Y receives an item/knowledge/service from X} & .044 \\
+\lexical{cannot X and Y at same time} & .208 & \namedent{name - occupation} & .122 & \lexical{X is a place/location/area where Y is found} & .043 \\
+\lexical{Y happens at X} & .203 & \infl{G:superlative} & .114 & \deriv{verb+able\_reg} & .040 \\
+\lexical{X will become Y} & .184 & \lexical{Y receives an item/knowledge/service from X} & .109 & \lexical{an X will typically Y} & .034 \\
+\lexical{X, Y similar type of thing} & .177 & \infl{JJ\_JJS} & .109 & \lexical{X is made from a collection of Y} & .034 \\
+\lexical{synonyms - exact} & .166 & \lexical{X may be divided into Y} & .107 & \lexical{an X exists in the state of Y} & .031 \\
+\lexical{hypernyms - animals} & .156 & \lexical{animal - young} & .104 & \lexical{meronyms - substance} & .030 \\
+\lexical{X is knowledge of Y} & .153 & \lexical{an Y follows X in sequence} & .099 & \deriv{un+adj\_reg} & .028 \\
+\lexical{Y receives an item/knowledge/service from X} & .153 & \lexical{Y is a specific X} & .098 & \lexical{an X is a place/location/area where Y is made/done/produced} & .024 \\
+\lexical{animal - shelter} & .148 & \lexical{Being X is incompatible with being Y} & .097 & \lexical{Y describes a condition or state that is usually absent from X} & .021 \\
+\deriv{verb+er\_irreg} & .139 & \lexical{Y happens at X} & .096 & \lexical{Y is one of the areas/locations of X} & .021 \\
+\lexical{synonyms - intensity} & .136 & \lexical{meronyms - part} & .095 & \lexical{Y is typically found at an event such as X} & .020 \\
+\lexical{X is made from a collection of Y} & .110 & \infl{adj - superlative} & .095 & \lexical{X possesses/owns/has Y} & .020 \\
+\lexical{animal - young} & .110 & \deriv{adj+ness\_reg} & .091 & \lexical{to X is to have a Y receive some object/service/idea} & .017 \\
+\lexical{X may be divided into Y} & .105 & \lexical{meronyms - member} & .087 & \lexical{animal - sound} & .017 \\
+\lexical{X made of Y} & .104 & \lexical{a Y is one item in a collection/group of X} & .087 & \lexical{X is an expression that indicates Y} & .015 \\
+\lexical{X is a place/location/area where Y is found} & .098 & \lexical{hyponyms - misc} & .081 & \lexical{X an object that is Y} & .015 \\
+\lexical{Y is typically found at an event such as X} & .096 & \lexical{X is made from a collection of Y} & .076 & \lexical{X is one step/action/part of the actions in Y} & .014 \\
+\lexical{meronyms - substance} & .094 & \lexical{Y is typically found at an event such as X} & .076 & \deriv{noun+less\_reg} & .013 \\
+\lexical{Y is a specific X} & .093 & \lexical{a Y is a part of an X} & .076 & \lexical{an X uses Y to perform their role} & .013 \\
+\lexical{meronyms - member} & .090 & \deriv{verb+ment\_irreg} & .075 & \lexical{an X is an increase/decease in Y} & .012 \\
+\lexical{an X makes Y / an X uses Y to make an item} & .089 & \lexical{hypernyms - misc} & .074 & : Object:Recipient an Y receives an X & .012 \\
+\lexical{an Y follows X in sequence} & .088 & \lexical{an X is a plan for Y} & .074 & \lexical{X is intended to produce Y} & .010 \\
+\lexical{an X is a place/location/area where Y is made/done/produced} & .087 & \lexical{something that is X may be Y} & .070 & \lexical{X conceals a person/place/thing's Y} & .010 \\
+\lexical{hypernyms - misc} & .081 & \lexical{Y functions as an X} & .065 & \lexical{an X is attached to a Y} & .009 \\
+\lexical{meronyms - part} & .078 & \lexical{Y are items in a collection/group of X} & .065 & \deriv{over+adj\_reg} & .009 \\
+\lexical{X prevents Y} & .077 & \lexical{a person who is X often is in a state of Y} & .064 & \lexical{Y is an instrument through with X receives some object/service/role} & .008 \\
+\lexical{Y are items in a collection/group of X} & .072 & \lexical{meronyms - substance} & .064 & \lexical{a Y is used on an X} & .008 \\
+\lexical{hyponyms - misc} & .069 & \lexical{an X is a place/location/area where Y is made/done/produced} & .063 & \lexical{Y is the goal of X} & .008 \\
+\lexical{Y is an excessive form of X} & .068 & \lexical{X and Y share a contiguous border} & .060 & \lexical{X causes/compels a person to Y} & .007 \\
+\lexical{an X uses Y to perform their role} & .067 & \lexical{X is a time when Y occurs} & .059 & \lexical{Y are items in a collection/group of X} & .007 \\
+\lexical{a Y is one item in a collection/group of X} & .063 & \lexical{X is a place/location/area where Y is found} & .055 & \lexical{hypernyms - misc} & .006 \\
+\lexical{X is an expression that indicates Y} & .062 & \lexical{an X uses Y to perform their role} & .054 & \lexical{X will become Y} & .006 \\
+\lexical{do Y using X} & .061 & \lexical{X made of Y} & .054 & \lexical{animal - young} & .005 \\
+\lexical{an X is attached to a Y} & .061 & \lexical{an X cannot have attribute Y; Y is antithetical to being X} & .053 & \lexical{an X is is a defect in Y} & .005 \\
+\lexical{Y functions as an X} & .061 & \lexical{an X is attached to a Y} & .052 & \lexical{an X indicates/signifies Y} & .005 \\
+\deriv{verb+able\_reg} & .059 & \lexical{someone/something who is X is unlikely to Y} & .049 & \lexical{an X has the attribute Y} & .004 \\
+\lexical{X is one step/action/part of the actions in Y} & .058 & \infl{JJR\_JJ}S & .048 & \lexical{action X performed on Y} & .003 \\
+\lexical{a Y is a part of an X} & .058 & \lexical{someone/something will X in order to Y} & .048 & \lexical{meronyms - member} & .002 \\
+\lexical{X possesses/owns/has Y} & .056 & \lexical{X is an expression that indicates Y} & .047 & \lexical{animal - shelter} & .002 \\
+\lexical{Being X is incompatible with being Y} & .054 & \lexical{X is one step/action/part of the actions in Y} & .044 & \lexical{Y is a kind/type/instance of X} & .001 \\
+\lexical{X conceals a person/place/thing's Y} & .051 & \lexical{X conceals a person/place/thing's Y} & .041 & \lexical{Y is an instrumental item in the activities that occur at place/location/area Y} & .001 \\
+\deriv{over+adj\_reg} & .049 & \lexical{a Y represents/is representative of X} & .040 & \lexical{an X is unlikely to Y} & .001 \\
+\lexical{an X is an increase/decease in Y} & .049 & \deriv{over+adj\_reg} & .040 & \lexical{X is devoid of / cannot have Y} & .000 \\
+\lexical{animal - sound} & .048 & \lexical{X and Y both have a similar attribute or feature} & .039 & \lexical{Y is an item associated with time X} & .000 \\
+\lexical{an X is a plan for Y} & .048 & \lexical{X is the reverse act of Y / X may be undone by Y} & .038 & \lexical{a Y represents/is representative of X} & $-$.000 \\
+\lexical{an X will typically Y} & .047 & \lexical{the action X results Y or things that are Y} & .037 & \lexical{someone/something who is X cannot be Y or be in the state of Y} & $-$.000 \\
+\lexical{someone/something will X in order to Y} & .046 & \lexical{X possesses/owns/has Y} & .037 & \lexical{X and Y are at opposite ends of the same scale but X is more extreme than Y} & $-$.000 \\
+\lexical{an X exists in the state of Y} & .043 & \lexical{action X not produce s/t with Y} & .036 & \lexical{action X not produce s/t with Y} & $-$.000 \\
+\lexical{a person who is X often is in a state of Y} & .041 & \lexical{an X is an increase/decease in Y} & .036 & \lexical{something/someone that is X will typically Y} & $-$.001 \\
+\lexical{X an object that is Y} & .041 & \lexical{X enables the use of Y} & .034 & \lexical{something that is X cannot be Y} & $-$.001 \\
+: Object:Recipient an Y receives an X & .040 & \lexical{an X is is a defect in Y} & .033 & \lexical{an X once had/owned/possessed Y but no longer} & $-$.001 \\
+\lexical{a Y represents/is representative of X} & .040 & \lexical{animal - sound} & .032 & \lexical{X is the reverse act of Y / X may be undone by Y} & $-$.001 \\
+\lexical{Y describes a condition or state that is usually absent from X} & .040 & \lexical{X and Y are at opposite ends of the same scale but X is more extreme than Y} & .031 & \lexical{X may be divided into Y} & $-$.001 \\
+\lexical{an X is is a defect in Y} & .038 & \lexical{an X makes Y / an X uses Y to make an item} & .031 & \lexical{someone/something will X in order to Y} & $-$.002 \\
+\lexical{Y is one of the areas/locations of X} & .038 & \deriv{verb+er\_irreg} & .030 & \lexical{X cannot be done in Y manner} & $-$.004 \\
+\lexical{X is the reverse act of Y / X may be undone by Y} & .037 & \lexical{something/someone that is X will typically Y} & .029 & \lexical{X is similar to the opposite of Y but X is not truly the opposite of Y} & $-$.004 \\
+\lexical{action X not produce s/t with Y} & .036 & \lexical{Y is a kind/type/instance of X} & .028 & \lexical{Y functions as an X} & $-$.004 \\
+\lexical{something that is X may be Y} & .032 & : Object:Recipient an Y receives an X & .028 & \lexical{Y is a specific X} & $-$.005 \\
+\lexical{X and Y are at opposite ends of the same scale but X is more extreme than Y} & .031 & \lexical{X an object that is Y} & .026 & \lexical{X enables the use of Y} & $-$.005 \\
+\lexical{Y is a kind/type/instance of X} & .029 & \lexical{an X has the attribute Y} & .025 & \lexical{an X causes Y} & $-$.006 \\
+\lexical{X enables the use of Y} & .029 & \lexical{X is similar to the opposite of Y but X is not truly the opposite of Y} & .023 & \lexical{Y is an unacceptable form of X} & $-$.006 \\
+\lexical{an X has the attribute Y} & .029 & \lexical{X prevents Y} & .022 & \lexical{X is Y kind of action} & $-$.008 \\
+\lexical{a Y is used on an X} & .029 & \lexical{X is Y kind of action} & .022 & \lexical{X and Y both have a similar attribute or feature} & $-$.011 \\
+\lexical{X is a time when Y occurs} & .029 & \lexical{X is knowledge of Y} & .022 & \lexical{an Y follows X in sequence} & $-$.011 \\
+\lexical{something/someone that is X will typically Y} & .029 & \lexical{an X causes Y} & .021 & \lexical{hyponyms - misc} & $-$.012 \\
+\lexical{X and Y both have a similar attribute or feature} & .028 & \lexical{Y is an unacceptable form of X} & .021 & \lexical{the action X results Y or things that are Y} & $-$.012 \\
+\lexical{to X is to have a Y receive some object/service/idea} & .026 & \lexical{a Y is used on an X} & .021 & \lexical{X and Y are contrary} & $-$.015 \\
+\lexical{X causes/compels a person to Y} & .025 & \lexical{an X once had/owned/possessed Y but no longer} & .020 & \lexical{hypernyms - animals} & $-$.016 \\
+\lexical{the action X results Y or things that are Y} & .025 & \lexical{Y describes a condition or state that is usually absent from X} & .019 & \lexical{meronyms - part} & $-$.017 \\
+\lexical{X and Y share a contiguous border} & .024 & \lexical{Y is an instrumental item in the activities that occur at place/location/area Y} & .019 & \lexical{a Y is a part of an X} & $-$.018 \\
+\lexical{X is intended to produce Y} & .023 & \deriv{verb+able\_reg} & .019 & \lexical{a person who is X often is in a state of Y} & $-$.024 \\
+\deriv{noun+less\_reg} & .020 & \namedent{G:currency} & .018 & \lexical{a Y is one item in a collection/group of X} & $-$.024 \\
+\lexical{someone/something who is X is unlikely to Y} & .020 & \lexical{X causes/compels a person to Y} & .018 & \lexical{an X is a plan for Y} & $-$.026 \\
+\lexical{an X cannot have attribute Y; Y is antithetical to being X} & .020 & \lexical{Y is one of the areas/locations of X} & .017 & \lexical{someone/something who is X is unlikely to Y} & $-$.029 \\
+\lexical{action X performed on Y} & .020 & \lexical{action X performed on Y} & .017 & \lexical{X is a time when Y occurs} & $-$.031 \\
+\lexical{Y is an instrumental item in the activities that occur at place/location/area Y} & .020 & \lexical{an X indicates/signifies Y} & .014 & \lexical{an X cannot have attribute Y; Y is antithetical to being X} & $-$.033 \\
+\lexical{Y is the goal of X} & .019 & \lexical{do Y using X} & .013 & \lexical{X and Y share a contiguous border} & $-$.035 \\
+\lexical{X is similar to the opposite of Y but X is not truly the opposite of Y} & .019 & \lexical{X is intended to produce Y} & .013 & \lexical{synonyms - exact} & $-$.037 \\
+\lexical{an X indicates/signifies Y} & .019 & \lexical{an X will typically Y} & .013 & \lexical{something that is X may be Y} & $-$.038 \\
+\lexical{an X once had/owned/possessed Y but no longer} & .019 & \lexical{an X exists in the state of Y} & .012 & \lexical{Being X is incompatible with being Y} & $-$.042 \\
+\lexical{Y is an instrument through with X receives some object/service/role} & .018 & \lexical{Y is the goal of X} & .011 & \lexical{X, Y same category} & $-$.051 \\
+\lexical{an X causes Y} & .015 & \lexical{someone/something who is X cannot be Y or be in the state of Y} & .010 & \lexical{synonyms - intensity} & $-$.057 \\
+\lexical{Y is an unacceptable form of X} & .015 & \lexical{Y is an instrument through with X receives some object/service/role} & .010 & \lexical{X, Y two kinds in category} & $-$.060 \\
+\lexical{X is Y kind of action} & .015 & \lexical{to X is to have a Y receive some object/service/idea} & .009 & \lexical{Y is an excessive form of X} & $-$.062 \\
+\lexical{someone/something who is X cannot be Y or be in the state of Y} & .010 & \deriv{noun+less\_reg} & .007 & \lexical{antonyms - binary} & $-$.072 \\
+\lexical{Y is an item associated with time X} & .004 & \lexical{X cannot be done in Y manner} & .005 & \lexical{antonyms - gradable} & $-$.074 \\
+\lexical{something that is X cannot be Y} & .004 & \lexical{something that is X cannot be Y} & .005 & \lexical{X is opp.~dir.~from Y} & $-$.082 \\
+\lexical{X is devoid of / cannot have Y} & .004 & \lexical{Y is an item associated with time X} & .004 & \lexical{X, Y similar type of thing} & $-$.086 \\
+\lexical{an X is unlikely to Y} & .002 & \lexical{X is devoid of / cannot have Y} & .003 & \lexical{things - color} & $-$.098 \\
+\lexical{X cannot be done in Y manner} & .002 & \lexical{an X is unlikely to Y} & .001 & \lexical{cannot X and Y at same time} & $-$.109 \\
 
