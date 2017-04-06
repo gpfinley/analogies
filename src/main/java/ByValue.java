@@ -4,7 +4,7 @@ import java.util.Map;
 /**
  * General-use Comparator for sorting based on map values. Will fall back to keys if values are equivalent
  * Be sure that the values implement Comparable (will probably be Integer or Double)
- * Created by gpfinley on 3/1/16.
+ * Created by xxxxxxxx on 3/1/16.
  */
 public class ByValue<K, V extends Comparable<V>> implements Comparator<K> {
     private final Map<K, V> map;

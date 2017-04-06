@@ -4,7 +4,7 @@ import java.util.function.Function;
 import java.util.logging.Logger;
 
 /**
- * Created by gpfinley on 8/25/16.
+ * Created by xxxxxxxx on 8/25/16.
  */
 public final class Threading {
 

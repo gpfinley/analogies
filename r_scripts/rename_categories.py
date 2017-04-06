@@ -1,6 +1,8 @@
 import re
 import fileinput
 
+# Convert categories from their original names in the dataset to abbreviated names suitable for a table
+
 cats = """: Action:Action Attribute  X is a Y kind of action
 X is Y kind of action
 : Action:Action Nonattribute  X cannot be done in a Y manner
@@ -62,9 +64,9 @@ X conceals a person/place/thing's Y
 : Contiguity  X and Y share a contiguous border
 X and Y share a contiguous border
 : Contradictory  Something cannot be/have/do X and Y at the same time
-Something cannot be/have/do X and Y at the same time
+cannot X and Y at same time
 : Contrary  X and Y are contrary / opposite to each other
-X and Y are contrary / opposite to each other
+X and Y are contrary
 : Conversion  X will become / be converted into Y
 X will become / be converted into Y
 : Coordinates  X and Y are two distinct objects in the same category
@@ -100,7 +102,7 @@ Y is an excessive form of X
 : Dimensional Naughty  Y is an unacceptable form of X
 Y is an unacceptable form of X
 : Dimensional Similarity  an X and Y are two kinds in a category of actions/things/attributes
-an X and Y are two kinds in a category of actions/things/attributes
+X, Y two kinds in category
 : Directional  X is the opposite direction from Y
 X is opp.~dir.~from Y
 : E01 [country - capital].txt
@@ -276,7 +278,7 @@ an X indicates/signifies Y
 : Singular Collective  a Y is one item in a collection/group of X
 a Y is one item in a collection/group of X
 : Synonymity  an X and Y are a similar type of action/thing/attribute
-an X and Y are a similar type of action/thing/attribute
+X, Y similar type of thing
 : Taxonomic  Y is a kind/type/instance of X
 Y is a kind/type/instance of X
 : Time Action/Activity  X is a time when Y occurs

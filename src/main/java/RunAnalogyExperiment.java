@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * Created by greg on 2/2/17.
+ * Created by xxxxxxxx on 2/2/17.
  */
 public class RunAnalogyExperiment {
 
@@ -34,6 +34,7 @@ public class RunAnalogyExperiment {
         boolean calculateBaselineRank = Boolean.parseBoolean(props.getProperty("calculateBaselineRank"));
         boolean calculateDomainSimilarityRank = Boolean.parseBoolean(props.getProperty("calculateDomainSimilarityRank"));
         boolean calculateAddRank = Boolean.parseBoolean(props.getProperty("calculateAddRank"));
+        boolean calculateAddsOnlyRank = Boolean.parseBoolean(props.getProperty("calculateAddsOnlyRank"));
         boolean calculateMulRank = Boolean.parseBoolean(props.getProperty("calculateMulRank"));
         boolean calculateDiffRank = Boolean.parseBoolean(props.getProperty("calculateDiffRank"));
 
@@ -52,6 +53,7 @@ public class RunAnalogyExperiment {
                 .calculateBaselineRank(calculateBaselineRank)
                 .calculateDomainSimilarityRank(calculateDomainSimilarityRank)
                 .calculateAddRank(calculateAddRank)
+                .calculateAddsOnlyRank(calculateAddsOnlyRank)
                 .calculateMulRank(calculateMulRank)
                 .calculateDiffRank(calculateDiffRank);
         if(cutoff != null)
@@ -75,6 +77,10 @@ public class RunAnalogyExperiment {
         if (calculateAddRank) {
             header += ",addrank";
             parametersTested.add(exp.getAddRanks());
+        }
+        if (calculateAddsOnlyRank) {
+            header += ",addsonlyrank";
+            parametersTested.add(exp.getAddsOnlyRanks());
         }
         if (calculateBaselineRank) {
             header += ",baserank";

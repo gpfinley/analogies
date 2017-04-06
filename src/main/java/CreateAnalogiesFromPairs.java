@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
  * Script class to convert a list of pairs into a set of analogies.
  * Will take all pairings of pairs in a category.
  *
- * Created by greg on 4/1/17.
+ * Created by xxxxxxxx on 4/1/17.
  */
 public class CreateAnalogiesFromPairs {
 

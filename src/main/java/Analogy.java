@@ -1,6 +1,6 @@
 /**
  * Basically a four-word tuple class
- * Created by gpfinley on 4/29/16.
+ * Created by xxxxxxxx on 4/29/16.
  */
 public class Analogy implements Comparable {
     public final Phrase w1;

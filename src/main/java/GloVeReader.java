@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * Reads a vectors file as output by GloVe
- * Created by gpfinley on 2/9/16.
+ * Created by xxxxxxxx on 2/9/16.
  */
 public class GloVeReader {
 

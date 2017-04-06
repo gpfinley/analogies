@@ -1,4 +1,5 @@
-# Add word frequencies to a CSV file
+# Append word frequencies to lines in a CSV file
+# This was not part of the original experiment in the Java package
 
 import sys
 

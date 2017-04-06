@@ -10,7 +10,7 @@ import java.util.*;
  * Simple API for parsing WordNet 3.0
  * Will also create analogies and measure word sense entropy
  *
- * Created by gpfinley on 4/28/16.
+ * Created by xxxxxxxx on 4/28/16.
  */
 public class WordNet {
 

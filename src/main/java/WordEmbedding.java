@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 /**
  * Class for representing word embeddings and performing computations on them
- * Created by gpfinley on 3/14/16.
+ * Created by xxxxxxxx on 3/14/16.
  */
 public class WordEmbedding implements Serializable {
 

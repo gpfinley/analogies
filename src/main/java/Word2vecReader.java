@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 
 /**
  * Reads a vectors file as output by the word2vec C program into a WordVectorSpace
- * Created by gpfinley on 2/9/16.
+ * Created by xxxxxxxx on 2/9/16.
  */
 public class Word2vecReader {
 

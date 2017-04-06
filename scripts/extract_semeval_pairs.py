@@ -1,11 +1,16 @@
 import os
 import sys
 
+"""
+Will extract pairs from SemEval 2012 data.
+Provide it two arguments: the path of the SemEval distribution,
+and the path to the 'Phase2AnswersScaled' folder in the SemEval platinum standard.
+Both are downloadable from https://sites.google.com/site/semeval2012task2/download
+"""
+
 semeval_dir, answers_scaled_dir = sys.argv[1:3]
 
 taketop = .5
-
-#ANSWERS_SCALED_DIR = 'platinum/Phase2AnswersScaled'
 
 set_to_def = {}
 for line in open(os.path.join(semeval_dir, 'subcategories-definitions.txt')):

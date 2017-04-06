@@ -8,7 +8,7 @@ import java.util.*;
 
 /**
  * Represents a collection of terms (including phrases) and word embeddings for them
- * Created by gpfinley on 3/14/16.
+ * Created by xxxxxxxx on 3/14/16.
  */
 public class Embeddings implements Iterable<Phrase>, Serializable {
 

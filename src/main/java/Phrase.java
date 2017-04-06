@@ -5,7 +5,7 @@ import java.util.logging.Logger;
  * Low-memory implementation of Phrase
  * Stores the whole phrase as a string, which means that fancy operations will take longer
  * Delimiter will always be a space in the internal representation
- * Created by gpfinley on 2/26/16.
+ * Created by xxxxxxxx on 2/26/16.
  */
 public final class Phrase implements Iterable<String>, Comparable<Phrase> {
 

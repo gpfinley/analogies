@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 /**
  * Use the analogy corpus provided with word2vec and score based on mean correlation with term 4
  *
- * Created by gpfinley on 4/26/16.
+ * Created by xxxxxxxx on 4/26/16.
  */
 public class AnalogyExperiment {
 
@@ -24,6 +24,7 @@ public class AnalogyExperiment {
         private Map<String, List<Analogy>> analogiesByCategory = null;
         private boolean calculateBaselineRank = true;
         private boolean calculateAddRank = true;
+        private boolean calculateAddsOnlyRank = false;
         private boolean calculateMulRank = false;
         private boolean calculateDiffRank = false;
         private boolean calculateDomainSimilarityRank = true;
@@ -54,6 +55,10 @@ public class AnalogyExperiment {
         }
         public Builder calculateAddRank(boolean calculateAddRank) {
             this.calculateAddRank = calculateAddRank;
+            return this;
+        }
+        public Builder calculateAddsOnlyRank(boolean calculateAddsOnlyRank) {
+            this.calculateAddsOnlyRank = calculateAddsOnlyRank;
             return this;
         }
         public Builder calculateMulRank(boolean calculateMulRank) {
@@ -147,6 +152,7 @@ public class AnalogyExperiment {
             experiment.useBaseRank = calculateBaselineRank;
             experiment.useDomainsimRank = calculateDomainSimilarityRank;
             experiment.useAddRank = calculateAddRank;
+            experiment.useAddsOnlyRank = calculateAddsOnlyRank;
             experiment.useMulRank = calculateMulRank;
             experiment.useDiffRank = calculateDiffRank;
             experiment.emb = emb;
@@ -170,11 +176,13 @@ public class AnalogyExperiment {
     private boolean useBaseRank;
     private boolean useDomainsimRank;
     private boolean useAddRank;
+    private boolean useAddsOnlyRank;
     private boolean useMulRank;
     private boolean useDiffRank;
 
     private List<Integer> baselineRanks;
     private List<Integer> domainsimRanks;
+    private List<Integer> addsOnlyRanks;
     private List<Integer> addRanks;
     private List<Integer> mulRanks;
     private List<Integer> diffRanks;
@@ -236,6 +244,10 @@ public class AnalogyExperiment {
         return addRanks;
     }
 
+    public List<Integer> getAddsOnlyRanks() {
+        return addsOnlyRanks;
+    }
+
     public List<Integer> getMulRanks() {
         return mulRanks;
     }
@@ -270,20 +282,19 @@ public class AnalogyExperiment {
         baselineRanks = new ArrayList<>();
         domainsimRanks = new ArrayList<>();
         addRanks = new ArrayList<>();
+        addsOnlyRanks = new ArrayList<>();
         mulRanks = new ArrayList<>();
         diffRanks = new ArrayList<>();
 
-        // todo: confirm that this actually works
         rankCache = new ConcurrentHashMap<>();
 
-        // create a list of integer arrays, each of which holds ranks for: w3*w4, w2*w4, 3CosAdd, 3CosMul, DiffCos
+        // create a list of integer arrays, each of which holds ranks for: w3*w4, w2*w4, (w3+w2)*w4, 3CosAdd, 3CosMul, DiffCos
         List<Integer[]> answersList = new ArrayList<>();
-        answersList.add(new Integer[analogies.size()]);
-        answersList.add(new Integer[analogies.size()]);
-        answersList.add(new Integer[analogies.size()]);
-        answersList.add(new Integer[analogies.size()]);
-        answersList.add(new Integer[analogies.size()]);
+        for (int i=0; i<6; i++) {
+            answersList.add(new Integer[analogies.size()]);
+        }
 
+        // Run the process in the following lambda for every word in the vocabulary
         Threading.fillArraysThreaded(answersList, index -> {
             Analogy analogy = analogies.get(index);
             WordEmbedding w1 = emb.get(analogy.w1);
@@ -305,6 +316,7 @@ public class AnalogyExperiment {
                 w4p.add(1);
             }
             int addRank = 1;
+            int addsOnlyRank = 1;
             int mulRank = 1;
             int diffRank = 1;
             String w2Andw4 = analogy.w2 + ":" + analogy.w4;
@@ -316,15 +328,21 @@ public class AnalogyExperiment {
             // shouldn't need this check...but just in case
             if (emb.contains(analogy.w1) && emb.contains(analogy.w2) && emb.contains(analogy.w3) && emb.contains(analogy.w4)) {
                 double addScore = 0;
+                double addsOnlyScore = 0;
                 double baselineScore = 0;
                 double domainsimScore = 0;
                 double mulScore = 0;
                 double diffScore = 0;
-                WordEmbedding calculated = null;
+                WordEmbedding cosAddCalculated = null;
+                WordEmbedding addsOnlyCalculated = null;
                 WordEmbedding diffVec = null;
                 if (useAddRank) {
-                    calculated = analogyHypothesisEmbedding(analogy);
-                    addScore = calculated.dot(emb.get(analogy.w4));
+                    cosAddCalculated = analogyHypothesisEmbedding(analogy);
+                    addScore = cosAddCalculated.dot(emb.get(analogy.w4));
+                }
+                if (useAddsOnlyRank) {
+                    addsOnlyCalculated = emb.get(analogy.w3).sum(emb.get(analogy.w2));
+                    addsOnlyScore = cosAddCalculated.dot(emb.get(analogy.w4));
                 }
                 if (useBaseRank) {
                     baselineScore = w3.dot(w4);
@@ -339,14 +357,19 @@ public class AnalogyExperiment {
                     diffVec = w2.difference(w1);
                     diffScore = diffVec.cosSim(w4.difference(w3));
                 }
+                // don't bother iterating if we're not actually calculating any ranks
                 if (useAddRank || useBaseRank || useDomainsimRank || useMulRank || useDiffRank) {
                     Iterator<WordEmbedding> iter = emb.embeddingIterator();
                     while (iter.hasNext()) {
                         WordEmbedding hyp = iter.next();
                         if (hyp == w1 || hyp == w2 || hyp == w3) continue;
                         if (useAddRank) {
-                            double addCompScore = calculated.dot(hyp);
+                            double addCompScore = cosAddCalculated.dot(hyp);
                             if (addCompScore > addScore) addRank += 1;
+                        }
+                        if (useAddsOnlyRank) {
+                            double addsOnlyCompScore = addsOnlyCalculated.dot(hyp);
+                            if (addsOnlyCompScore > addsOnlyScore) addsOnlyRank += 1;
                         }
                         if (useBaseRank && calculateW3w4) {
                             double baselineCompScore = w3.dot(hyp);
@@ -372,6 +395,7 @@ public class AnalogyExperiment {
                 baselineRank = emb.size();
                 domainsimRank = emb.size();
                 addRank = emb.size();
+                addsOnlyRank = emb.size();
                 mulRank = emb.size();
                 diffRank = emb.size();
             }
@@ -381,6 +405,7 @@ public class AnalogyExperiment {
             ranksList.add(baselineRank);
             ranksList.add(domainsimRank);
             ranksList.add(addRank);
+            ranksList.add(addsOnlyRank);
             ranksList.add(mulRank);
             ranksList.add(diffRank);
             return ranksList;
@@ -389,8 +414,9 @@ public class AnalogyExperiment {
         baselineRanks = Arrays.asList(answersList.get(0));
         domainsimRanks = Arrays.asList(answersList.get(1));
         addRanks = Arrays.asList(answersList.get(2));
-        mulRanks = Arrays.asList(answersList.get(3));
-        diffRanks = Arrays.asList(answersList.get(4));
+        addsOnlyRanks = Arrays.asList(answersList.get(3));
+        mulRanks = Arrays.asList(answersList.get(4));
+        diffRanks = Arrays.asList(answersList.get(5));
 
         baselineSimilarity = new ArrayList<>();
         domainSimilarity = new ArrayList<>();
