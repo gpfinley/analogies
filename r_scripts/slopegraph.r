@@ -9,7 +9,20 @@ plotdata = data.frame(baserr.agg[,2], addrr.agg[,2], addrr.agg[,1])
 
 colnames(plotdata) <- c("baseline", "cosadd", "category")
 
-p.l <- ggplot(plotdata[lex,]) + geom_segment(aes(x=0, xend=1, y=baseline, yend=cosadd))
-p.i <- ggplot(plotdata[infl,]) + geom_segment(aes(x=0, xend=1, y=baseline, yend=cosadd))
-p.d <- ggplot(plotdata[deriv,]) + geom_segment(aes(x=0, xend=1, y=baseline, yend=cosadd))
-p.n <- ggplot(plotdata[named,]) + geom_segment(aes(x=0, xend=1, y=baseline, yend=cosadd))
+for (source in list(lex, infl, deriv, named)) {
+
+p <- ggplot(plotdata[lex,]) + geom_segment(aes(x=0, xend=1, y=baseline, yend=cosadd))
+p <- ggplot(plotdata[infl,]) + geom_segment(aes(x=0, xend=1, y=baseline, yend=cosadd))
+p <- ggplot(plotdata[deriv,]) + geom_segment(aes(x=0, xend=1, y=baseline, yend=cosadd))
+p <- ggplot(plotdata[named,]) + geom_segment(aes(x=0, xend=1, y=baseline, yend=cosadd))
+
+p<-p + theme(panel.background = element_blank())
+p<-p + theme(panel.grid=element_blank())
+p<-p + theme(axis.ticks=element_blank())
+p<-p + theme(axis.text=element_blank())
+p<-p + theme(panel.border=element_blank())
+p<-p + xlab("") + ylab("Amount Used")
+p<-p + theme(axis.title.y=theme_text(vjust=3))
+#p<-p + xlim((0-12),(months+12))
+p<-p + ylim(0,(1.2*(max(a$year3,a$year1))))
+}
