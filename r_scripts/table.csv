@@ -1,148 +1,148 @@
 "","category","accuracy","category2","BRR","category3","RRG"
-"22",": capital-world",0.934571175950486,": I01 [noun - plural_reg].txt",0.856018459397511,": VB_VBZ",0.511985107459278
-"72",": gram6-nationality-adjective",0.92245153220763,": NN_NNS",0.800889079149729,": I05 [verb_inf - 3pSg].txt",0.494473943087411
-"52",": E01 [country - capital].txt",0.919591836734694,": NNS_NN",0.777819328624592,": VBD_VBZ",0.462278202091883
-"21",": capital-common-countries",0.91897233201581,": gram8-plural",0.753978978978979,": gram3-comparative",0.42816085127432
-"76",": I01 [noun - plural_reg].txt",0.829387755102041,": I06 [verb_inf - Ving].txt",0.739867332390375,": capital-world",0.421949782182694
-"74",": gram8-plural",0.828828828828829,": gram5-present-participle",0.657759012226056,": gram4-superlative",0.421430562728927
-"65",": family",0.790513833992095,": I02 [noun - plural_irreg].txt",0.652696206179068,": gram9-plural-verbs",0.377973429040556
-"69",": gram3-comparative",0.734984984984985,": gram6-nationality-adjective",0.604518123253015,": JJR_JJS",0.374449744024631
-"116",": NN_NNS",0.718,": capital-common-countries",0.592248572683355,": E05 [name - occupation].txt",0.374185516498025
-"146",": VBZ_VB",0.718,": E01 [country - capital].txt",0.588300270834439,": family",0.368446721636752
-"117",": NNS_NN",0.69,": I09 [verb_Ving - Ved].txt",0.564731340232566,": capital-common-countries",0.36427316644708
-"80",": I05 [verb_inf - 3pSg].txt",0.680816326530612,": capital-world",0.53064869091668,": E01 [country - capital].txt",0.355886545828455
-"81",": I06 [verb_inf - Ving].txt",0.677142857142857,": VBZ_VB",0.492410920884024,": VBZ_VBD",0.346194691210513
-"143",": VB_VBZ",0.656,": family",0.487787226280931,": I10 [verb_3pSg - Ved].txt",0.343629739981097
-"71",": gram5-present-participle",0.641098484848485,": gram7-past-tense",0.452658623989596,": gram6-nationality-adjective",0.331933897149671
-"77",": I02 [noun - plural_irreg].txt",0.56547619047619,": L10 [antonyms - binary].txt",0.444446775089417,": city-in-state",0.322004405038398
-"75",": gram9-plural-verbs",0.557471264367816,": E09 [things - color].txt",0.430627714023595,": E02 [country - language].txt",0.320085673247815
-"84",": I09 [verb_Ving - Ved].txt",0.550612244897959,": VBD_VB",0.425820007694194,": JJ_JJS",0.317422049835303
-"26",": city-in-state",0.546817997567896,": Directional  X is the opposite direction from Y",0.388082746144257,": E04 [name - nationality].txt",0.312092154250656
-"144",": VBD_VB",0.516,": gram3-comparative",0.385549276133105,": I08 [verb_Ving - 3pSg].txt",0.311200694193046
-"73",": gram7-past-tense",0.505769230769231,": I07 [verb_inf - Ved].txt",0.359742853970651,": VBZ_VB",0.309267536924211
-"82",": I07 [verb_inf - Ved].txt",0.47469387755102,": Coordinates  X and Y are two distinct objects in the same category",0.345716358097324,": JJS_JJR",0.302697557840797
-"142",": VB_VBD",0.462,": Dimensional Similarity  an X and Y are two kinds in a category of actions/things/attributes",0.343751425577437,": JJ_JJR",0.292392672742736
-"83",": I08 [verb_Ving - 3pSg].txt",0.430204081632653,": city-in-state",0.331531837927827,": VB_VBD",0.281202689713537
-"100",": JJS_JJR",0.428,": VB_VBD",0.330999932780262,": I04 [adj - superlative].txt",0.278367957772549
-"95",": JJ_JJR",0.418,": Contradictory  Something cannot be/have/do X and Y at the same time",0.316688697100053,": I07 [verb_inf - Ved].txt",0.271452355414127
-"145",": VBD_VBZ",0.414,": gram9-plural-verbs",0.312304244590378,": E03 [UK_city - county].txt",0.265648909745268
-"97",": JJR_JJ",0.38,": I05 [verb_inf - 3pSg].txt",0.299256749649922,": I03 [adj - comparative].txt",0.239641622089051
-"70",": gram4-superlative",0.372549019607843,": JJR_JJ",0.270724320440127,": VBD_VB",0.212835733942996
-"56",": E05 [name - occupation].txt",0.358399296394019,": Conversion  X will become / be converted into Y",0.248624395740274,": JJS_JJ",0.199488149175484
-"61",": E10 [male - female].txt",0.35469387755102,": VB_VBZ",0.246873072701555,": JJR_JJ",0.196031235021131
-"85",": I10 [verb_3pSg - Ved].txt",0.341632653061224,": I08 [verb_Ving - 3pSg].txt",0.246449078929343,": E10 [male - female].txt",0.194577106159209
-"78",": I03 [adj - comparative].txt",0.330612244897959,": Contrary  X and Y are contrary / opposite to each other",0.241585919066175,": gram1-adjective-to-adverb",0.192445698646928
-"98",": JJR_JJS",0.33,": E10 [male - female].txt",0.234999324467838,": gram7-past-tense",0.190213498631017
-"147",": VBZ_VBD",0.314,": L09 [antonyms - gradable].txt",0.231238585513353,": D03 [adj+ly_reg].txt",0.176129412001086
-"54",": E03 [UK_city - county].txt",0.289141414141414,": JJ_JJR",0.215761708191848,": gram2-opposite",0.165960119807958
-"53",": E02 [country - language].txt",0.27959927140255,": Synonymity  an X and Y are a similar type of action/thing/attribute",0.214745261057925,": Knowledge  X is the name for knowledge of Y",0.164966541705609
-"96",": JJ_JJS",0.278,": JJS_JJR",0.209563708817033,": D06 [re+verb_reg].txt",0.139705165702693
-"99",": JJS_JJ",0.272,": D02 [un+adj_reg].txt",0.201692787819313,": gram8-plural",0.13229511901554
-"111",": L10 [antonyms - binary].txt",0.266830870279146,": L08 [synonyms - exact].txt",0.196940902804787,": D09 [verb+tion_irreg].txt",0.130247838242904
-"51",": Directional  X is the opposite direction from Y",0.262135922330097,": I03 [adj - comparative].txt",0.159935846452097,": currency",0.120811587797855
-"34",": Coordinates  X and Y are two distinct objects in the same category",0.25297619047619,": JJS_JJ",0.154922743322723,": I09 [verb_Ving - Ved].txt",0.11730909906002
-"55",": E04 [name - nationality].txt",0.248444444444444,": L07 [synonyms - intensity].txt",0.154897456335076,": D10 [verb+ment_irreg].txt",0.112048298324794
-"67",": gram1-adjective-to-adverb",0.245967741935484,": D09 [verb+tion_irreg].txt",0.154527855024959,": gram5-present-participle",0.0785802293181575
-"68",": gram2-opposite",0.235221674876847,": I10 [verb_3pSg - Ved].txt",0.154129304590396,": D08 [verb+er_irreg].txt",0.0728796696414902
-"39",": D03 [adj+ly_reg].txt",0.226530612244898,": gram1-adjective-to-adverb",0.14893387687832,": D02 [un+adj_reg].txt",0.0634337526862907
-"79",": I04 [adj - superlative].txt",0.215102040816327,": gram2-opposite",0.142878367247473,": Location:Action/Activity  an X is a place/location/area where Y takes place",0.044713833661673
-"38",": D02 [un+adj_reg].txt",0.201632653061224,": D03 [adj+ly_reg].txt",0.1423822841034,": Object:Stuff  X is made of / is comprised of Y",0.0369899239547787
-"60",": E09 [things - color].txt",0.177052423343225,": Location:Action/Activity  an X is a place/location/area where Y takes place",0.142162860604453,": Instrument:Intended Action  Y is the intended action to be taken using X",0.0350872649659255
-"45",": D09 [verb+tion_irreg].txt",0.16734693877551,": D10 [verb+ment_irreg].txt",0.141623233010635,": Prevention  X prevents Y",0.0341710906110465
-"32",": Contrary  X and Y are contrary / opposite to each other",0.162878787878788,": VBZ_VBD",0.137298896504853,": Activity:Stage  X is one step/action/part of the actions in Y",0.0328299430739293
-"31",": Contradictory  Something cannot be/have/do X and Y at the same time",0.162291169451074,": Singular Collective  a Y is one item in a collection/group of X",0.136493145568376,": Agent:Object  an X makes Y / an X uses Y to make an item",0.0319177646488785
-"50",": Dimensional Similarity  an X and Y are two kinds in a category of actions/things/attributes",0.143884892086331,": Location:Process/Product  an X is a place/location/area where Y is made/done/produced",0.132790687154165,": D07 [verb+able_reg].txt",0.0300711348664205
-"110",": L09 [antonyms - gradable].txt",0.132461161079313,": E02 [country - language].txt",0.130897905896616,": Object:Nonstate (noun:noun)  Y describes a condition or state that is usually absent from X",0.0262825891391527
-"33",": Conversion  X will become / be converted into Y",0.125,": Incompatible  Being X is incompatible with being Y",0.119990640358729,": Concealment  X conceals a person/place/thing's Y",0.0235337733763813
-"46",": D10 [verb+ment_irreg].txt",0.115102040816327,": Event:Feature  Y is typically found at an event such as X",0.119333556564181,": Item:Topological Part  Y is one of the areas/locations of X",0.0215473800415239
-"101",": Knowledge  X is the name for knowledge of Y",0.113970588235294,": L05 [meronyms - member].txt",0.118213970874378,": I01 [noun - plural_reg].txt",0.0213176484326697
-"112",": Location:Action/Activity  an X is a place/location/area where Y takes place",0.0974025974025974,": E03 [UK_city - county].txt",0.117646072526463,": I06 [verb_inf - Ving].txt",0.0206493703644547
-"42",": D06 [re+verb_reg].txt",0.0939625850340136,": Agent:Recipient  a Y receives an item/knowledge/service from X",0.116622622835019,": D05 [adj+ness_reg].txt",0.0186253771928282
-"36",": currency",0.0785219399538106,": Item:Location  an X is a place/location/area where Y is found",0.116392811789064,": Defective  an X is is a defect in Y",0.0186171359798705
-"138",": Synonymity  an X and Y are a similar type of action/thing/attribute",0.0721153846153846,": ClassIndividual  Y is a specific X",0.115800039476224,": ObjectState(noun:noun)  an X exists in the state of Y",0.017447421007193
-"14",": Agent:Recipient  a Y receives an item/knowledge/service from X",0.0714285714285714,": Dimensional Excessive  Y is an excessive form of X",0.10730405688178,": L01 [hypernyms - animals].txt",0.0106752599495975
-"109",": L08 [synonyms - exact].txt",0.0689795918367347,": Functional  Y functions as an X",0.106396997384678,": Collection:Member  X is made from a collection of Y",0.0103238651842931
-"123",": Object:Stuff  X is made of / is comprised of Y",0.0628019323671498,": L04 [meronyms - substance].txt",0.10159006416769,": E06 [animal - young].txt",0.00657071119153285
-"27",": ClassIndividual  Y is a specific X",0.0625,": Collection:Member  X is made from a collection of Y",0.0925166291251809,": D01 [noun+less_reg].txt",0.00618269511910751
-"137",": Singular Collective  a Y is one item in a collection/group of X",0.0619047619047619,": Plan  an X is a plan for Y",0.0918330938705146,": Attachment  an X is attached to a Y",0.00597987487169131
-"13",": Agent:Object  an X makes Y / an X uses Y to make an item",0.0606060606060606,": Object:Stuff  X is made of / is comprised of Y",0.0913684222131485,": Asymmetric Contrary  X and Y are at opposite ends of the same scale but X is more extreme than Y",0.00513618414562563
-"47",": Defective  an X is is a defect in Y",0.0526315789473684,": Sequence  an Y follows X in sequence",0.0908041477123223,": Creature:Possession  X possesses/owns/has Y",0.00474733367819596
-"29",": Concealment  X conceals a person/place/thing's Y",0.0519125683060109,": Plural Collective  Y are items in a collection/group of X",0.0893430082089348,": Agent/ObjectAttribute:Typical Action  something/someone that is X will typically Y",0.00363099962893506
-"135",": Sequence  an Y follows X in sequence",0.0504807692307692,": L02 [hypernyms - misc].txt",0.0854760660595925,": Object:Typical Action (noun.verb)  an X will typically Y",0.00328093482182373
-"108",": L07 [synonyms - intensity].txt",0.0478919361440851,": E05 [name - occupation].txt",0.0816058371847859,": Item:Location  an X is a place/location/area where Y is found",0.00305517733226839
-"44",": D08 [verb+er_irreg].txt",0.0469387755102041,": L03 [hyponyms - misc].txt",0.0807605273413521,": ClassIndividual  Y is a specific X",0.00290244617452732
-"114",": Location:Process/Product  an X is a place/location/area where Y is made/done/produced",0.0458937198067633,": Mass:Potion  X may be divided into Y",0.0779576925787916,": Agent:Recipient  a Y receives an item/knowledge/service from X",0.00266712011213598
-"128",": Plan  an X is a plan for Y",0.0452127659574468,": Action:Resultant Attribute (verb:noun/adjective)  the action X results Y or things that are Y",0.0760384449214821,": Agent:Goal  Y is the goal of X",0.00264772108417409
-"64",": Expression  X is an expression that indicates Y",0.043010752688172,": Change  an X is an increase/decease in Y",0.075600110501714,": ObjectAttribute:Noncondition (adjective:adjective)  something that is X cannot be Y",0.00224862891191816
-"41",": D05 [adj+ness_reg].txt",0.0420408163265306,": Defective  an X is is a defect in Y",0.07523796885194,": E07 [animal - sound].txt",0.0014377648857969
-"86",": Incompatible  Being X is incompatible with being Y",0.041304347826087,": L06 [meronyms - part].txt",0.0727596072021158,": L02 [hypernyms - misc].txt",0.00121742010418963
-"103",": L02 [hypernyms - misc].txt",0.0406538139145013,": Creature:Possession  X possesses/owns/has Y",0.0708953186675956,": Object:Recipient  an Y receives an X",0.000770811638500181
-"130",": Prevention  X prevents Y",0.0386473429951691,": Representation  a Y represents/is representative of X",0.0694708380095873,": Action:Recipient  to X is to have a Y receive some object/service/idea",0.000360373299426261
-"28",": Collection:Member  X is made from a collection of Y",0.0383480825958702,": ItemAttribute(noun:adjective)  an X has the attribute Y",0.0682273714249593,": D04 [over+adj_reg].txt",0.000192520351280169
-"106",": L05 [meronyms - member].txt",0.0382873610539317,": VBD_VBZ",0.0678031518244988,": Objects:Atypical Action (noun:verb)  an X is unlikely to Y",-0.000258767375199849
-"9",": Activity:Stage  X is one step/action/part of the actions in Y",0.0382513661202186,": Expression  X is an expression that indicates Y",0.0668241254747928,": Recipient:Instrument  Y is an instrument through with X receives some object/service/role",-0.00107259641765172
-"48",": Dimensional Excessive  Y is an excessive form of X",0.0368421052631579,": Agent:Object  an X makes Y / an X uses Y to make an item",0.0665558549184159,": Plural Collective  Y are items in a collection/group of X",-0.00111167164531103
-"129",": Plural Collective  Y are items in a collection/group of X",0.0364077669902913,": Sign:Significant  an X indicates/signifies Y",0.0664377175896168,": Dimensional Naughty  Y is an unacceptable form of X",-0.00175186868680073
-"105",": L04 [meronyms - substance].txt",0.0363408521303258,": Concealment  X conceals a person/place/thing's Y",0.0655498342270843,": Item:Distinctive Nonpart  X is devoid of / cannot have Y",-0.00181170555454106
-"91",": Item:Location  an X is a place/location/area where Y is found",0.0352941176470588,": Item:Nonattribute (noun:adjective)  an X cannot have attribute Y; Y is antithetical to being X",0.0652924600469216,": Instrument:Goal  X is intended to produce Y",-0.00197040090257582
-"18",": Attachment  an X is attached to a Y",0.0297619047619048,": JJR_JJS",0.0645696431685297,": Attribute:Nonstate (adjective:noun)  someone/something who is X cannot be Y or be in the state of Y",-0.00235202886033585
-"63",": Event:Feature  Y is typically found at an event such as X",0.0294117647058824,": Object:Component  a Y is a part of an X",0.0636400882363471,": E08 [animal - shelter].txt",-0.00250262386300282
-"66",": Functional  Y functions as an X",0.0292553191489362,": Agent Attribute:State  a person who is X often is in a state of Y",0.0630755643090717,": Action:Object Attribute  someone will X an object that is Y",-0.00321489613504714
-"102",": L01 [hypernyms - animals].txt",0.0248888888888889,": Taxonomic  Y is a kind/type/instance of X",0.0614401163205961,": Action:Action Nonattribute  X cannot be done in a Y manner",-0.00332850881464195
-"115",": Mass:Potion  X may be divided into Y",0.0239234449760766,": Action:Object Nonattribute  the result of action X does not produce an object with Y",0.0613631292658187,": Cause:Compensatory Action  X causes/compels a person to Y",-0.00343599902490471
-"43",": D07 [verb+able_reg].txt",0.0224489795918367,": gram4-superlative",0.0612616413173158,": Expression  X is an expression that indicates Y",-0.00353298674610534
-"121",": Object:Nonstate (noun:noun)  Y describes a condition or state that is usually absent from X",0.0221238938053097,": L01 [hypernyms - animals].txt",0.0581034906189668,": Object:Component  a Y is a part of an X",-0.00397535554154693
-"25",": Change  an X is an increase/decease in Y",0.0214797136038186,": Attachment  an X is attached to a Y",0.0558196695790893,": Mass:Potion  X may be divided into Y",-0.00398044973354936
-"88",": Instrument:Intended Action  Y is the intended action to be taken using X",0.0194174757281553,": EnablingAgent:Object  X enables the use of Y",0.0558155686729404,": Action:Action Attribute  X is a Y kind of action",-0.00416691851318839
-"107",": L06 [meronyms - part].txt",0.0192229038854806,": D05 [adj+ness_reg].txt",0.055197594436291,": Time Associated Item  Y is an item associated with time X",-0.00447768990711802
-"35",": Creature:Possession  X possesses/owns/has Y",0.0184210526315789,": Pseudoantonym  X is similar to the opposite of Y but X is not truly the opposite of Y",0.0547234365004593,": Action:Object  someone perform the action X on Y",-0.00450215036065646
-"136",": Sign:Significant  an X indicates/signifies Y",0.0167464114832536,": Agent:Instrument  an X uses Y to perform their role",0.0546077508479033,": Item:Ex-part/Ex-possession  an X once had/owned/possessed Y but no longer",-0.00471845071383377
-"4",": Action:Object Attribute  someone will X an object that is Y",0.0152838427947598,": Action/Activity:Goal  someone/something will X in order to Y",0.0535949958528162,": Agent/Object Attribute: Atypical Action (adjective:verb)  someone/something who is X is unlikely to Y",-0.00478730020736999
-"119",": Object:Component  a Y is a part of an X",0.0151515151515152,": E04 [name - nationality].txt",0.0524741375830951,": Location:Instrument/Associated Item  Y is an instrumental item in the activities that occur at place/location/area Y",-0.00535119832782815
-"94",": ItemAttribute(noun:adjective)  an X has the attribute Y",0.0143540669856459,": Object:Recipient  an Y receives an X",0.0514080044217915,": NNS_NN",-0.00667510585190812
-"127",": ObjectState(noun:noun)  an X exists in the state of Y",0.0131578947368421,": Time Action/Activity  X is a time when Y occurs",0.0509723888088505,": Action:Object Nonattribute  the result of action X does not produce an object with Y",-0.00691174569510993
-"92",": Item:Nonattribute (noun:adjective)  an X cannot have attribute Y; Y is antithetical to being X",0.0131291028446389,": Activity:Stage  X is one step/action/part of the actions in Y",0.050851109119977,": Location:Process/Product  an X is a place/location/area where Y is made/done/produced",-0.00828023197967848
-"5",": Action:Object Nonattribute  the result of action X does not produce an object with Y",0.0121359223300971,": Instrument:Intended Action  Y is the intended action to be taken using X",0.0507508701179161,": Object:Instrument  a Y is used on an X",-0.00871389814102615
-"16",": Agent/ObjectAttribute:Typical Action  something/someone that is X will typically Y",0.0120192307692308,": Attribute Similarity  X and Y both have a similar attribute or feature",0.0496372659270847,": L04 [meronyms - substance].txt",-0.00907904072572428
-"62",": EnablingAgent:Object  X enables the use of Y",0.0119047619047619,": Reverse  X is the reverse act of Y / X may be undone by Y",0.0491882555057453,": Taxonomic  Y is a kind/type/instance of X",-0.00937067767167174
-"7",": Action:Resultant Attribute (verb:noun/adjective)  the action X results Y or things that are Y",0.0108695652173913,": Action:Object Attribute  someone will X an object that is Y",0.046076877549316,": Contiguity  X and Y share a contiguous border",-0.00938225692868915
-"124",": Object:Typical Action (noun.verb)  an X will typically Y",0.0105820105820106,": Prevention  X prevents Y",0.043510041419913,": Cause:Effect  an X causes Y",-0.00956473751514106
-"139",": Taxonomic  Y is a kind/type/instance of X",0.0105263157894737,": Object Attribute:Condition  something that is X may be Y",0.0390982375903505,": I02 [noun - plural_irreg].txt",-0.0110664886451782
-"104",": L03 [hyponyms - misc].txt",0.00980392156862745,": Action:Object  someone perform the action X on Y",0.0384695117735638,": L03 [hyponyms - misc].txt",-0.0157589393075121
-"122",": Object:Recipient  an Y receives an X",0.00898203592814371,": JJ_JJS",0.0375295381717968,": Sequence  an Y follows X in sequence",-0.0162796519046551
-"40",": D04 [over+adj_reg].txt",0.00897959183673469,": Contiguity  X and Y share a contiguous border",0.0365235246440322,": Change  an X is an increase/decease in Y",-0.0163114880955502
-"131",": Pseudoantonym  X is similar to the opposite of Y but X is not truly the opposite of Y",0.00881057268722467,": Knowledge  X is the name for knowledge of Y",0.0363455725354166,": Attribute Similarity  X and Y both have a similar attribute or feature",-0.0179346063652972
-"3",": Action:Object  someone perform the action X on Y",0.00873362445414847,": Object:Typical Action (noun.verb)  an X will typically Y",0.0350700001958583,": L06 [meronyms - part].txt",-0.0182638928473026
-"8",": Action/Activity:Goal  someone/something will X in order to Y",0.008,": Cause:Effect  an X causes Y",0.0315628364667354,": NN_NNS",-0.0189289649121475
-"87",": Instrument:Goal  X is intended to produce Y",0.00793650793650794,": I04 [adj - superlative].txt",0.0247919888230257,": Plan  an X is a plan for Y",-0.0193596816831256
-"10",": Agent Attribute:State  a person who is X often is in a state of Y",0.00721153846153846,": Agent:Goal  Y is the goal of X",0.0238223401261564,": Object Attribute:Condition  something that is X may be Y",-0.0206081657626608
-"17",": Asymmetric Contrary  X and Y are at opposite ends of the same scale but X is more extreme than Y",0.00652173913043478,": D04 [over+adj_reg].txt",0.0236813687772936,": Reverse  X is the reverse act of Y / X may be undone by Y",-0.0208730058789268
-"23",": Cause:Compensatory Action  X causes/compels a person to Y",0.00606060606060606,": Object:Nonstate (noun:noun)  Y describes a condition or state that is usually absent from X",0.022711982256957,": Time Action/Activity  X is a time when Y occurs",-0.0220700093239401
-"24",": Cause:Effect  an X causes Y",0.00536193029490617,": ObjectState(noun:noun)  an X exists in the state of Y",0.0223795011804976,": Action/Activity:Goal  someone/something will X in order to Y",-0.0236493660703071
-"140",": Time Action/Activity  X is a time when Y occurs",0.00526315789473684,": D08 [verb+er_irreg].txt",0.0218955380996181,": Agent:Instrument  an X uses Y to perform their role",-0.0244664395325102
-"30",": Contiguity  X and Y share a contiguous border",0.00495049504950495,": D07 [verb+able_reg].txt",0.0205640087160004,": Sign:Significant  an X indicates/signifies Y",-0.0249299380490305
-"1",": Action:Action Attribute  X is a Y kind of action",0.00492610837438424,": Item:Ex-part/Ex-possession  an X once had/owned/possessed Y but no longer",0.0204075673145976,": Event:Feature  Y is typically found at an event such as X",-0.0271457014551626
-"15",": Agent/Object Attribute: Atypical Action (adjective:verb)  someone/something who is X is unlikely to Y",0.00480769230769231,": Cause:Compensatory Action  X causes/compels a person to Y",0.0201221124091809,": Coordinates  X and Y are two distinct objects in the same category",-0.0280697245749861
-"93",": Item:Topological Part  Y is one of the areas/locations of X",0.00478468899521531,": D06 [re+verb_reg].txt",0.0200638905685924,": Singular Collective  a Y is one item in a collection/group of X",-0.0286098943255981
-"134",": Reverse  X is the reverse act of Y / X may be undone by Y",0.00478468899521531,": Object:Instrument  a Y is used on an X",0.0196771318336707,": EnablingAgent:Object  X enables the use of Y",-0.0301469529211476
-"113",": Location:Instrument/Associated Item  Y is an instrumental item in the activities that occur at place/location/area Y",0.00477326968973747,": Agent/ObjectAttribute:Typical Action  something/someone that is X will typically Y",0.0194458407567363,": ItemAttribute(noun:adjective)  an X has the attribute Y",-0.0302283709817589
-"19",": Attribute Similarity  X and Y both have a similar attribute or feature",0.0044543429844098,": Action:Action Attribute  X is a Y kind of action",0.0186583760627684,": Contrary  X and Y are contrary / opposite to each other",-0.0309464881901649
-"12",": Agent:Instrument  an X uses Y to perform their role",0.00294117647058824,": currency",0.0184254004248371,": Action:Resultant Attribute (verb:noun/adjective)  the action X results Y or things that are Y",-0.0318901475760385
-"133",": Representation  a Y represents/is representative of X",0.0026525198938992,": Instrument:Goal  X is intended to produce Y",0.0183678284970058,": L05 [meronyms - member].txt",-0.0318983105109738
-"11",": Agent:Goal  Y is the goal of X",0.00264550264550265,": Location:Instrument/Associated Item  Y is an instrumental item in the activities that occur at place/location/area Y",0.0182964451556267,": Directional  X is the opposite direction from Y",-0.0345864397087512
-"118",": Object Attribute:Condition  something that is X may be Y",0.00263157894736842,": Agent/Object Attribute: Atypical Action (adjective:verb)  someone/something who is X is unlikely to Y",0.0176827601471312,": Pseudoantonym  X is similar to the opposite of Y but X is not truly the opposite of Y",-0.0347090443200126
-"37",": D01 [noun+less_reg].txt",0.00244897959183673,": Asymmetric Contrary  X and Y are at opposite ends of the same scale but X is more extreme than Y",0.016548630528813,": Functional  Y functions as an X",-0.035710817621762
-"125",": ObjectAttribute:Noncondition (adjective:adjective)  something that is X cannot be Y",0.00241545893719807,": Item:Topological Part  Y is one of the areas/locations of X",0.0154972288968097,": Agent Attribute:State  a person who is X often is in a state of Y",-0.0359963119737553
-"49",": Dimensional Naughty  Y is an unacceptable form of X",0.00239808153477218,": Action:Recipient  to X is to have a Y receive some object/service/idea",0.0145003649376684,": Representation  a Y represents/is representative of X",-0.0390468928242683
-"57",": E06 [animal - young].txt",0.00220458553791887,": E08 [animal - shelter].txt",0.013722792088603,": Item:Nonattribute (noun:adjective)  an X cannot have attribute Y; Y is antithetical to being X",-0.039956637143911
-"59",": E08 [animal - shelter].txt",0.00189214758751183,": Attribute:Nonstate (adjective:noun)  someone/something who is X cannot be Y or be in the state of Y",0.0112052993385667,": Dimensional Excessive  Y is an excessive form of X",-0.0414467075298054
-"58",": E07 [animal - sound].txt",0.000836820083682008,": E06 [animal - young].txt",0.0111713735120083,": L09 [antonyms - gradable].txt",-0.0444642208570331
-"2",": Action:Action Nonattribute  X cannot be done in a Y manner",0,": Dimensional Naughty  Y is an unacceptable form of X",0.0100037404852379,": Conversion  X will become / be converted into Y",-0.0507553828621863
-"6",": Action:Recipient  to X is to have a Y receive some object/service/idea",0,": Recipient:Instrument  Y is an instrument through with X receives some object/service/role",0.0093560513520046,": L08 [synonyms - exact].txt",-0.0583515370532783
-"20",": Attribute:Nonstate (adjective:noun)  someone/something who is X cannot be Y or be in the state of Y",0,": Item:Distinctive Nonpart  X is devoid of / cannot have Y",0.00835650287814288,": L07 [synonyms - intensity].txt",-0.063470339248109
-"89",": Item:Distinctive Nonpart  X is devoid of / cannot have Y",0,": Time Associated Item  Y is an item associated with time X",0.00752820094384508,": Incompatible  Being X is incompatible with being Y",-0.0637884976914026
-"90",": Item:Ex-part/Ex-possession  an X once had/owned/possessed Y but no longer",0,": Action:Action Nonattribute  X cannot be done in a Y manner",0.00648868342479498,": Synonymity  an X and Y are a similar type of action/thing/attribute",-0.0719839073599587
-"120",": Object:Instrument  a Y is used on an X",0,": ObjectAttribute:Noncondition (adjective:adjective)  something that is X cannot be Y",0.00455009734815701,": E09 [things - color].txt",-0.0807217467087913
-"126",": Objects:Atypical Action (noun:verb)  an X is unlikely to Y",0,": D01 [noun+less_reg].txt",0.00426972291436831,": Contradictory  Something cannot be/have/do X and Y at the same time",-0.0896687437525582
-"132",": Recipient:Instrument  Y is an instrument through with X receives some object/service/role",0,": E07 [animal - sound].txt",0.00323235933250524,": L10 [antonyms - binary].txt",-0.090208538617378
-"141",": Time Associated Item  Y is an item associated with time X",0,": Objects:Atypical Action (noun:verb)  an X is unlikely to Y",0.00181256125351546,": Dimensional Similarity  an X and Y are two kinds in a category of actions/things/attributes",-0.107581597839747
+"21",": capital-common-countries",0.928853754940711,": gram8-plural",0.779542907580702,": capital-common-countries",0.726016376809138
+"22",": capital-world",0.923519009725906,": family",0.669781667607755,": E01 [country - capital].txt",0.62564430275414
+"65",": family",0.911067193675889,": I01 [noun - plural_reg].txt",0.654278721278721,": I05 [verb_inf - 3pSg].txt",0.598019036834653
+"72",": gram6-nationality-adjective",0.894308943089431,": I02 [noun - plural_irreg].txt",0.628387941743833,": gram4-superlative",0.590295572391012
+"52",": E01 [country - capital].txt",0.880816326530612,": NN_NNS",0.608381330079248,": gram3-comparative",0.584520609774756
+"69",": gram3-comparative",0.879129129129129,": gram5-present-participle",0.575077829828961,": VBZ_VB",0.57846308248333
+"74",": gram8-plural",0.818318318318318,": I06 [verb_inf - Ving].txt",0.520465214911833,": gram6-nationality-adjective",0.565178917158919
+"80",": I05 [verb_inf - 3pSg].txt",0.773061224489796,": NNS_NN",0.511925977353694,": capital-world",0.554963473692315
+"143",": VB_VBZ",0.756,": I09 [verb_Ving - Ved].txt",0.509986514636414,": VB_VBZ",0.533091741798426
+"146",": VBZ_VB",0.744,": Directional X is the opposite direction from Y",0.498084612345165,": JJS_JJR",0.516261995705098
+"76",": I01 [noun - plural_reg].txt",0.743265306122449,": gram7-past-tense",0.489721125011851,": VBD_VBZ",0.49341356367923
+"26",": city-in-state",0.728415079043373,": E09 [things - color].txt",0.483349627763041,": JJR_JJS",0.489177136295781
+"81",": I06 [verb_inf - Ving].txt",0.725714285714286,": city-in-state",0.475829486031066,": VBZ_VBD",0.479362550930526
+"75",": gram9-plural-verbs",0.660919540229885,": Coordinates X and Y are two distinct objects in the same category",0.45878168486405,": VBD_VB",0.477303068721538
+"116",": NN_NNS",0.656,": L10 [antonyms - binary].txt",0.420068991833526,": I07 [verb_inf - Ved].txt",0.460859893847609
+"73",": gram7-past-tense",0.651923076923077,": gram9-plural-verbs",0.395861210206788,": VB_VBD",0.443819726589063
+"71",": gram5-present-participle",0.639204545454545,": capital-world",0.388648069938683,": JJ_JJR",0.422877191505274
+"77",": I02 [noun - plural_irreg].txt",0.618775510204082,": gram6-nationality-adjective",0.356684112315256,": I10 [verb_3pSg - Ved].txt",0.413484858858775
+"95",": JJ_JJR",0.604,": gram3-comparative",0.343040174641196,": JJ_JJS",0.410973296216587
+"144",": VBD_VB",0.6,": Dimensional Similarity an X and Y are two kinds in a category of actions/things/attributes",0.336740698379246,": I04 [adj - superlative].txt",0.374451248207923
+"84",": I09 [verb_Ving - Ved].txt",0.591020408163265,": E10 [male - female].txt",0.335522411415735,": I03 [adj - comparative].txt",0.371394628958038
+"83",": I08 [verb_Ving - 3pSg].txt",0.58530612244898,": I08 [verb_Ving - 3pSg].txt",0.331213713692893,": gram9-plural-verbs",0.367977164364174
+"70",": gram4-superlative",0.575757575757576,": Contradictory Something cannot be/have/do X and Y at the same time",0.31691255220029,": I08 [verb_Ving - 3pSg].txt",0.352212976110368
+"100",": JJS_JJR",0.566,": L09 [antonyms - gradable].txt",0.310898301026003,": JJR_JJ",0.34675450321108
+"145",": VBD_VBZ",0.56,": VB_VBZ",0.300782198892926,": E05 [name - occupation].txt",0.335308603158516
+"117",": NNS_NN",0.552,": gram2-opposite",0.292546837166194,": city-in-state",0.311689266993532
+"142",": VB_VBD",0.522,": Contrary X and Y are contrary / opposite to each other",0.281902882277273,": E04 [name - nationality].txt",0.290142568873197
+"147",": VBZ_VBD",0.504,": E01 [country - capital].txt",0.277729964788338,": family",0.277140974967062
+"61",": E10 [male - female].txt",0.485714285714286,": D02 [un+adj_reg].txt",0.277005013920907,": I06 [verb_inf - Ving].txt",0.274866581203772
+"82",": I07 [verb_inf - Ved].txt",0.480816326530612,": I05 [verb_inf - 3pSg].txt",0.268751399041741,": E02 [country - language].txt",0.273645838845421
+"85",": I10 [verb_3pSg - Ved].txt",0.474285714285714,": Synonymity an X and Y are a similar type of action/thing/attribute",0.263370285984437,": gram7-past-tense",0.266500446139848
+"78",": I03 [adj - comparative].txt",0.468571428571429,": JJ_JJR",0.25449275030286,": JJS_JJ",0.247764680933284
+"96",": JJ_JJS",0.424,": VBZ_VB",0.228896175552732,": currency",0.247668011507502
+"98",": JJR_JJS",0.424,": VBD_VB",0.225699365643863,": E10 [male - female].txt",0.235798432087944
+"97",": JJR_JJ",0.39,": capital-common-countries",0.224435438058014,": D10 [verb+ment_irreg].txt",0.224093167842982
+"79",": I04 [adj - superlative].txt",0.367755102040816,": E03 [UK_city - county].txt",0.211143718375164,": D09 [verb+tion_irreg].txt",0.218349917659846
+"56",": E05 [name - occupation].txt",0.366530612244898,": VB_VBD",0.205550035155406,": gram1-adjective-to-adverb",0.213246628000532
+"55",": E04 [name - nationality].txt",0.360408163265306,": L08 [synonyms - exact].txt",0.203005132461114,": E03 [UK_city - county].txt",0.211041746664651
+"34",": Coordinates X and Y are two distinct objects in the same category",0.345238095238095,": gram1-adjective-to-adverb",0.192987582100714,": D03 [adj+ly_reg].txt",0.196282042275473
+"53",": E02 [country - language].txt",0.342857142857143,": L07 [synonyms - intensity].txt",0.192729044140345,": gram5-present-participle",0.186274993222138
+"51",": Directional X is the opposite direction from Y",0.339805825242718,": D06 [re+verb_reg].txt",0.190882854418278,": I09 [verb_Ving - Ved].txt",0.179440129904798
+"54",": E03 [UK_city - county].txt",0.33265306122449,": E02 [country - language].txt",0.187290293282635,": I01 [noun - plural_reg].txt",0.178062314815892
+"99",": JJS_JJ",0.322,": I10 [verb_3pSg - Ved].txt",0.180871898920883,": NNS_NN",0.133634768338619
+"68",": gram2-opposite",0.318965517241379,": I03 [adj - comparative].txt",0.180181845674239,": Knowledge X is the name for knowledge of Y",0.131329683668877
+"67",": gram1-adjective-to-adverb",0.296370967741935,": Conversion X will become / be converted into Y",0.177892788184065,": D05 [adj+ness_reg].txt",0.128919279656957
+"60",": E09 [things - color].txt",0.28734693877551,": VBD_VBZ",0.175001390629136,": NN_NNS",0.117287841245648
+"39",": D03 [adj+ly_reg].txt",0.262040816326531,": L01 [hypernyms - animals].txt",0.172321824930969,": D08 [verb+er_irreg].txt",0.109149274288225
+"111",": L10 [antonyms - binary].txt",0.261632653061224,": D03 [adj+ly_reg].txt",0.171357874612731,": Location:Action/Activity an X is a place/location/area where Y takes place",0.106461110944386
+"38",": D02 [un+adj_reg].txt",0.232244897959184,": I07 [verb_inf - Ved].txt",0.171151602718033,": gram2-opposite",0.0957374781645064
+"32",": Contrary X and Y are contrary / opposite to each other",0.208333333333333,": JJS_JJ",0.166606177341303,": gram8-plural",0.0772475294952898
+"45",": D09 [verb+tion_irreg].txt",0.199591836734694,": E04 [name - nationality].txt",0.151378033622766,": I02 [noun - plural_irreg].txt",0.0594937689247678
+"36",": currency",0.197459584295612,": E08 [animal - shelter].txt",0.146610615289866,": Agent:Object an X makes Y / an X uses Y to make an item",0.0576545212281285
+"110",": L09 [antonyms - gradable].txt",0.178367346938776,": D09 [verb+tion_irreg].txt",0.131341748092106,": Prevention X prevents Y",0.0543133483296019
+"41",": D05 [adj+ness_reg].txt",0.164897959183673,": JJS_JJR",0.131276001012853,": D06 [re+verb_reg].txt",0.0500898299877389
+"50",": Dimensional Similarity an X and Y are two kinds in a category of actions/things/attributes",0.163069544364508,": Dimensional Excessive Y is an excessive form of X",0.130788388410867,": Object:Stuff X is made of / is comprised of Y",0.0495776135186422
+"46",": D10 [verb+ment_irreg].txt",0.156734693877551,": JJR_JJ",0.130737358497814,": Instrument:Intended Action Y is the intended action to be taken using X",0.0485767898598967
+"42",": D06 [re+verb_reg].txt",0.141156462585034,": VBZ_VBD",0.125928662286716,": Agent:Recipient a Y receives an item/knowledge/service from X",0.043961496207843
+"59",": E08 [animal - shelter].txt",0.13469387755102,": E05 [name - occupation].txt",0.122256115337203,": Item:Location an X is a place/location/area where Y is found",0.0432426997769328
+"31",": Contradictory Something cannot be/have/do X and Y at the same time",0.128878281622912,": gram4-superlative",0.114313221887378,": D07 [verb+able_reg].txt",0.0402791577003697
+"138",": Synonymity an X and Y are a similar type of action/thing/attribute",0.108173076923077,": Agent:Recipient a Y receives an item/knowledge/service from X",0.109251950376778,": Object:Typical Action (noun.verb) an X will typically Y",0.034016530146392
+"102",": L01 [hypernyms - animals].txt",0.105714285714286,": JJ_JJS",0.108650462861683,": Collection:Member X is made from a collection of Y",0.0335794796975822
+"112",": Location:Action/Activity an X is a place/location/area where Y takes place",0.0974025974025974,": Mass:Potion X may be divided into Y",0.10679367332198,": ObjectState(noun:noun) an X exists in the state of Y",0.031308021387622
+"33",": Conversion X will become / be converted into Y",0.0953947368421053,": E06 [animal - young].txt",0.104040391016268,": L04 [meronyms - substance].txt",0.0295288507192114
+"14",": Agent:Recipient a Y receives an item/knowledge/service from X",0.0912698412698413,": Sequence an Y follows X in sequence",0.0989888627468257,": D02 [un+adj_reg].txt",0.027902697904512
+"57",": E06 [animal - young].txt",0.083265306122449,": ClassIndividual Y is a specific X",0.0980960230670463,": Location:Process/Product an X is a place/location/area where Y is made/done/produced",0.0244725010657477
+"44",": D08 [verb+er_irreg].txt",0.0787755102040816,": Incompatible Being X is incompatible with being Y",0.096533149974103,": Object:Nonstate (noun:noun) Y describes a condition or state that is usually absent from X",0.0209835596328883
+"109",": L08 [synonyms - exact].txt",0.0751020408163265,": Location:Action/Activity an X is a place/location/area where Y takes place",0.0960415844672763,": Item:Topological Part Y is one of the areas/locations of X",0.0207171217866778
+"108",": L07 [synonyms - intensity].txt",0.0702040816326531,": L06 [meronyms - part].txt",0.095066440408251,": Event:Feature Y is typically found at an event such as X",0.0199165895210172
+"101",": Knowledge X is the name for knowledge of Y",0.0698529411764706,": I04 [adj - superlative].txt",0.094802811772455,": Creature:Possession X possesses/owns/has Y",0.019555991528832
+"28",": Collection:Member X is made from a collection of Y",0.0589970501474926,": D05 [adj+ness_reg].txt",0.0913351039296108,": Action:Recipient to X is to have a Y receive some object/service/idea",0.0167635328989757
+"13",": Agent:Object an X makes Y / an X uses Y to make an item",0.0584415584415584,": L05 [meronyms - member].txt",0.087492869539841,": E07 [animal - sound].txt",0.0167573284326835
+"123",": Object:Stuff X is made of / is comprised of Y",0.0507246376811594,": Singular Collective a Y is one item in a collection/group of X",0.08736263702076,": Expression X is an expression that indicates Y",0.0151080174060106
+"135",": Sequence an Y follows X in sequence",0.0480769230769231,": L03 [hyponyms - misc].txt",0.0808951362865181,": Action:Object Attribute someone will X an object that is Y",0.0147320451665593
+"115",": Mass:Potion X may be divided into Y",0.0478468899521531,": Collection:Member X is made from a collection of Y",0.0764952315836436,": Activity:Stage X is one step/action/part of the actions in Y",0.0142414977926208
+"103",": L02 [hypernyms - misc].txt",0.0473469387755102,": Event:Feature Y is typically found at an event such as X",0.0758038406654517,": D01 [noun+less_reg].txt",0.0129733272562257
+"86",": Incompatible Being X is incompatible with being Y",0.0456521739130435,": Object:Component a Y is a part of an X",0.0756097880105605,": Agent:Instrument an X uses Y to perform their role",0.0125771847747316
+"105",": L04 [meronyms - substance].txt",0.0436734693877551,": D10 [verb+ment_irreg].txt",0.0752636515328772,": Change an X is an increase/decease in Y",0.0124690513659765
+"27",": ClassIndividual Y is a specific X",0.0416666666666667,": L02 [hypernyms - misc].txt",0.0742644866929263,": Object:Recipient an Y receives an X",0.0123692210211916
+"63",": Event:Feature Y is typically found at an event such as X",0.0411764705882353,": Plan an X is a plan for Y",0.0736252953535916,": Instrument:Goal X is intended to produce Y",0.0102832330835697
+"91",": Item:Location an X is a place/location/area where Y is found",0.0411764705882353,": Object Attribute:Condition something that is X may be Y",0.0703623023133761,": Concealment X conceals a person/place/thing's Y",0.0100068109443061
+"130",": Prevention X prevents Y",0.0386473429951691,": Functional Y functions as an X",0.0651367103551488,": Attachment an X is attached to a Y",0.00921049199099865
+"106",": L05 [meronyms - member].txt",0.036734693877551,": Plural Collective Y are items in a collection/group of X",0.0648028508411067,": D04 [over+adj_reg].txt",0.00911276096550362
+"64",": Expression X is an expression that indicates Y",0.0349462365591398,": Agent Attribute:State a person who is X often is in a state of Y",0.0644751339992024,": Recipient:Instrument Y is an instrument through with X receives some object/service/role",0.00792884724084394
+"58",": E07 [animal - sound].txt",0.0322448979591837,": L04 [meronyms - substance].txt",0.0642081206419587,": Object:Instrument a Y is used on an X",0.00774545254425769
+"66",": Functional Y functions as an X",0.0319148936170213,": Location:Process/Product an X is a place/location/area where Y is made/done/produced",0.0627407824598035,": Agent:Goal Y is the goal of X",0.00766468792650547
+"107",": L06 [meronyms - part].txt",0.0285714285714286,": Contiguity X and Y share a contiguous border",0.0595434961604317,": Cause:Compensatory Action X causes/compels a person to Y",0.00713769907046832
+"9",": Activity:Stage X is one step/action/part of the actions in Y",0.0273224043715847,": Time Action/Activity X is a time when Y occurs",0.0592342205649803,": Plural Collective Y are items in a collection/group of X",0.00679817445228267
+"18",": Attachment an X is attached to a Y",0.0267857142857143,": Item:Location an X is a place/location/area where Y is found",0.0545606789694805,": L02 [hypernyms - misc].txt",0.00626133271694441
+"114",": Location:Process/Product an X is a place/location/area where Y is made/done/produced",0.0265700483091787,": Agent:Instrument an X uses Y to perform their role",0.054394868743269,": Conversion X will become / be converted into Y",0.00606960838608786
+"48",": Dimensional Excessive Y is an excessive form of X",0.0263157894736842,": Object:Stuff X is made of / is comprised of Y",0.0540296824268488,": E06 [animal - young].txt",0.00549616481009786
+"29",": Concealment X conceals a person/place/thing's Y",0.0245901639344262,": Item:Nonattribute (noun:adjective) an X cannot have attribute Y; Y is antithetical to being X",0.0526883907685942,": Defective an X is is a defect in Y",0.0054334386201229
+"128",": Plan an X is a plan for Y",0.023936170212766,": Attachment an X is attached to a Y",0.0521898529328821,": Sign:Significant an X indicates/signifies Y",0.00461147858980072
+"40",": D04 [over+adj_reg].txt",0.0224489795918367,": Agent/Object Attribute: Atypical Action (adjective:verb) someone/something who is X is unlikely to Y",0.0491502928558987,": ItemAttribute(noun:adjective) an X has the attribute Y",0.0043621918196622
+"129",": Plural Collective Y are items in a collection/group of X",0.0218446601941748,": JJR_JJS",0.0484849128205223,": Action:Object someone perform the action X on Y",0.00298611176715516
+"137",": Singular Collective a Y is one item in a collection/group of X",0.0214285714285714,": Action/Activity:Goal someone/something will X in order to Y",0.0475166495444027,": L05 [meronyms - member].txt",0.00208855355620918
+"127",": ObjectState(noun:noun) an X exists in the state of Y",0.0210526315789474,": Expression X is an expression that indicates Y",0.0473595376235302,": E08 [animal - shelter].txt",0.0017204803941854
+"12",": Agent:Instrument an X uses Y to perform their role",0.0205882352941176,": Activity:Stage X is one step/action/part of the actions in Y",0.0438923699753338,": Taxonomic Y is a kind/type/instance of X",0.00105877522592945
+"121",": Object:Nonstate (noun:noun) Y describes a condition or state that is usually absent from X",0.0199115044247788,": Concealment X conceals a person/place/thing's Y",0.0409912519313481,": Location:Instrument/Associated Item Y is an instrumental item in the activities that occur at place/location/area Y",0.000822662911375125
+"133",": Representation a Y represents/is representative of X",0.0185676392572944,": Representation a Y represents/is representative of X",0.0403127787658934,": Objects:Atypical Action (noun:verb) an X is unlikely to Y",0.00070710753678552
+"43",": D07 [verb+able_reg].txt",0.0183673469387755,": D04 [over+adj_reg].txt",0.0400505785572721,": Item:Distinctive Nonpart X is devoid of / cannot have Y",0.000488138158689718
+"3",": Action:Object Attribute someone will X an object that is Y",0.0174672489082969,": Attribute Similarity X and Y both have a similar attribute or feature",0.0392153672770376,": Time Associated Item Y is an item associated with time X",3.81447026429376e-05
+"8",": Action/Activity:Goal someone/something will X in order to Y",0.016,": Reverse X is the reverse act of Y / X may be undone by Y",0.0382680910642063,": Representation a Y represents/is representative of X",-0.000114780662352791
+"104",": L03 [hyponyms - misc].txt",0.0159183673469388,": Action:Resultant Attribute (verb:noun/adjective) the action X results Y or things that are Y",0.0369845844948249,": Attribute:Nonstate (adjective:noun) someone/something who is X cannot be Y or be in the state of Y",-0.000165367161690787
+"120",": Object:Instrument a Y is used on an X",0.0147058823529412,": Creature:Possession X possesses/owns/has Y",0.0365425744393861,": Asymmetric Contrary X and Y are at opposite ends of the same scale but X is more extreme than Y",-0.000303442060270026
+"88",": Instrument:Intended Action Y is the intended action to be taken using X",0.0145631067961165,": Action:Object Nonattribute the result of action X does not produce an object with Y",0.0361667226528782,": Action:Object Nonattribute the result of action X does not produce an object with Y",-0.000401274931421554
+"25",": Change an X is an increase/decease in Y",0.0143198090692124,": Change an X is an increase/decease in Y",0.0361648317832042,": Agent/ObjectAttribute:Typical Action something/someone that is X will typically Y",-0.000575503139458116
+"118",": Object Attribute:Condition something that is X may be Y",0.0131578947368421,": EnablingAgent:Object X enables the use of Y",0.034498109439692,": ObjectAttribute:Noncondition (adjective:adjective) something that is X cannot be Y",-0.00092315792840354
+"23",": Cause:Compensatory Action X causes/compels a person to Y",0.0121212121212121,": Defective an X is is a defect in Y",0.0330514590072455,": Item:Ex-part/Ex-possession an X once had/owned/possessed Y but no longer",-0.00102884767514623
+"15",": Agent/Object Attribute: Atypical Action (adjective:verb) someone/something who is X is unlikely to Y",0.0120192307692308,": E07 [animal - sound].txt",0.031559271320784,": Reverse X is the reverse act of Y / X may be undone by Y",-0.00123356082335961
+"122",": Object:Recipient an Y receives an X",0.0119760479041916,": Asymmetric Contrary X and Y are at opposite ends of the same scale but X is more extreme than Y",0.0314606703150794,": Mass:Potion X may be divided into Y",-0.00137247324819329
+"93",": Item:Topological Part Y is one of the areas/locations of X",0.0119617224880383,": Agent:Object an X makes Y / an X uses Y to make an item",0.0314416278967876,": Action/Activity:Goal someone/something will X in order to Y",-0.00151557173117553
+"62",": EnablingAgent:Object X enables the use of Y",0.0119047619047619,": D08 [verb+er_irreg].txt",0.0297340151405568,": Action:Action Nonattribute X cannot be done in a Y manner",-0.00361655106595346
+"35",": Creature:Possession X possesses/owns/has Y",0.0105263157894737,": Agent/ObjectAttribute:Typical Action something/someone that is X will typically Y",0.0291659643312543,": Pseudoantonym X is similar to the opposite of Y but X is not truly the opposite of Y",-0.00438380445588902
+"30",": Contiguity X and Y share a contiguous border",0.0099009900990099,": Taxonomic Y is a kind/type/instance of X",0.0283055457601575,": Functional Y functions as an X",-0.00449672046233368
+"6",": Action:Recipient to X is to have a Y receive some object/service/idea",0.00986842105263158,": Object:Recipient an Y receives an X",0.0278558601315159,": ClassIndividual Y is a specific X",-0.00490709176047543
+"10",": Agent Attribute:State a person who is X often is in a state of Y",0.00961538461538462,": Action:Object Attribute someone will X an object that is Y",0.0257953891642324,": EnablingAgent:Object X enables the use of Y",-0.00536272075948326
+"47",": Defective an X is is a defect in Y",0.00956937799043062,": ItemAttribute(noun:adjective) an X has the attribute Y",0.0246624938070816,": Cause:Effect an X causes Y",-0.00620225039474644
+"134",": Reverse X is the reverse act of Y / X may be undone by Y",0.00956937799043062,": Pseudoantonym X is similar to the opposite of Y but X is not truly the opposite of Y",0.0232127656170116,": Dimensional Naughty Y is an unacceptable form of X",-0.00626501686572985
+"87",": Instrument:Goal X is intended to produce Y",0.00793650793650794,": Prevention X prevents Y",0.022374654197633,": Action:Action Attribute X is a Y kind of action",-0.00753630585876377
+"124",": Object:Typical Action (noun.verb) an X will typically Y",0.00793650793650794,": Action:Action Attribute X is a Y kind of action",0.0223124687291889,": Attribute Similarity X and Y both have a similar attribute or feature",-0.0108829214949778
+"16",": Agent/ObjectAttribute:Typical Action something/someone that is X will typically Y",0.00721153846153846,": Knowledge X is the name for knowledge of Y",0.0219944930995191,": Sequence an Y follows X in sequence",-0.011360653377948
+"94",": ItemAttribute(noun:adjective) an X has the attribute Y",0.00717703349282297,": Cause:Effect an X causes Y",0.0212224007181373,": L03 [hyponyms - misc].txt",-0.0116585567563079
+"5",": Action:Object someone perform the action X on Y",0.00655021834061135,": Dimensional Naughty Y is an unacceptable form of X",0.021172486322582,": Action:Resultant Attribute (verb:noun/adjective) the action X results Y or things that are Y",-0.0124490745236611
+"17",": Asymmetric Contrary X and Y are at opposite ends of the same scale but X is more extreme than Y",0.00652173913043478,": Object:Instrument a Y is used on an X",0.0210794970172946,": Contrary X and Y are contrary / opposite to each other",-0.0146981873141201
+"119",": Object:Component a Y is a part of an X",0.00649350649350649,": Item:Ex-part/Ex-possession an X once had/owned/possessed Y but no longer",0.0197027757591095,": L01 [hypernyms - animals].txt",-0.0160983129364458
+"37",": D01 [noun+less_reg].txt",0.00612244897959184,": Object:Nonstate (noun:noun) Y describes a condition or state that is usually absent from X",0.0189625791194287,": L06 [meronyms - part].txt",-0.0172097860993205
+"139",": Taxonomic Y is a kind/type/instance of X",0.00526315789473684,": Location:Instrument/Associated Item Y is an instrumental item in the activities that occur at place/location/area Y",0.0188170633890457,": Object:Component a Y is a part of an X",-0.0175178157192762
+"140",": Time Action/Activity X is a time when Y occurs",0.00526315789473684,": D07 [verb+able_reg].txt",0.0186681791914544,": Agent Attribute:State a person who is X often is in a state of Y",-0.02358015291524
+"1",": Action:Action Attribute X is a Y kind of action",0.00492610837438424,": currency",0.0178984040600063,": Singular Collective a Y is one item in a collection/group of X",-0.0244518172343276
+"4",": Action:Object Nonattribute the result of action X does not produce an object with Y",0.00485436893203883,": Cause:Compensatory Action X causes/compels a person to Y",0.0175377811699213,": Plan an X is a plan for Y",-0.026077190415
+"19",": Attribute Similarity X and Y both have a similar attribute or feature",0.0044543429844098,": Item:Topological Part Y is one of the areas/locations of X",0.0171748958594962,": Agent/Object Attribute: Atypical Action (adjective:verb) someone/something who is X is unlikely to Y",-0.0287627851649597
+"131",": Pseudoantonym X is similar to the opposite of Y but X is not truly the opposite of Y",0.00440528634361234,": Action:Object someone perform the action X on Y",0.016871952774219,": Time Action/Activity X is a time when Y occurs",-0.0305222249243426
+"92",": Item:Nonattribute (noun:adjective) an X cannot have attribute Y; Y is antithetical to being X",0.00437636761487965,": Sign:Significant an X indicates/signifies Y",0.0141154434995203,": Item:Nonattribute (noun:adjective) an X cannot have attribute Y; Y is antithetical to being X",-0.032829065734422
+"7",": Action:Resultant Attribute (verb:noun/adjective) the action X results Y or things that are Y",0.00434782608695652,": Instrument:Intended Action Y is the intended action to be taken using X",0.0128800686150201,": Contiguity X and Y share a contiguous border",-0.0350459555774828
+"90",": Item:Ex-part/Ex-possession an X once had/owned/possessed Y but no longer",0.00240384615384615,": Instrument:Goal X is intended to produce Y",0.0126377737923569,": L08 [synonyms - exact].txt",-0.0367845950317356
+"136",": Sign:Significant an X indicates/signifies Y",0.00239234449760766,": Object:Typical Action (noun.verb) an X will typically Y",0.0125191878515358,": Object Attribute:Condition something that is X may be Y",-0.0383796605725264
+"113",": Location:Instrument/Associated Item Y is an instrumental item in the activities that occur at place/location/area Y",0.00238663484486874,": ObjectState(noun:noun) an X exists in the state of Y",0.0118912414753568,": Incompatible Being X is incompatible with being Y",-0.0421851745954376
+"20",": Attribute:Nonstate (adjective:noun) someone/something who is X cannot be Y or be in the state of Y",0.00218818380743982,": Agent:Goal Y is the goal of X",0.0112614162499434,": Coordinates X and Y are two distinct objects in the same category",-0.0510665847291547
+"2",": Action:Action Nonattribute X cannot be done in a Y manner",0,": Attribute:Nonstate (adjective:noun) someone/something who is X cannot be Y or be in the state of Y",0.0104312252041982,": L07 [synonyms - intensity].txt",-0.0568352351818467
+"11",": Agent:Goal Y is the goal of X",0,": Recipient:Instrument Y is an instrument through with X receives some object/service/role",0.0102941656940731,": Dimensional Similarity an X and Y are two kinds in a category of actions/things/attributes",-0.0595240167500536
+"24",": Cause:Effect an X causes Y",0,": Action:Recipient to X is to have a Y receive some object/service/idea",0.00935452834633102,": Dimensional Excessive Y is an excessive form of X",-0.0622987855644395
+"49",": Dimensional Naughty Y is an unacceptable form of X",0,": D01 [noun+less_reg].txt",0.00747320750985024,": L10 [antonyms - binary].txt",-0.0722515404377506
+"89",": Item:Distinctive Nonpart X is devoid of / cannot have Y",0,": Action:Action Nonattribute X cannot be done in a Y manner",0.00518276517799939,": L09 [antonyms - gradable].txt",-0.0738645554009578
+"125",": ObjectAttribute:Noncondition (adjective:adjective) something that is X cannot be Y",0,": ObjectAttribute:Noncondition (adjective:adjective) something that is X cannot be Y",0.0047135451513653,": Directional X is the opposite direction from Y",-0.082386561197282
+"126",": Objects:Atypical Action (noun:verb) an X is unlikely to Y",0,": Time Associated Item Y is an item associated with time X",0.0040862085121001,": Synonymity an X and Y are a similar type of action/thing/attribute",-0.0864337343124515
+"132",": Recipient:Instrument Y is an instrument through with X receives some object/service/role",0,": Item:Distinctive Nonpart X is devoid of / cannot have Y",0.00320341523818784,": E09 [things - color].txt",-0.0975893181183095
+"141",": Time Associated Item Y is an item associated with time X",0,": Objects:Atypical Action (noun:verb) an X is unlikely to Y",0.00146755687475657,": Contradictory Something cannot be/have/do X and Y at the same time",-0.108500951215376
