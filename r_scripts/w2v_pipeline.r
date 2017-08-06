@@ -1,5 +1,6 @@
-#filenames=list('../results/all.w2v.final.csv')
-filenames=list('../results/all.w2v.200.csv')
+filenames=list('../results/all.w2v.final.csv')
+#filenames=list('../results/all.w2v.200.csv')
 source('open_and_process.r')
 source('secondary_measures.r')
 source('create_sorted_table.r')
+source('slopegraph.r')
